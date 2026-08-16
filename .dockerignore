@@ -1,0 +1,14 @@
+.git
+.next
+node_modules
+npm-debug.log
+Dockerfile
+docker-compose*.yml
+.env
+.env.*
+!.env.production.example
+dist
+out
+*.log
+tsconfig.tsbuildinfo
+.superdesign/tmp

@@ -1,0 +1,326 @@
+# DRC Website Information and Initial Content
+
+## 1. Contact Information
+
+The following information has not yet been provided:
+
+**Official Phone Number:** [To be provided]
+**WhatsApp Number:** [To be provided]
+**Official Email Address:** [To be provided]
+**Company Address:** [To be provided]
+**Working Hours:** [To be provided]
+
+### Suggested Top-Bar Format
+
+**Call Us:** [Phone Number]
+**Email:** [Email Address]
+
+---
+
+## 2. Social Media Accounts
+
+No official DRC social-media links have been provided yet.
+
+**Facebook:** [URL required]
+**Instagram:** [URL required]
+**LinkedIn:** [URL required]
+**WhatsApp:** [URL required]
+
+Only active and officially managed accounts should appear on the website.
+
+---
+
+# 3. Homepage Hero 
+
+## English
+
+### Main Title
+
+**Everyday Hygiene, Made with Care**
+
+### Subtitle
+
+DRC provides reliable hygiene products for babies, women, adults, and families, designed to deliver softness, comfort, effective absorption, and dependable everyday protection.
+
+### Buttons
+
+**Explore Our Products**
+**Contact Us**
+
+## Arabic
+
+### العنوان الرئيسي
+
+**عناية يومية، مصنوعة باهتمام**
+
+### العنوان الفرعي
+
+تقدّم DRC منتجات عناية صحية موثوقة للأطفال والنساء وكبار السن والعائلة، مصممة لتوفير النعومة والراحة والامتصاص الفعّال والحماية اليومية.
+
+### الأزرار
+
+**استكشف منتجاتنا**
+**تواصل معنا**
+
+---
+
+# 4. Short Company Introduction
+
+## English
+
+DRC specializes in hygiene and personal-care products created to support comfort, cleanliness, and confidence throughout every stage of life.
+
+Our product portfolio includes baby diapers, sanitary pads, adult diapers, facial tissues, drying tissues, and baby wipes under a variety of trusted brands.
+
+## Arabic
+
+تتخصص شركة DRC في منتجات العناية الصحية والشخصية المصممة لتوفير الراحة والنظافة والثقة في مختلف مراحل الحياة.
+
+تضم مجموعة منتجاتنا حفاضات الأطفال، والفوط النسائية، وحفاضات كبار السن، ومحارم الوجه، ومحارم التنشيف، والمناديل المبللة للأطفال، من خلال مجموعة متنوعة من العلامات التجارية.
+
+---
+
+# 5. Product Categories
+
+## Baby Diapers
+
+### Baby Rexy
+### Fantash
+
+
+## Sanitary Pads
+
+### HQ+
+
+
+## Adult Diapers
+
+### Available Brands
+
+* Bino 
+* Avia
+
+## facial Tissues
+
+### Available Brands
+
+* Tzkar
+
+---
+
+# 6. Baby-Diaper Sizing Matrix
+
+The exact Baby Rexy sizes and weight brackets have not been provided. These figures must be taken directly from the official packaging or technical product sheet.
+
+| Baby Rexy Size |                      Weight Range |
+| -------------- | --------------------------------: |
+| Newborn / NB   |                      [2-5] kg |
+| Small / S      |                      [3-6] kg |
+| Medium / M     |                      [5-9] kg |
+| Large / L      |                      [9-15] kg |
+| X-Large / XL   |                      [12-19] kg |
+| XX-Large / XXL | 			[15-22] kg|
+
+These ranges should not be estimated because incorrect sizing information can cause leakage, discomfort, or an unsuitable fit.
+
+---
+
+# 8. Why Choose DRC?
+
+## 1. Effective Absorption
+
+Our hygiene products are designed to absorb liquid quickly and provide dependable protection during everyday use.
+
+## 2. Reliable Fluid Retention
+
+Selected products use absorbent structures designed to retain liquid and help reduce unwanted leakage.
+
+## 3. Soft and Comfortable Materials
+
+Our products are developed with comfort in mind, using soft materials suitable for frequent and everyday use.
+
+## 4. Products for Different Life Stages
+
+DRC provides hygiene solutions for babies, women, adults, seniors, families, and commercial users.
+
+## 5. Different Sizes and Formats
+
+Our product portfolio includes different sizes, package formats, backing materials, weights, and protection levels to meet different customer needs.
+
+## 6. Quality-Focused Production
+
+From absorbent hygiene products to tissues made from natural cellulose, DRC focuses on delivering reliable and practical products for daily care.
+
+---
+
+# 9. Initial Blog Content
+
+## Blog Post 1
+
+### How to Choose the Right Diaper Size for Your Baby
+
+Choosing the correct diaper size is essential for your baby’s comfort and protection. A diaper that is too small may feel tight and cause leakage, while an oversized diaper may not fit securely. Parents should check the baby’s current weight, follow the weight range printed on the package, and watch for signs that it may be time to move to the next size.
+
+**Category:** Baby Care
+**Suggested button:** Read More
+
+---
+
+## Blog Post 2
+
+### What to Look for in Everyday Hygiene Products
+
+Comfort, softness, absorption, fit, and suitable materials are some of the most important factors when choosing personal hygiene products. The right product should match the user’s needs while providing dependable protection without unnecessary discomfort. Product size and usage instructions should always be checked before use.
+
+**Category:** Hygiene and Personal Care
+**Suggested button:** Read More
+
+---
+
+## Blog Post 3
+
+### Choosing the Right Adult Diaper for Comfort and Confidence
+
+Selecting an adult diaper starts with choosing the correct waist size and absorption level. Users and caregivers should also consider mobility, frequency of use, backsheet preference, and how easily the product can be changed. A suitable fit can improve comfort, reduce leakage, and support the user’s confidence throughout the day.
+
+**Category:** Adult Care
+**Suggested button:** Read More
+
+---
+
+# 10. Initial News Content
+
+These articles are written as general company updates. Dates and event details should be added once confirmed.
+
+## News Article 1
+
+### DRC Presents a Complete Range of Everyday Hygiene Products
+
+DRC continues to provide hygiene solutions for different stages of life through a diverse product portfolio that includes baby diapers, sanitary pads, adult diapers, facial tissues, drying tissues, and baby wipes.
+
+**Category:** Company News
+**Date:** [To be confirmed]
+
+---
+
+## News Article 2
+
+### DRC Expands Its Adult-Care Product Selection
+
+DRC’s adult-care portfolio includes several brands and products available in multiple sizes and backing options. The range is designed to serve different comfort, fit, and everyday-care requirements.
+
+**Category:** Product News
+**Date:** [To be confirmed]
+
+---
+
+## News Article 3
+
+### DRC Highlights Quality and Comfort Across Its Product Portfolio
+
+Through its different hygiene brands, DRC focuses on practical products designed around everyday comfort, effective absorption, softness, and reliable protection for individuals and families.
+
+**Category:** Company Update
+**Date:** [To be confirmed]
+
+---
+
+# 11. Frequently Asked Questions
+
+## 1. What types of products does DRC offer?
+
+DRC offers baby diapers, sanitary pads, adult diapers, facial tissues, drying tissues, and baby wipes through a variety of product brands.
+
+---
+
+## 2. How do I choose the correct Baby Rexy diaper size?
+
+Choose the size according to your baby’s current weight and the weight range printed on the product packaging. A properly fitted diaper should feel secure without leaving strong marks on the baby’s skin.
+
+---
+
+## 3. Which adult-diaper sizes are available?
+
+DRC adult diapers are available in Small, Medium, Large, and X-Large. The correct size should be selected according to the user’s waist measurement and the size chart printed on the package.
+
+---
+
+## 4. What types of adult-diaper backing are available?
+
+Selected adult-diaper products are available with either a cloth-like backsheet or a nylon backsheet. Availability may differ according to the brand and product line.
+
+---
+
+## 5. Are HQ+ sanitary pads suitable for sensitive skin?
+
+Selected HQ+ products are presented as safe for sensitive skin and include soft, cotton-like materials. Customers should follow the instructions printed on the package and discontinue use if irritation occurs.
+
+---
+
+## 6. What are DRC facial tissues made from?
+
+The provided product information states that DRC facial tissues are made from 100% natural cellulose and are available in different weights and package formats.
+
+---
+
+# 12. Footer Copy
+
+## English
+
+**DRC**
+
+Reliable hygiene and personal-care products for babies, women, adults, and families.
+
+**Quick Links**
+
+* Home
+* About Us
+* Products
+* Blog
+* News
+* Frequently Asked Questions
+* Contact Us
+
+**Product Categories**
+
+* Baby Diapers
+* Sanitary Pads
+* Adult Diapers
+* Facial Tissues
+* Drying Tissues
+* Baby Wipes
+
+## Arabic
+
+**DRC**
+
+منتجات موثوقة للعناية الصحية والشخصية للأطفال والنساء وكبار السن والعائلة.
+
+**روابط سريعة**
+
+* الرئيسية
+* من نحن
+* المنتجات
+* المدونة
+* الأخبار
+* الأسئلة الشائعة
+* تواصل معنا
+
+---
+
+# 13. Information Still Required from DRC
+
+The following information cannot be completed accurately from the current material:
+
+1. Official telephone and WhatsApp numbers.
+2. Official email address.
+3. Factory or office address.
+4. Official social-media URLs.
+6. Company history and establishment date.
+7. Baby Rexy diaper sizes and exact kilogram ranges.
+8. Adult-diaper waist measurements for every size.
+9. Complete product-pack counts.
+10. Certifications, laboratory tests, or quality standards.
+11. Countries or regions where DRC products are distributed.
+12. Official distributors and wholesale contact information.
+13. Confirmed company announcements for the News section.

@@ -1,0 +1,38 @@
+services:
+  drc-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: drcgroup-web:latest
+    restart: unless-stopped
+    env_file:
+      - .env.production
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      HOSTNAME: 0.0.0.0
+    volumes:
+      - drc_data:/app/data
+      - drc_uploads:/app/public/uploads
+    networks:
+      - traefik
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=traefik
+      - traefik.http.routers.drc.rule=Host(`drcgroup.co`) || Host(`www.drcgroup.co`)
+      - traefik.http.routers.drc.entrypoints=websecure
+      - traefik.http.routers.drc.tls=true
+      - traefik.http.routers.drc.tls.certresolver=le
+      - traefik.http.services.drc.loadbalancer.server.port=3000
+      - traefik.http.routers.drc-http.rule=Host(`drcgroup.co`) || Host(`www.drcgroup.co`)
+      - traefik.http.routers.drc-http.entrypoints=web
+      - traefik.http.routers.drc-http.middlewares=drc-https-redirect
+      - traefik.http.middlewares.drc-https-redirect.redirectscheme.scheme=https
+
+volumes:
+  drc_data:
+  drc_uploads:
+
+networks:
+  traefik:
+    external: true

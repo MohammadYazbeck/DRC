@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #1a4b87;
+  --color-border: #cccccc;
+  --color-paper: #ffffff;
+  --color-ink: #102033;
+  --color-petal: #ffeaf4;
+  --color-lemon: #fff4b8;
+  --color-mint: #e3f8ed;
+  --color-sky: #e6f4ff;
+  --font-main: "Quicksand", "Myriad Pro", "Segoe UI", Arial, sans-serif;
+  --font-secondary: "Myriad Pro", "Segoe UI", Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-main);
+  letter-spacing: 0;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+@media (min-width: 640px) {
+  body {
+    font-size: 17px;
+  }
+}
+
+html[lang="ar"] body {
+  --font-main: "Tajawal", Tahoma, Arial, sans-serif;
+  --font-secondary: "Tajawal", Tahoma, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  letter-spacing: 0;
+}
+
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+@layer components {
+  .section-shell {
+    @apply mx-auto w-full max-w-[92rem] px-4 sm:px-4 lg:px-6;
+  }
+
+  .section-pad {
+    @apply py-12 sm:py-20 lg:py-28;
+  }
+
+  .focus-ring {
+    @apply outline-none ring-primary/30 transition focus-visible:ring-4;
+  }
+
+  .soft-pattern {
+    background:
+      linear-gradient(135deg, rgba(255, 234, 244, 0.72) 0 18%, transparent 18% 100%),
+      linear-gradient(45deg, rgba(230, 244, 255, 0.82) 0 16%, transparent 16% 100%),
+      linear-gradient(180deg, #ffffff 0%, #f6fbff 100%);
+  }
+
+  .friendly-card {
+    @apply rounded-[22px] border border-border bg-white shadow-soft transition duration-300 hover:-translate-y-1 hover:shadow-pop;
+  }
+
+  .soft-pill {
+    @apply rounded-[22px] border border-primary/10 bg-white/85 px-4 py-2 text-sm font-bold text-primary shadow-soft;
+  }
+}

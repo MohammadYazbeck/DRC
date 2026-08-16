@@ -1,0 +1,15 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tissueBlue" x1="45" y1="55" x2="123" y2="126" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10A7B5"/>
+      <stop offset="1" stop-color="#1A4B87"/>
+    </linearGradient>
+  </defs>
+  <circle cx="80" cy="80" r="70" fill="#E6F4FF"/>
+  <path d="M59 36c8-10 34-10 42 0 7 9-4 20-1 34H60c3-14-8-25-1-34Z" fill="white" stroke="#1A4B87" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M52 77h56c13 0 23 10 23 23v25H29v-25c0-13 10-23 23-23Z" fill="white" stroke="#1A4B87" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M43 91h74" stroke="#CCCCCC" stroke-width="6" stroke-linecap="round"/>
+  <path d="M58 106h44" stroke="url(#tissueBlue)" stroke-width="7" stroke-linecap="round"/>
+  <path d="M60 70c14 7 26 7 40 0" stroke="#10A7B5" stroke-width="6" stroke-linecap="round"/>
+  <path d="M36 41l5 10 10 5-10 5-5 10-5-10-10-5 10-5 5-10Z" fill="#1A4B87"/>
+</svg>
