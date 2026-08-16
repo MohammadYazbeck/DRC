@@ -107,8 +107,8 @@ const brandCopy: Record<string, { name: LocalizedString; category: LocalizedStri
     name: { en: "Fantash", ar: "Fantash" },
     category: { en: "Baby diapers", ar: "حفاضات الأطفال" }
   },
-  "bino-tex": {
-    name: { en: "Bino Tex", ar: "Bino Tex" },
+  pinotex: {
+    name: { en: "Pinotex", ar: "Pinotex" },
     category: { en: "Adult diapers", ar: "حفاضات كبار السن" }
   },
   avia: {

@@ -1,1409 +1,1412 @@
-﻿{
-    "hero":  {
-                 "title":  {
-                               "en":  "Everyday Hygiene, Made with Care",
-                               "ar":  "Ø¹Ù†Ø§ÙŠØ© ÙŠÙˆï¿½Â…ÙŠØ©ØŒ ï¿½Â…ØµÙ†ÙˆØ¹Ø© Ø¨Ø§Ù‡Øªï¿½Â…Ø§ï¿½Â…"
-                           },
-                 "subtitle":  {
-                                  "en":  "DRC provides reliable hygiene products for babies, women, adults, and families, designed to deliver softness, comfort, effective absorption, and dependable everyday protection.",
-                                  "ar":  "ØªÙ‚Ø¯Ù‘ï¿½Â… DRC ï¿½Â…Ù†ØªØ¬Ø§Øª Ø¹Ù†Ø§ÙŠØ© ØµØ­ÙŠØ© ï¿½Â…ÙˆØ«ÙˆÙ‚Ø© Ù„Ù„Ø£Ø·ÙØ§Ù„ ÙˆØ§Ù„Ù†Ø³Ø§Ø¡ ÙˆÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù† ÙˆØ§Ù„Ø¹Ø§Ø¦Ù„Ø©ØŒ ï¿½Â…Øµï¿½Â…ï¿½Â…Ø© Ù„ØªÙˆÙÙŠØ± Ø§Ù„Ù†Ø¹Ùˆï¿½Â…Ø© ÙˆØ§Ù„Ø±Ø§Ø­Ø© ÙˆØ§Ù„Ø§ï¿½Â…ØªØµØ§Øµ Ø§Ù„ÙØ¹Ù‘Ø§Ù„ ÙˆØ§Ù„Ø­ï¿½Â…Ø§ÙŠØ© Ø§Ù„ÙŠÙˆï¿½Â…ÙŠØ©."
-                              }
-             },
-    "heroSlides":  [
-                       {
-                           "id":  "rexy",
-                           "image":  {
-                                         "en":  "/images/standardized/hero/hero-1.jpg",
-                                         "ar":  "/images/standardized/hero/hero-1.jpg"
-                                     },
-                           "label":  {
-                                         "en":  "Baby care",
-                                         "ar":  "Ø¹Ù†Ø§ÙŠØ© Ø§Ù„Ø£Ø·ÙØ§Ù„"
-                                     },
-                           "title":  {
-                                         "en":  "Soft protection for every stage",
-                                         "ar":  "Ø­ï¿½Â…Ø§ÙŠØ© Ù†Ø§Ø¹ï¿½Â…Ø© Ù„ÙƒÙ„ ï¿½Â…Ø±Ø­Ù„Ø©"
-                                     }
-                       },
-                       {
-                           "id":  "hq",
-                           "image":  {
-                                         "en":  "/images/standardized/hero/hero-2.jpg",
-                                         "ar":  "/images/standardized/hero/hero-2.jpg"
-                                     },
-                           "label":  {
-                                         "en":  "Women care",
-                                         "ar":  "Ø¹Ù†Ø§ÙŠØ© Ø§Ù„Ù†Ø³Ø§Ø¡"
-                                     },
-                           "title":  {
-                                         "en":  "Comfort, dryness, and confidence",
-                                         "ar":  "Ø±Ø§Ø­Ø© ÙˆØ¬ÙØ§Ù ÙˆØ«Ù‚Ø©"
-                                     }
-                       },
-                       {
-                           "id":  "tizkar",
-                           "image":  {
-                                         "en":  "/images/standardized/hero/hero-3.jpg",
-                                         "ar":  "/images/standardized/hero/hero-3.jpg"
-                                     },
-                           "label":  {
-                                         "en":  "Family care",
-                                         "ar":  "Ø¹Ù†Ø§ÙŠØ© Ø§Ù„Ø¹Ø§Ø¦Ù„Ø©"
-                                     },
-                           "title":  {
-                                         "en":  "Clean routines made simpler",
-                                         "ar":  "Ù†Ø¸Ø§ÙØ© ÙŠÙˆï¿½Â…ÙŠØ© Ø£Ø³Ù‡Ù„"
-                                     }
-                       }
-                   ],
-    "about":  {
-                  "eyebrow":  {
-                                  "en":  "DRC Group",
-                                  "ar":  "مجموعة DRC"
-                              },
-                  "title":  {
-                                "en":  "Reliable hygienic and personal-care products for everyday life.",
-                                "ar":  "منتجات موثوقة للعناية الصحية والشخصية في الحياة اليومية."
-                            },
-                  "description":  {
-                                      "en":  "DRC specializes in hygiene and personal-care products created to support comfort, cleanliness, and confidence throughout every stage of life. The portfolio includes baby diapers, sanitary pads, adult diapers, facial tissues, drying tissues, and baby wipes under a variety of trusted brands.",
-                                      "ar":  "تتخصص DRC في منتجات العناية الصحية والشخصية المصممة لدعم الراحة والنظافة والثقة في مختلف مراحل الحياة. تضم محفظة المنتجات حفاضات الأطفال، والفوط النسائية، وحفاضات كبار السن، ومحارم الوجه، ومحارم التنشيف، والمناديل المبللة للأطفال ضمن مجموعة متنوعة من العلامات الموثوقة."
-                                  },
-                  "metrics":  [
-                                  {
-                                      "value":  "6+",
-                                      "label":  {
-                                                    "en":  "Product categories",
-                                                    "ar":  "فئات منتجات"
-                                                }
-                                  },
-                                  {
-                                      "value":  "6",
-                                      "label":  {
-                                                    "en":  "Sub-brands",
-                                                    "ar":  "علامات فرعية"
-                                                }
-                                  },
-                                  {
-                                      "value":  "24/7",
-                                      "label":  {
-                                                    "en":  "Everyday protection",
-                                                    "ar":  "حماية يومية"
-                                                }
-                                  }
-                              ]
-              },
-    "products":  [
-                     {
-                         "slug":  "baby-rexy",
-                         "title":  {
-                                       "en":  "Baby Rexy",
-                                       "ar":  "Ø¨ÙŠØ¨ÙŠ Ø±ÙŠÙƒØ³ÙŠ"
-                                   },
-                         "category":  {
-                                          "en":  "Baby Diapers",
-                                          "ar":  "Ø­ÙØ§Ø¶Ø§Øª Ø§Ù„Ø£Ø·ÙØ§Ù„"
-                                      },
-                         "image":  "/images/standardized/product-cards/baby-rexy.png",
-                         "cardImage":  "/images/standardized/product-cards/baby-rexy.png",
-                         "bannerImage":  "/images/standardized/banners/baby-rexy.png",
-                         "logo":  "/images/standardized/logos/rexy.png",
-                         "excerpt":  {
-                                         "en":  "Advanced baby diapers designed for night-long comfort, high absorption, and leakage protection.",
-                                         "ar":  "ÙÙˆØ· Ø£Ø·ÙØ§Ù„ ï¿½Â…Ø·ÙˆÙ‘Ø±Ø© Ù„ØªÙˆÙÙŠØ± Ø§Ù„Ø±Ø§Ø­Ø©ØŒ Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ Ø§Ù„Ø¹Ø§Ù„ÙŠØŒ ÙˆØ§Ù„Ø­ï¿½Â…Ø§ÙŠØ© ï¿½Â…Ù† Ø§Ù„ØªØ³Ø±ÙŠØ¨."
-                                     },
-                         "description":  {
-                                             "en":  "Baby Rexy diapers are developed with modern Japanese technology for a secure and comfortable fit. They feature a wide elastic waistband, a high-absorption three-dimensional core, wetness-distribution channels, leakage barriers, and soft materials that help keep skin dry.",
-                                             "ar":  "Ø¨ÙŠØ¨ÙŠ Ø±ÙŠÙƒØ³ÙŠ ÙÙˆØ· Ø£Ø·ÙØ§Ù„ ï¿½Â…Ø·ÙˆÙ‘Ø±Ø© Ø¨ØªÙ‚Ù†ÙŠØ© ÙŠØ§Ø¨Ø§Ù†ÙŠØ© Ø­Ø¯ÙŠØ«Ø©ØŒ ØµÙï¿½Â…ï¿½Â…Øª Ù„ØªÙˆÙÙŠØ± Ø«Ø¨Ø§Øª ÙˆØ±Ø§Ø­Ø© Ø£ÙƒØ¨Ø± Ù„Ù„Ø·ÙÙ„ Ùˆï¿½Â…Ù†Ø¹ Ø§Ù„ØªØ³Ø±ÙŠØ¨. ØªØªï¿½Â…ÙŠØ² Ø¨Ø­Ø²Ø§ï¿½Â… Ø®ØµØ± ï¿½Â…Ø·Ø§Ø·ÙŠ Ø¹Ø±ÙŠØ¶ØŒ ÙˆØ­Ø´ÙˆØ© Ø«Ù„Ø§Ø«ÙŠØ© Ø§Ù„Ø£Ø¨Ø¹Ø§Ø¯ Ø¹Ø§Ù„ÙŠØ© Ø§Ù„Ø§ï¿½Â…ØªØµØ§ØµØŒ ï¿½Â…Ø¹ Ù‚Ù†ÙˆØ§Øª Ù„ØªÙˆØ²ÙŠØ¹ Ø§Ù„Ø¨Ù„Ù„ ÙˆØ­ÙˆØ§Ø¬Ø² ï¿½Â…Ø§Ù†Ø¹Ø© Ù„Ù„ØªØ³Ø±ÙŠØ¨."
-                                         },
-                         "features":  [
-                                          {
-                                              "icon":  "fit",
-                                              "title":  {
-                                                            "en":  "Wide elastic waist",
-                                                            "ar":  "Ø®ØµØ± ï¿½Â…Ø·Ø§Ø·ÙŠ Ø¹Ø±ÙŠØ¶"
-                                                        },
-                                              "description":  {
-                                                                  "en":  "Helps the diaper stay secure while supporting easier movement.",
-                                                                  "ar":  "ÙŠØ³Ø§Ø¹Ø¯ Ø§Ù„Ø­ÙØ§Ø¶ Ø¹Ù„Ù‰ Ø§Ù„Ø«Ø¨Ø§Øª ï¿½Â…Ø¹ Ø¯Ø¹ï¿½Â… Ø­Ø±ÙƒØ© Ø§Ù„Ø·ÙÙ„ Ø¨Ø±Ø§Ø­Ø© Ø£ÙƒØ¨Ø±."
-                                                              }
-                                          },
-                                          {
-                                              "icon":  "absorption",
-                                              "title":  {
-                                                            "en":  "3D absorbent core",
-                                                            "ar":  "Ø­Ø´ÙˆØ© Ø«Ù„Ø§Ø«ÙŠØ© Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ"
-                                                        },
-                                              "description":  {
-                                                                  "en":  "Built to absorb quickly and distribute wetness across the core.",
-                                                                  "ar":  "ï¿½Â…Øµï¿½Â…ï¿½Â…Ø© Ù„Ù„Ø§ï¿½Â…ØªØµØ§Øµ Ø§Ù„Ø³Ø±ÙŠØ¹ ÙˆØªÙˆØ²ÙŠØ¹ Ø§Ù„Ø¨Ù„Ù„ Ø¯Ø§Ø®Ù„ Ø§Ù„Ø­Ø´ÙˆØ©."
-                                                              }
-                                          },
-                                          {
-                                              "icon":  "protection",
-                                              "title":  {
-                                                            "en":  "Leakage barriers",
-                                                            "ar":  "Ø­ÙˆØ§Ø¬Ø² ï¿½Â…Ø§Ù†Ø¹Ø© Ù„Ù„ØªØ³Ø±ÙŠØ¨"
-                                                        },
-                                              "description":  {
-                                                                  "en":  "Side guards help reduce leakage during daily and night use.",
-                                                                  "ar":  "Ø­ÙˆØ§Ø¬Ø² Ø¬Ø§Ù†Ø¨ÙŠØ© ØªØ³Ø§Ø¹Ø¯ Ø¹Ù„Ù‰ ØªÙ‚Ù„ÙŠÙ„ Ø§Ù„ØªØ³Ø±ÙŠØ¨ Ø£Ø«Ù†Ø§Ø¡ Ø§Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø§Ù„ÙŠÙˆï¿½Â…ÙŠ ÙˆØ§Ù„Ù„ÙŠÙ„ÙŠ."
-                                                              }
-                                          }
-                                      ],
-                         "sizes":  [
-                                       {
-                                           "label":  {
-                                                         "en":  "NB",
-                                                         "ar":  "NB"
-                                                     },
-                                           "value":  {
-                                                         "en":  "2-5 kg",
-                                                         "ar":  "2-5 ÙƒØº"
-                                                     },
-                                           "note":  {
-                                                        "en":  "Newborn",
-                                                        "ar":  "Ø­Ø¯ÙŠØ« Ø§Ù„ÙˆÙ„Ø§Ø¯Ø©"
-                                                    },
-                                           "description":  {
-                                                               "en":  "A gentle first fit for newborn babies with soft everyday protection.",
-                                                               "ar":  "ï¿½Â…Ù„Ø§Ø¡ï¿½Â…Ø© Ù„Ø·ÙŠÙØ© Ù„Ø­Ø¯ÙŠØ«ÙŠ Ø§Ù„ÙˆÙ„Ø§Ø¯Ø© ï¿½Â…Ø¹ Ø­ï¿½Â…Ø§ÙŠØ© ÙŠÙˆï¿½Â…ÙŠØ© Ù†Ø§Ø¹ï¿½Â…Ø©."
-                                                           },
-                                           "image":  "/images/standardized/product-options/rexy-nb.png"
-                                       },
-                                       {
-                                           "label":  {
-                                                         "en":  "S",
-                                                         "ar":  "S"
-                                                     },
-                                           "value":  {
-                                                         "en":  "3-6 kg",
-                                                         "ar":  "3-6 ÙƒØº"
-                                                     },
-                                           "note":  {
-                                                        "en":  "Small",
-                                                        "ar":  "ØµØºÙŠØ±"
-                                                    },
-                                           "description":  {
-                                                               "en":  "Comfortable care for early growth and daily diaper changes.",
-                                                               "ar":  "Ø¹Ù†Ø§ÙŠØ© ï¿½Â…Ø±ÙŠØ­Ø© Ù„ï¿½Â…Ø±Ø­Ù„Ø© Ø§Ù„Ù†ï¿½Â…Ùˆ Ø§Ù„ï¿½Â…Ø¨ÙƒØ± ÙˆØ§Ù„ØªØºÙŠÙŠØ± Ø§Ù„ÙŠÙˆï¿½Â…ÙŠ."
-                                                           },
-                                           "image":  "/images/standardized/product-options/rexy-s.png"
-                                       },
-                                       {
-                                           "label":  {
-                                                         "en":  "M",
-                                                         "ar":  "M"
-                                                     },
-                                           "value":  {
-                                                         "en":  "5-9 kg",
-                                                         "ar":  "5-9 ÙƒØº"
-                                                     },
-                                           "note":  {
-                                                        "en":  "Medium",
-                                                        "ar":  "ÙˆØ³Ø·"
-                                                    },
-                                           "description":  {
-                                                               "en":  "Balanced fit and absorption for babies becoming more active.",
-                                                               "ar":  "ï¿½Â…Ù„Ø§Ø¡ï¿½Â…Ø© ÙˆØ§ï¿½Â…ØªØµØ§Øµ ï¿½Â…ØªÙˆØ§Ø²Ù† Ù„Ù„Ø£Ø·ÙØ§Ù„ Ø§Ù„Ø£ÙƒØ«Ø± Ø­Ø±ÙƒØ©."
-                                                           },
-                                           "image":  "/images/standardized/product-options/rexy-m.png"
-                                       },
-                                       {
-                                           "label":  {
-                                                         "en":  "L",
-                                                         "ar":  "L"
-                                                     },
-                                           "value":  {
-                                                         "en":  "9-15 kg",
-                                                         "ar":  "9-15 ÙƒØº"
-                                                     },
-                                           "note":  {
-                                                        "en":  "Large",
-                                                        "ar":  "ÙƒØ¨ÙŠØ±"
-                                                    },
-                                           "description":  {
-                                                               "en":  "More coverage for growing babies during day and night routines.",
-                                                               "ar":  "ØªØºØ·ÙŠØ© Ø£ÙƒØ¨Ø± Ù„Ù„Ø£Ø·ÙØ§Ù„ ÙÙŠ Ø±ÙˆØªÙŠÙ† Ø§Ù„Ù†Ù‡Ø§Ø± ÙˆØ§Ù„Ù„ÙŠÙ„."
-                                                           },
-                                           "image":  "/images/standardized/product-options/rexy-l.png"
-                                       },
-                                       {
-                                           "label":  {
-                                                         "en":  "XL",
-                                                         "ar":  "XL"
-                                                     },
-                                           "value":  {
-                                                         "en":  "12-19 kg",
-                                                         "ar":  "12-19 ÙƒØº"
-                                                     },
-                                           "note":  {
-                                                        "en":  "X-Large",
-                                                        "ar":  "ÙƒØ¨ÙŠØ± Ø¬Ø¯Ø§Ù‹"
-                                                    },
-                                           "description":  {
-                                                               "en":  "A comfortable larger fit for longer daily protection.",
-                                                               "ar":  "ï¿½Â…Ù‚Ø§Ø³ Ø£ÙƒØ¨Ø± Ùˆï¿½Â…Ø±ÙŠØ­ Ù„Ø­ï¿½Â…Ø§ÙŠØ© ÙŠÙˆï¿½Â…ÙŠØ© Ø£Ø·ÙˆÙ„."
-                                                           },
-                                           "image":  "/images/standardized/product-options/rexy-xl.png"
-                                       },
-                                       {
-                                           "label":  {
-                                                         "en":  "XXL",
-                                                         "ar":  "XXL"
-                                                     },
-                                           "value":  {
-                                                         "en":  "15-22 kg",
-                                                         "ar":  "15-22 ÙƒØº"
-                                                     },
-                                           "note":  {
-                                                        "en":  "XX-Large",
-                                                        "ar":  "ÙƒØ¨ÙŠØ± Ø¬Ø¯Ø§Ù‹ 2"
-                                                    },
-                                           "description":  {
-                                                               "en":  "Extra coverage for bigger toddlers who need dependable comfort.",
-                                                               "ar":  "ØªØºØ·ÙŠØ© Ø¥Ø¶Ø§ÙÙŠØ© Ù„Ù„Ø£Ø·ÙØ§Ù„ Ø§Ù„Ø£ÙƒØ¨Ø± ï¿½Â…Ø¹ Ø±Ø§Ø­Ø© ÙŠï¿½Â…ÙƒÙ† Ø§Ù„Ø§Ø¹Øªï¿½Â…Ø§Ø¯ Ø¹Ù„ÙŠÙ‡Ø§."
-                                                           },
-                                           "image":  "/images/standardized/product-options/rexy-xxl.png"
-                                       }
-                                   ],
-                         "faqs":  [
-                                      {
-                                          "question":  {
-                                                           "en":  "How do I choose the right Baby Rexy diaper size?",
-                                                           "ar":  "ÙƒÙŠÙ Ø£Ø®ØªØ§Ø± ï¿½Â…Ù‚Ø§Ø³ Ø¨ÙŠØ¨ÙŠ Ø±ÙŠÙƒØ³ÙŠ Ø§Ù„ï¿½Â…Ù†Ø§Ø³Ø¨ØŸ"
-                                                       },
-                                          "answer":  {
-                                                         "en":  "Choose the size based on your baby\u0027s current weight range, then check that the waist and leg openings feel secure without leaving strong marks.",
-                                                         "ar":  "Ø§Ø®ØªØ± Ø§Ù„ï¿½Â…Ù‚Ø§Ø³ Ø­Ø³Ø¨ ÙˆØ²Ù† Ø§Ù„Ø·ÙÙ„ Ø§Ù„Ø­Ø§Ù„ÙŠØŒ Ø«ï¿½Â… ØªØ£ÙƒØ¯ Ø£Ù† Ø§Ù„Ø®ØµØ± ÙˆÙØªØ­Ø§Øª Ø§Ù„Ø£Ø±Ø¬Ù„ Ø«Ø§Ø¨ØªØ© Ùˆï¿½Â…Ø±ÙŠØ­Ø© Ø¯ÙˆÙ† ØªØ±Ùƒ Ø¹Ù„Ø§ï¿½Â…Ø§Øª Ù‚ÙˆÙŠØ© Ø¹Ù„Ù‰ Ø§Ù„Ø¨Ø´Ø±Ø©."
-                                                     }
-                                      },
-                                      {
-                                          "question":  {
-                                                           "en":  "When should I move to the next size?",
-                                                           "ar":  "ï¿½Â…ØªÙ‰ Ø£Ø­ØªØ§Ø¬ Ù„Ù„Ø§Ù†ØªÙ‚Ø§Ù„ Ø¥Ù„Ù‰ ï¿½Â…Ù‚Ø§Ø³ Ø£ÙƒØ¨Ø±ØŸ"
-                                                       },
-                                          "answer":  {
-                                                         "en":  "Move up when the diaper feels tight, leaves noticeable marks, leaks more often, or when your baby\u0027s weight is close to the top of the current range.",
-                                                         "ar":  "Ø§Ù†ØªÙ‚Ù„ Ø¥Ù„Ù‰ ï¿½Â…Ù‚Ø§Ø³ Ø£ÙƒØ¨Ø± Ø¹Ù†Ø¯ï¿½Â…Ø§ ÙŠØµØ¨Ø­ Ø§Ù„Ø­ÙØ§Ø¶ Ø¶ÙŠÙ‚Ø§Ù‹ØŒ Ø£Ùˆ ÙŠØªØ±Ùƒ Ø¹Ù„Ø§ï¿½Â…Ø§Øª ÙˆØ§Ø¶Ø­Ø©ØŒ Ø£Ùˆ ÙŠØ­Ø¯Ø« ØªØ³Ø±ÙŠØ¨ ï¿½Â…ØªÙƒØ±Ø±ØŒ Ø£Ùˆ ÙŠÙ‚ØªØ±Ø¨ ÙˆØ²Ù† Ø§Ù„Ø·ÙÙ„ ï¿½Â…Ù† Ø§Ù„Ø­Ø¯ Ø§Ù„Ø£Ø¹Ù„Ù‰ Ù„Ù„ï¿½Â…Ù‚Ø§Ø³ Ø§Ù„Ø­Ø§Ù„ÙŠ."
-                                                     }
-                                      },
-                                      {
-                                          "question":  {
-                                                           "en":  "Which Baby Rexy sizes are available?",
-                                                           "ar":  "ï¿½Â…Ø§ Ø§Ù„ï¿½Â…Ù‚Ø§Ø³Ø§Øª Ø§Ù„ï¿½Â…ØªÙˆÙØ±Ø© ï¿½Â…Ù† Ø¨ÙŠØ¨ÙŠ Ø±ÙŠÙƒØ³ÙŠØŸ"
-                                                       },
-                                          "answer":  {
-                                                         "en":  "Baby Rexy is available in NB, S, M, L, XL, and XXL, covering babies from 2 kg up to 22 kg.",
-                                                         "ar":  "ÙŠØªÙˆÙØ± Ø¨ÙŠØ¨ÙŠ Ø±ÙŠÙƒØ³ÙŠ Ø¨ï¿½Â…Ù‚Ø§Ø³Ø§Øª NB ÙˆS ÙˆM ÙˆL ÙˆXL ÙˆXXLØŒ Ù„ØªØºØ·ÙŠØ© Ø£ÙˆØ²Ø§Ù† Ø§Ù„Ø£Ø·ÙØ§Ù„ ï¿½Â…Ù† 2 ÙƒØº Ø­ØªÙ‰ 22 ÙƒØº."
-                                                     }
-                                      },
-                                      {
-                                          "question":  {
-                                                           "en":  "What helps Baby Rexy stay comfortable for daily use?",
-                                                           "ar":  "ï¿½Â…Ø§ Ø§Ù„Ø°ÙŠ ÙŠØ³Ø§Ø¹Ø¯ Ø¨ÙŠØ¨ÙŠ Ø±ÙŠÙƒØ³ÙŠ Ø¹Ù„Ù‰ ØªÙˆÙÙŠØ± Ø§Ù„Ø±Ø§Ø­Ø© Ù„Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø§Ù„ÙŠÙˆï¿½Â…ÙŠØŸ"
-                                                       },
-                                          "answer":  {
-                                                         "en":  "The product line focuses on soft materials, a secure elastic waist, absorbent core structure, wetness distribution, and leakage barriers for dependable everyday care.",
-                                                         "ar":  "ÙŠØ±ÙƒØ² Ù‡Ø°Ø§ Ø§Ù„Ø®Ø· Ø¹Ù„Ù‰ Ø§Ù„ï¿½Â…ÙˆØ§Ø¯ Ø§Ù„Ù†Ø§Ø¹ï¿½Â…Ø©ØŒ ÙˆØ®ØµØ± ï¿½Â…Ø·Ø§Ø·ÙŠ Ø«Ø§Ø¨ØªØŒ ÙˆØ¨Ù†ÙŠØ© ï¿½Â…Ø§ØµØ©ØŒ ÙˆØªÙˆØ²ÙŠØ¹ Ø§Ù„Ø¨Ù„Ù„ØŒ ÙˆØ­ÙˆØ§Ø¬Ø² ï¿½Â…Ø§Ù†Ø¹Ø© Ù„Ù„ØªØ³Ø±ÙŠØ¨ Ù„Ø¹Ù†Ø§ÙŠØ© ÙŠÙˆï¿½Â…ÙŠØ© ÙŠï¿½Â…ÙƒÙ† Ø§Ù„Ø§Ø¹Øªï¿½Â…Ø§Ø¯ Ø¹Ù„ÙŠÙ‡Ø§."
-                                                     }
-                                      }
-                                  ],
-                         "bannerSize":  {
-                                            "width":  2400,
-                                            "height":  460
-                                        }
-                     },
-                     {
-                         "slug":  "hq-plus",
-                         "title":  {
-                                       "en":  "HQ+",
-                                       "ar":  "Ø¢ØªØ´ ÙƒÙŠÙˆ +"
-                                   },
-                         "category":  {
-                                          "en":  "Sanitary Pads",
-                                          "ar":  "Ø§Ù„ÙÙˆØ· Ø§Ù„Ù†Ø³Ø§Ø¦ÙŠØ©"
-                                      },
-                         "image":  "/images/standardized/product-cards/hq-plus.png",
-                         "cardImage":  "/images/standardized/product-cards/hq-plus.png",
-                         "bannerImage":  "/images/standardized/banners/hq-plus.png",
-                         "bannerSize":  {
-                                            "width":  2400,
-                                            "height":  460
-                                        },
-                         "logo":  "/images/standardized/logos/hq-plus.png",
-                         "excerpt":  {
-                                         "en":  "Thick sanitary pads with wings, cotton-like softness, fast absorption, and leakage protection.",
-                                         "ar":  "ÙÙˆØ· Ù†Ø³Ø§Ø¦ÙŠØ© Ø³ï¿½Â…ÙŠÙƒØ© Ø¨Ø§Ù„Ø£Ø¬Ù†Ø­Ø©ØŒ Ø¨Ù†Ø¹Ùˆï¿½Â…Ø© Ø§Ù„Ù‚Ø·Ù†ØŒ ÙˆØ§ï¿½Â…ØªØµØ§Øµ Ø³Ø±ÙŠØ¹ØŒ ÙˆØ­ï¿½Â…Ø§ÙŠØ© ï¿½Â…Ù† Ø§Ù„ØªØ³Ø±ÙŠØ¨."
-                                     },
-                         "description":  {
-                                             "en":  "HQ+ thick sanitary pads are available in four options: Goodnight, Super Plus, Super, and Normal. Each pad is designed with side wings for a secure fit, a soft cotton-like surface, ADL fast-absorption support, deep distribution channels, super absorbent gel, and side leakage barriers for comfort, dryness, and confidence.",
-                                             "ar":  "ÙÙˆØ· Ø¢ØªØ´ ÙƒÙŠÙˆ Ø§Ù„Ø³ï¿½Â…ÙŠÙƒØ© ï¿½Â…ØªÙˆÙØ±Ø© Ø¨Ø§Ù„ï¿½Â…Ù‚Ø§Ø³Ø§Øª Ø§Ù„Ø£Ø±Ø¨Ø¹Ø©: Ù„ÙŠÙ„ÙŠØ©ØŒ Ø³ÙˆØ¨Ø± Ø¨Ù„Ø§Ø³ØŒ Ø³ÙˆØ¨Ø±ØŒ ÙˆÙ†ÙˆØ±ï¿½Â…Ø§Ù„. Øµï¿½Â…ï¿½Â…Øª ÙƒÙ„ ÙÙˆØ·Ø© Ø¨Ø£Ø¬Ù†Ø­Ø© Ø¬Ø§Ù†Ø¨ÙŠØ© Ù„ØªØ«Ø¨ÙŠØª Ø£ÙØ¶Ù„ØŒ ÙˆØ³Ø·Ø­ Ù†Ø§Ø¹ï¿½Â… Ø´Ø¨ÙŠÙ‡ Ø¨Ø§Ù„Ù‚Ø·Ù†ØŒ ÙˆØ·Ø¨Ù‚Ø© ADL Ù„Ù„ï¿½Â…Ø³Ø§Ø¹Ø¯Ø© Ø¹Ù„Ù‰ Ø³Ø±Ø¹Ø© Ø§Ù„Ø§ï¿½Â…ØªØµØ§ØµØŒ ÙˆØ£Ù‚Ù†ÙŠØ© ØªÙˆØ²ÙŠØ¹ Ø¹ï¿½Â…ÙŠÙ‚Ø©ØŒ ÙˆØ¬Ù„ ÙØ§Ø¦Ù‚ Ø§Ù„Ø§ï¿½Â…ØªØµØ§ØµØŒ ÙˆØ­ÙˆØ§Ø¬Ø² Ø¬Ø§Ù†Ø¨ÙŠØ© Ù„Ù„Ø­ï¿½Â…Ø§ÙŠØ© ï¿½Â…Ù† Ø§Ù„ØªØ³Ø±ÙŠØ¨ ÙˆØ§Ù„Ø´Ø¹ÙˆØ± Ø¨Ø§Ù„Ø±Ø§Ø­Ø© ÙˆØ§Ù„Ø¬ÙØ§Ù ÙˆØ§Ù„Ø«Ù‚Ø©."
-                                         },
-                         "features":  [
-                                          {
-                                              "icon":  "softness",
-                                              "title":  {
-                                                            "en":  "Soft cotton-like touch",
-                                                            "ar":  "ï¿½Â…Ù„ï¿½Â…Ø³ Ù†Ø§Ø¹ï¿½Â… Ø´Ø¨ÙŠÙ‡ Ø¨Ø§Ù„Ù‚Ø·Ù†"
-                                                        },
-                                              "description":  {
-                                                                  "en":  "Created for comfortable contact during everyday period care.",
-                                                                  "ar":  "ï¿½Â…Øµï¿½Â…ï¿½Â…Ø© Ù„ï¿½Â…Ù„Ø§ï¿½Â…Ø³Ø© ï¿½Â…Ø±ÙŠØ­Ø© Ø£Ø«Ù†Ø§Ø¡ Ø§Ù„Ø¹Ù†Ø§ÙŠØ© Ø§Ù„ÙŠÙˆï¿½Â…ÙŠØ© Ø¨Ø§Ù„Ø¯ÙˆØ±Ø©."
-                                                              }
-                                          },
-                                          {
-                                              "icon":  "dryness",
-                                              "title":  {
-                                                            "en":  "Quick absorption",
-                                                            "ar":  "Ø§ï¿½Â…ØªØµØ§Øµ Ø³Ø±ÙŠØ¹"
-                                                        },
-                                              "description":  {
-                                                                  "en":  "Helps support dryness, comfort, and confidence through the day.",
-                                                                  "ar":  "ÙŠØ³Ø§Ø¹Ø¯ Ø¹Ù„Ù‰ Ø¯Ø¹ï¿½Â… Ø§Ù„Ø¬ÙØ§Ù ÙˆØ§Ù„Ø±Ø§Ø­Ø© ÙˆØ§Ù„Ø«Ù‚Ø© Ø®Ù„Ø§Ù„ Ø§Ù„ÙŠÙˆï¿½Â…."
-                                                              }
-                                          },
-                                          {
-                                              "icon":  "packaging",
-                                              "title":  {
-                                                            "en":  "Individually sealed",
-                                                            "ar":  "ØªØºÙ„ÙŠÙ ÙØ±Ø¯ÙŠ ï¿½Â…Ø­Ùƒï¿½Â…"
-                                                        },
-                                              "description":  {
-                                                                  "en":  "Each pad is packed separately for clean, practical handling.",
-                                                                  "ar":  "ÙƒÙ„ ÙÙˆØ·Ø© ï¿½Â…ØºÙ„ÙØ© Ø¨Ø´ÙƒÙ„ ï¿½Â…Ù†ÙØµÙ„ Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ù†Ø¸ÙŠÙ ÙˆØ¹ï¿½Â…Ù„ÙŠ."
-                                                              }
-                                          }
-                                      ],
-                         "detailFeatures":  [
-                                                {
-                                                    "icon":  "fit",
-                                                    "title":  {
-                                                                  "en":  "Four thick pad options",
-                                                                  "ar":  "Ø£Ø±Ø¨Ø¹Ø© ï¿½Â…Ù‚Ø§Ø³Ø§Øª Ù„Ù„ÙÙˆØ·Ø© Ø§Ù„Ø³ï¿½Â…ÙŠÙƒØ©"
-                                                              },
-                                                    "description":  {
-                                                                        "en":  "Available in Goodnight, Super Plus, Super, and Normal, with side wings for a more secure fit on underwear.",
-                                                                        "ar":  "ï¿½Â…ØªÙˆÙØ±Ø© Ø¨Ø§Ù„ï¿½Â…Ù‚Ø§Ø³Ø§Øª Ø§Ù„Ø£Ø±Ø¨Ø¹Ø©: Ù„ÙŠÙ„ÙŠØ©ØŒ Ø³ÙˆØ¨Ø± Ø¨Ù„Ø§Ø³ØŒ Ø³ÙˆØ¨Ø±ØŒ ÙˆÙ†ÙˆØ±ï¿½Â…Ø§Ù„ØŒ ï¿½Â…Ø¹ Ø£Ø¬Ù†Ø­Ø© Ø¬Ø§Ù†Ø¨ÙŠØ© Ù„ØªØ«Ø¨ÙŠØª Ø£ÙØ¶Ù„ Ø¹Ù„Ù‰ Ø§Ù„Ù„Ø¨Ø§Ø³ Ø§Ù„Ø¯Ø§Ø®Ù„ÙŠ."
-                                                                    }
-                                                },
-                                                {
-                                                    "icon":  "softness",
-                                                    "title":  {
-                                                                  "en":  "Cotton-like surface",
-                                                                  "ar":  "Ø³Ø·Ø­ Ø¨Ù†Ø¹Ùˆï¿½Â…Ø© Ø§Ù„Ù‚Ø·Ù†"
-                                                              },
-                                                    "description":  {
-                                                                        "en":  "The skin-contact layer is soft and highly absorbent to support dryness and help protect sensitive skin.",
-                                                                        "ar":  "Ø³Ø·Ø­ Ø§Ù„ÙÙˆØ·Ø© Ø§Ù„ï¿½Â…Ù„Ø§ï¿½Â…Ø³ Ù„Ù„Ø¨Ø´Ø±Ø© Ø¨Ù†Ø¹Ùˆï¿½Â…Ø© Ø§Ù„Ù‚Ø·Ù† ÙˆØ°Ùˆ Ù‚Ø¯Ø±Ø© Ø¹Ø§Ù„ÙŠØ© Ø¹Ù„Ù‰ Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ Ù„Ø¯Ø¹ï¿½Â… Ø§Ù„Ø¬ÙØ§Ù ÙˆØ§Ù„Ø­ï¿½Â…Ø§ÙŠØ© ï¿½Â…Ù† Ø§Ù„Ø­Ø³Ø§Ø³ÙŠØ©."
-                                                                    }
-                                                },
-                                                {
-                                                    "icon":  "absorption",
-                                                    "title":  {
-                                                                  "en":  "ADL fast-absorption layer",
-                                                                  "ar":  "Ø·Ø¨Ù‚Ø© ADL Ø³Ø±ÙŠØ¹Ø© Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ"
-                                                              },
-                                                    "description":  {
-                                                                        "en":  "An added ADL layer below the surface helps speed liquid absorption and reduce leakage.",
-                                                                        "ar":  "Ø·Ø¨Ù‚Ø© Ø¥Ø¶Ø§ÙÙŠØ© Ø£Ø³ÙÙ„ Ø§Ù„Ø·Ø¨Ù‚Ø© Ø§Ù„Ø³Ø·Ø­ÙŠØ© ADL ØªØ³Ø§Ø¹Ø¯ Ø¹Ù„Ù‰ Ø²ÙŠØ§Ø¯Ø© Ø³Ø±Ø¹Ø© Ø§ï¿½Â…ØªØµØ§Øµ Ø§Ù„Ø³Ø§Ø¦Ù„ Ùˆï¿½Â…Ù†Ø¹ Ø§Ù„ØªØ³Ø±ÙŠØ¨."
-                                                                    }
-                                                },
-                                                {
-                                                    "icon":  "dryness",
-                                                    "title":  {
-                                                                  "en":  "Deep distribution channels",
-                                                                  "ar":  "Ø£Ù‚Ù†ÙŠØ© ØªÙˆØ²ÙŠØ¹ Ø¹ï¿½Â…ÙŠÙ‚Ø©"
-                                                              },
-                                                    "description":  {
-                                                                        "en":  "Deep channels help distribute wetness properly across the pad for better leakage protection.",
-                                                                        "ar":  "Ø£Ù‚Ù†ÙŠØ© Ø¹ï¿½Â…ÙŠÙ‚Ø© Ø¨Ø´ÙƒÙ„ ï¿½Â…Ù†Ø§Ø³Ø¨ ØªØ³Ø§Ø¹Ø¯ Ø¹Ù„Ù‰ ØªÙˆØ²Ø¹ Ø§Ù„Ø¨Ù„Ù„ ÙˆØ§Ù„Ø­ï¿½Â…Ø§ÙŠØ© ï¿½Â…Ù† Ø§Ù„ØªØ³Ø±ÙŠØ¨."
-                                                                    }
-                                                },
-                                                {
-                                                    "icon":  "protection",
-                                                    "title":  {
-                                                                  "en":  "Super absorbent gel",
-                                                                  "ar":  "Ø¬Ù„ ÙØ§Ø¦Ù‚ Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ"
-                                                              },
-                                                    "description":  {
-                                                                        "en":  "Super absorbent gel locks liquid away from the skin to help deliver a fully dry feeling.",
-                                                                        "ar":  "Ø¬Ù„ ÙØ§Ø¦Ù‚ Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ Ù„Ø­Ø¬Ø² Ø§Ù„Ø³Ø§Ø¦Ù„ ÙˆØ¥Ø¨Ø¹Ø§Ø¯Ù‡ Ø¹Ù† Ø§Ù„Ø¨Ø´Ø±Ø© ÙˆØ§Ù„ï¿½Â…Ø³Ø§Ø¹Ø¯Ø© Ø¹Ù„Ù‰ Ø§Ù„Ø´Ø¹ÙˆØ± Ø¨Ø§Ù„Ø¬ÙØ§Ù."
-                                                                    }
-                                                },
-                                                {
-                                                    "icon":  "protection",
-                                                    "title":  {
-                                                                  "en":  "Side leakage barriers",
-                                                                  "ar":  "Ø­ÙˆØ§Ø¬Ø² Ø¬Ø§Ù†Ø¨ÙŠØ© ï¿½Â…Ø§Ù†Ø¹Ø© Ù„Ù„ØªØ³Ø±ÙŠØ¨"
-                                                              },
-                                                    "description":  {
-                                                                        "en":  "Non-absorbent side barriers help prevent leakage from the pad sides.",
-                                                                        "ar":  "Ø­ÙˆØ§Ø¬Ø² Ø¬Ø§Ù†Ø¨ÙŠØ© ØºÙŠØ± ï¿½Â…Ø§ØµØ© ØªØ³Ø§Ø¹Ø¯ Ø¹Ù„Ù‰ ï¿½Â…Ù†Ø¹ Ø§Ù„ØªØ³Ø±ÙŠØ¨ ï¿½Â…Ù† Ø§Ù„Ø¬ÙˆØ§Ù†Ø¨."
-                                                                    }
-                                                },
-                                                {
-                                                    "icon":  "materials",
-                                                    "title":  {
-                                                                  "en":  "Wrapped cotton core",
-                                                                  "ar":  "Ø­Ø´ÙˆØ© Ù‚Ø·Ù†ÙŠØ© ï¿½Â…Ù„ÙÙˆÙØ©"
-                                                              },
-                                                    "description":  {
-                                                                        "en":  "The cotton core is wrapped with an additional layer to help prevent clumping.",
-                                                                        "ar":  "Øªï¿½Â… Ù„Ù Ù‚Ø·Ù† Ø§Ù„Ø­Ø´ÙˆØ© Ø¨Ø·Ø¨Ù‚Ø© Ø¥Ø¶Ø§ÙÙŠØ© ï¿½Â…Ù†Ø§Ø³Ø¨Ø© Ù„Ù„ï¿½Â…Ø³Ø§Ø¹Ø¯Ø© Ø¹Ù„Ù‰ ï¿½Â…Ù†Ø¹ ØªÙƒØªÙ„ Ø§Ù„Ù‚Ø·Ù†."
-                                                                    }
-                                                },
-                                                {
-                                                    "icon":  "packaging",
-                                                    "title":  {
-                                                                  "en":  "UV sterilized, no fragrance",
-                                                                  "ar":  "ØªØ¹Ù‚ÙŠï¿½Â… UV Ø¨Ø¯ÙˆÙ† Ø¹Ø·ÙˆØ±"
-                                                              },
-                                                    "description":  {
-                                                                        "en":  "UV sterilization and fragrance-free production help support protection for sensitive skin.",
-                                                                        "ar":  "Ù„Ø²ÙŠØ§Ø¯Ø© Ø§Ù„Ø­ï¿½Â…Ø§ÙŠØ© ï¿½Â…Ù† Ø§Ù„Ø­Ø³Ø§Ø³ÙŠØ© ÙŠØªï¿½Â… ØªØ¹Ù‚ÙŠï¿½Â… Ø§Ù„ÙÙˆØ·Ø© Ø¨ØªÙ‚Ù†ÙŠØ© UV Ø¯ÙˆÙ† Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø£ÙŠ ï¿½Â…ÙˆØ§Ø¯ Ø¹Ø·Ø±ÙŠØ©."
-                                                                    }
-                                                }
-                                            ],
-                         "sizes":  [
-                                       {
-                                           "label":  {
-                                                         "en":  "N",
-                                                         "ar":  "N"
-                                                     },
-                                           "value":  {
-                                                         "en":  "Normal",
-                                                         "ar":  "Ù†ÙˆØ±ï¿½Â…Ø§Ù„"
-                                                     },
-                                           "note":  {
-                                                        "en":  "Normal",
-                                                        "ar":  "Ù†ÙˆØ±ï¿½Â…Ø§Ù„"
-                                                    },
-                                           "description":  {
-                                                               "en":  "A thick everyday HQ+ sanitary pad with wings for secure fixation, comfort, and leakage protection.",
-                                                               "ar":  "ÙÙˆØ·Ø© Ø¢ØªØ´ ÙƒÙŠÙˆ Ø§Ù„Ø³ï¿½Â…ÙŠÙƒØ© Ù„Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø§Ù„ÙŠÙˆï¿½Â…ÙŠ ï¿½Â…Ø¹ Ø£Ø¬Ù†Ø­Ø© Ø¬Ø§Ù†Ø¨ÙŠØ© Ù„ØªØ«Ø¨ÙŠØª Ø£ÙØ¶Ù„ ÙˆØ±Ø§Ø­Ø© ÙˆØ­ï¿½Â…Ø§ÙŠØ© ï¿½Â…Ù† Ø§Ù„ØªØ³Ø±ÙŠØ¨."
-                                                           },
-                                           "image":  "/images/standardized/product-options/hq-normal.png"
-                                       },
-                                       {
-                                           "label":  {
-                                                         "en":  "S",
-                                                         "ar":  "S"
-                                                     },
-                                           "value":  {
-                                                         "en":  "Super",
-                                                         "ar":  "Ø³ÙˆØ¨Ø±"
-                                                     },
-                                           "note":  {
-                                                        "en":  "Super",
-                                                        "ar":  "Ø³ÙˆØ¨Ø±"
-                                                    },
-                                           "description":  {
-                                                               "en":  "Designed for stronger protection with fast absorption support, side barriers, and comfortable coverage.",
-                                                               "ar":  "ï¿½Â…Øµï¿½Â…ï¿½Â…Ø© Ù„Ø­ï¿½Â…Ø§ÙŠØ© Ø£Ù‚ÙˆÙ‰ ï¿½Â…Ø¹ Ø¯Ø¹ï¿½Â… Ø³Ø±Ø¹Ø© Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ ÙˆØ­ÙˆØ§Ø¬Ø² Ø¬Ø§Ù†Ø¨ÙŠØ© ÙˆØªØºØ·ÙŠØ© ï¿½Â…Ø±ÙŠØ­Ø©."
-                                                           },
-                                           "image":  "/images/standardized/product-options/hq-super.png"
-                                       },
-                                       {
-                                           "label":  {
-                                                         "en":  "S+",
-                                                         "ar":  "S+"
-                                                     },
-                                           "value":  {
-                                                         "en":  "Super Plus",
-                                                         "ar":  "Ø³ÙˆØ¨Ø± Ø¨Ù„Ø§Ø³"
-                                                     },
-                                           "note":  {
-                                                        "en":  "Super Plus",
-                                                        "ar":  "Ø³ÙˆØ¨Ø± Ø¨Ù„Ø§Ø³"
-                                                    },
-                                           "description":  {
-                                                               "en":  "A higher-protection option with super absorbent gel, deep distribution channels, and cotton-like softness.",
-                                                               "ar":  "Ø®ÙŠØ§Ø± Ø­ï¿½Â…Ø§ÙŠØ© Ø£Ø¹Ù„Ù‰ ï¿½Â…Ø¹ Ø¬Ù„ ÙØ§Ø¦Ù‚ Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ ÙˆØ£Ù‚Ù†ÙŠØ© ØªÙˆØ²ÙŠØ¹ Ø¹ï¿½Â…ÙŠÙ‚Ø© Ùˆï¿½Â…Ù„ï¿½Â…Ø³ Ù†Ø§Ø¹ï¿½Â… Ø´Ø¨ÙŠÙ‡ Ø¨Ø§Ù„Ù‚Ø·Ù†."
-                                                           },
-                                           "image":  "/images/standardized/product-options/hq-super-plus.png"
-                                       },
-                                       {
-                                           "label":  {
-                                                         "en":  "GN",
-                                                         "ar":  "GN"
-                                                     },
-                                           "value":  {
-                                                         "en":  "Goodnight",
-                                                         "ar":  "Ù„ÙŠÙ„ÙŠ"
-                                                     },
-                                           "note":  {
-                                                        "en":  "Goodnight",
-                                                        "ar":  "Ù„ÙŠÙ„ÙŠ"
-                                                    },
-                                           "description":  {
-                                                               "en":  "Night protection made for longer wear, dependable dryness, and secure comfort while resting.",
-                                                               "ar":  "Ø­ï¿½Â…Ø§ÙŠØ© Ù„ÙŠÙ„ÙŠØ© ï¿½Â…Øµï¿½Â…ï¿½Â…Ø© Ù„Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø§Ù„Ø£Ø·ÙˆÙ„ ï¿½Â…Ø¹ Ø¬ÙØ§Ù ï¿½Â…ÙˆØ«ÙˆÙ‚ ÙˆØ±Ø§Ø­Ø© Ø¢ï¿½Â…Ù†Ø© Ø£Ø«Ù†Ø§Ø¡ Ø§Ù„Ø±Ø§Ø­Ø©."
-                                                           },
-                                           "image":  "/images/standardized/product-options/hq-goodnight.png"
-                                       }
-                                   ],
-                         "faqs":  [
-                                      {
-                                          "question":  {
-                                                           "en":  "Which HQ+ sanitary pad options are available?",
-                                                           "ar":  "ï¿½Â…Ø§ Ø§Ù„Ø®ÙŠØ§Ø±Ø§Øª Ø§Ù„ï¿½Â…ØªÙˆÙØ±Ø© ï¿½Â…Ù† ÙÙˆØ· Ø¢ØªØ´ ÙƒÙŠÙˆØŸ"
-                                                       },
-                                          "answer":  {
-                                                         "en":  "HQ+ thick sanitary pads are available in Normal, Super, Super Plus, and Goodnight options for different daily and night protection needs.",
-                                                         "ar":  "ØªØªÙˆÙØ± ÙÙˆØ· Ø¢ØªØ´ ÙƒÙŠÙˆ Ø§Ù„Ø³ï¿½Â…ÙŠÙƒØ© Ø¨Ø®ÙŠØ§Ø±Ø§Øª Ù†ÙˆØ±ï¿½Â…Ø§Ù„ØŒ Ø³ÙˆØ¨Ø±ØŒ Ø³ÙˆØ¨Ø± Ø¨Ù„Ø§Ø³ØŒ ÙˆÙ„ÙŠÙ„ÙŠ Ù„ØªÙ†Ø§Ø³Ø¨ Ø§Ø­ØªÙŠØ§Ø¬Ø§Øª Ø§Ù„Ø­ï¿½Â…Ø§ÙŠØ© Ø§Ù„ÙŠÙˆï¿½Â…ÙŠØ© ÙˆØ§Ù„Ù„ÙŠÙ„ÙŠØ© Ø§Ù„ï¿½Â…Ø®ØªÙ„ÙØ©."
-                                                     }
-                                      },
-                                      {
-                                          "question":  {
-                                                           "en":  "What helps HQ+ reduce leakage?",
-                                                           "ar":  "ï¿½Â…Ø§ Ø§Ù„Ø°ÙŠ ÙŠØ³Ø§Ø¹Ø¯ Ø¢ØªØ´ ÙƒÙŠÙˆ Ø¹Ù„Ù‰ ØªÙ‚Ù„ÙŠÙ„ Ø§Ù„ØªØ³Ø±ÙŠØ¨ØŸ"
-                                                       },
-                                          "answer":  {
-                                                         "en":  "HQ+ uses side wings, an ADL fast-absorption layer, deep distribution channels, super absorbent gel, and side leakage barriers to support better protection.",
-                                                         "ar":  "ØªØ¹Øªï¿½Â…Ø¯ Ø¢ØªØ´ ÙƒÙŠÙˆ Ø¹Ù„Ù‰ Ø£Ø¬Ù†Ø­Ø© Ø¬Ø§Ù†Ø¨ÙŠØ©ØŒ ÙˆØ·Ø¨Ù‚Ø© ADL Ø³Ø±ÙŠØ¹Ø© Ø§Ù„Ø§ï¿½Â…ØªØµØ§ØµØŒ ÙˆØ£Ù‚Ù†ÙŠØ© ØªÙˆØ²ÙŠØ¹ Ø¹ï¿½Â…ÙŠÙ‚Ø©ØŒ ÙˆØ¬Ù„ ÙØ§Ø¦Ù‚ Ø§Ù„Ø§ï¿½Â…ØªØµØ§ØµØŒ ÙˆØ­ÙˆØ§Ø¬Ø² Ø¬Ø§Ù†Ø¨ÙŠØ© Ù„Ù„ï¿½Â…Ø³Ø§Ø¹Ø¯Ø© Ø¹Ù„Ù‰ Ø­ï¿½Â…Ø§ÙŠØ© Ø£ÙØ¶Ù„."
-                                                     }
-                                      },
-                                      {
-                                          "question":  {
-                                                           "en":  "Are HQ+ pads fragrance-free?",
-                                                           "ar":  "Ù‡Ù„ ÙÙˆØ· Ø¢ØªØ´ ÙƒÙŠÙˆ Ø®Ø§Ù„ÙŠØ© ï¿½Â…Ù† Ø§Ù„Ø¹Ø·ÙˆØ±ØŸ"
-                                                       },
-                                          "answer":  {
-                                                         "en":  "Yes. HQ+ pads are presented as fragrance-free and UV sterilized to support comfort for sensitive skin.",
-                                                         "ar":  "Ù†Ø¹ï¿½Â…. ÙŠØªï¿½Â… ØªÙ‚Ø¯ÙŠï¿½Â… ÙÙˆØ· Ø¢ØªØ´ ÙƒÙŠÙˆ Ø¨Ø£Ù†Ù‡Ø§ Ø®Ø§Ù„ÙŠØ© ï¿½Â…Ù† Ø§Ù„ï¿½Â…ÙˆØ§Ø¯ Ø§Ù„Ø¹Ø·Ø±ÙŠØ© Ùˆï¿½Â…Ø¹Ù‚ï¿½Â…Ø© Ø¨ØªÙ‚Ù†ÙŠØ© UV Ù„Ø¯Ø¹ï¿½Â… Ø§Ù„Ø±Ø§Ø­Ø© Ù„Ù„Ø¨Ø´Ø±Ø© Ø§Ù„Ø­Ø³Ø§Ø³Ø©."
-                                                     }
-                                      },
-                                      {
-                                          "question":  {
-                                                           "en":  "How do I choose between Normal, Super, Super Plus, and Goodnight?",
-                                                           "ar":  "ÙƒÙŠÙ Ø£Ø®ØªØ§Ø± Ø¨ÙŠÙ† Ù†ÙˆØ±ï¿½Â…Ø§Ù„ ÙˆØ³ÙˆØ¨Ø± ÙˆØ³ÙˆØ¨Ø± Ø¨Ù„Ø§Ø³ ÙˆÙ„ÙŠÙ„ÙŠØŸ"
-                                                       },
-                                          "answer":  {
-                                                         "en":  "Choose Normal for regular daily use, Super or Super Plus when stronger protection is preferred, and Goodnight for night use or longer wear.",
-                                                         "ar":  "Ø§Ø®ØªØ§Ø±ÙŠ Ù†ÙˆØ±ï¿½Â…Ø§Ù„ Ù„Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø§Ù„ÙŠÙˆï¿½Â…ÙŠ Ø§Ù„Ø¹Ø§Ø¯ÙŠØŒ ÙˆØ³ÙˆØ¨Ø± Ø£Ùˆ Ø³ÙˆØ¨Ø± Ø¨Ù„Ø§Ø³ Ø¹Ù†Ø¯ Ø§Ù„Ø­Ø§Ø¬Ø© Ø¥Ù„Ù‰ Ø­ï¿½Â…Ø§ÙŠØ© Ø£Ù‚ÙˆÙ‰ØŒ ÙˆÙ„ÙŠÙ„ÙŠ Ù„Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø§Ù„Ù„ÙŠÙ„ÙŠ Ø£Ùˆ Ù„ÙØªØ±Ø© Ø£Ø·ÙˆÙ„."
-                                                     }
-                                      }
-                                  ]
-                     },
-                     {
-                         "slug":  "tizkar",
-                         "title":  {
-                                       "en":  "Tizkar",
-                                       "ar":  "ØªØ°ÙƒØ§Ø±"
-                                   },
-                         "category":  {
-                                          "en":  "Facial Tissues and Wipes",
-                                          "ar":  "ï¿½Â…Ø­Ø§Ø±ï¿½Â… Ùˆï¿½Â…Ù†Ø§Ø¯ÙŠÙ„"
-                                      },
-                         "image":  "/images/standardized/product-cards/tizkar.png",
-                         "cardImage":  "/images/standardized/product-cards/tizkar.png",
-                         "bannerImage":  "/images/standardized/banners/tizkar.png",
-                         "bannerSize":  {
-                                            "width":  2400,
-                                            "height":  460
-                                        },
-                         "logo":  "/images/standardized/logos/tizkar.png",
-                         "excerpt":  {
-                                         "en":  "Soft facial tissues and wipes made for clean, comfortable family routines.",
-                                         "ar":  "ï¿½Â…Ø­Ø§Ø±ï¿½Â… Ùˆï¿½Â…Ù†Ø§Ø¯ÙŠÙ„ Ù†Ø§Ø¹ï¿½Â…Ø© Ù„Ø¹Ù†Ø§ÙŠØ© Ø¹Ø§Ø¦Ù„ÙŠØ© Ù†Ø¸ÙŠÙØ© Ùˆï¿½Â…Ø±ÙŠØ­Ø©."
-                                     },
-                         "description":  {
-                                             "en":  "Tizkar facial tissues are soft, high-quality products made from 100% natural cellulose for cleanliness and comfort. The range includes multiple weights and drying tissues for different everyday needs.",
-                                             "ar":  "ØªØ°ÙƒØ§Ø± ï¿½Â…Ø­Ø§Ø±ï¿½Â… ÙˆØ¬Ù‡ Ù†Ø§Ø¹ï¿½Â…Ø© ÙˆØ¹Ø§Ù„ÙŠØ© Ø§Ù„Ø¬ÙˆØ¯Ø©ØŒ ï¿½Â…ØµÙ†ÙˆØ¹Ø© ï¿½Â…Ù† Ø§Ù„Ø³ÙŠÙ„ÙŠÙ„ÙˆØ² Ø§Ù„Ø·Ø¨ÙŠØ¹ÙŠ Ø¨Ù†Ø³Ø¨Ø© 100% Ù„ØªÙˆÙÙŠØ± Ø§Ù„Ù†Ø¸Ø§ÙØ© ÙˆØ§Ù„Ø±Ø§Ø­Ø©. ØªØªÙˆÙØ± Ø¨Ø¹Ø¯Ø© Ø£ÙˆØ²Ø§Ù†ØŒ Ø¥Ø¶Ø§ÙØ©Ù‹ Ø¥Ù„Ù‰ ï¿½Â…Ø­Ø§Ø±ï¿½Â… ØªÙ†Ø´ÙŠÙ Ø¹Ø§Ù„ÙŠØ© Ø§Ù„Ø¬ÙˆØ¯Ø© ØªÙ„Ø¨ÙŠ ï¿½Â…Ø®ØªÙ„Ù Ø§Ù„Ø§Ø­ØªÙŠØ§Ø¬Ø§Øª."
-                                         },
-                         "features":  [
-                                          {
-                                              "icon":  "materials",
-                                              "title":  {
-                                                            "en":  "Natural cellulose",
-                                                            "ar":  "Ø³Ù„ÙŠÙ„ÙˆØ² Ø·Ø¨ÙŠØ¹ÙŠ"
-                                                        },
-                                              "description":  {
-                                                                  "en":  "Made with 100% natural cellulose for softness and cleanliness.",
-                                                                  "ar":  "ï¿½Â…ØµÙ†ÙˆØ¹Ø© ï¿½Â…Ù† Ø§Ù„Ø³Ù„ÙŠÙ„ÙˆØ² Ø§Ù„Ø·Ø¨ÙŠØ¹ÙŠ Ø¨Ù†Ø³Ø¨Ø© 100% Ù„Ù„Ù†Ø¹Ùˆï¿½Â…Ø© ÙˆØ§Ù„Ù†Ø¸Ø§ÙØ©."
-                                                              }
-                                          },
-                                          {
-                                              "icon":  "softness",
-                                              "title":  {
-                                                            "en":  "Soft daily feel",
-                                                            "ar":  "Ù†Ø¹Ùˆï¿½Â…Ø© Ù„Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø§Ù„ÙŠÙˆï¿½Â…ÙŠ"
-                                                        },
-                                              "description":  {
-                                                                  "en":  "Designed for face, home, office, and family routines.",
-                                                                  "ar":  "ï¿½Â…Øµï¿½Â…ï¿½Â…Ø© Ù„Ù„ÙˆØ¬Ù‡ ÙˆØ§Ù„ï¿½Â…Ù†Ø²Ù„ ÙˆØ§Ù„ï¿½Â…ÙƒØªØ¨ ÙˆØ±ÙˆØªÙŠÙ† Ø§Ù„Ø¹Ø§Ø¦Ù„Ø© Ø§Ù„ÙŠÙˆï¿½Â…ÙŠ."
-                                                              }
-                                          },
-                                          {
-                                              "icon":  "packaging",
-                                              "title":  {
-                                                            "en":  "Multiple formats",
-                                                            "ar":  "ØªÙ†Ø³ÙŠÙ‚Ø§Øª ï¿½Â…ØªØ¹Ø¯Ø¯Ø©"
-                                                        },
-                                              "description":  {
-                                                                  "en":  "Available in different weights and package formats.",
-                                                                  "ar":  "ï¿½Â…ØªÙˆÙØ±Ø© Ø¨Ø£ÙˆØ²Ø§Ù† ÙˆØªÙ†Ø³ÙŠÙ‚Ø§Øª ØªØ¹Ø¨Ø¦Ø© ï¿½Â…Ø®ØªÙ„ÙØ©."
-                                                              }
-                                          }
-                                      ],
-                         "sizes":  [
-                                       {
-                                           "label":  {
-                                                         "en":  "Facial",
-                                                         "ar":  "ÙˆØ¬Ù‡"
-                                                     },
-                                           "value":  {
-                                                         "en":  "Facial tissues",
-                                                         "ar":  "ï¿½Â…Ø­Ø§Ø±ï¿½Â… ÙˆØ¬Ù‡"
-                                                     },
-                                           "note":  {
-                                                        "en":  "Soft facial tissues",
-                                                        "ar":  "ï¿½Â…Ø­Ø§Ø±ï¿½Â… ÙˆØ¬Ù‡ Ù†Ø§Ø¹ï¿½Â…Ø©"
-                                                    },
-                                           "description":  {
-                                                               "en":  "Soft Tizkar facial tissues made for daily home, office, and family use.",
-                                                               "ar":  "ï¿½Â…Ø­Ø§Ø±ï¿½Â… ÙˆØ¬Ù‡ ØªØ°ÙƒØ§Ø± Ù†Ø§Ø¹ï¿½Â…Ø© ï¿½Â…Øµï¿½Â…ï¿½Â…Ø© Ù„Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø§Ù„ÙŠÙˆï¿½Â…ÙŠ ÙÙŠ Ø§Ù„ï¿½Â…Ù†Ø²Ù„ ÙˆØ§Ù„ï¿½Â…ÙƒØªØ¨ Ùˆï¿½Â…Ø¹ Ø§Ù„Ø¹Ø§Ø¦Ù„Ø©."
-                                                           },
-                                           "image":  "/images/standardized/product-options/tizkar-facial.png"
-                                       },
-                                       {
-                                           "label":  {
-                                                         "en":  "Drying",
-                                                         "ar":  "ØªÙ†Ø´ÙŠÙ"
-                                                     },
-                                           "value":  {
-                                                         "en":  "Drying tissues",
-                                                         "ar":  "ï¿½Â…Ø­Ø§Ø±ï¿½Â… ØªÙ†Ø´ÙŠÙ"
-                                                     },
-                                           "note":  {
-                                                        "en":  "Drying tissues",
-                                                        "ar":  "ï¿½Â…Ø­Ø§Ø±ï¿½Â… ØªÙ†Ø´ÙŠÙ"
-                                                    },
-                                           "description":  {
-                                                               "en":  "Practical drying tissues for clean daily routines and different care needs.",
-                                                               "ar":  "ï¿½Â…Ø­Ø§Ø±ï¿½Â… ØªÙ†Ø´ÙŠÙ Ø¹ï¿½Â…Ù„ÙŠØ© Ù„Ø±ÙˆØªÙŠÙ† ÙŠÙˆï¿½Â…ÙŠ Ù†Ø¸ÙŠÙ ÙˆØ§Ø­ØªÙŠØ§Ø¬Ø§Øª Ø¹Ù†Ø§ÙŠØ© ï¿½Â…Ø®ØªÙ„ÙØ©."
-                                                           },
-                                           "image":  "/images/standardized/product-options/tizkar-drying.png"
-                                       }
-                                   ],
-                         "faqs":  [
-                                      {
-                                          "question":  {
-                                                           "en":  "Which Tizkar products are available?",
-                                                           "ar":  "ï¿½Â…Ø§ ï¿½Â…Ù†ØªØ¬Ø§Øª ØªØ°ÙƒØ§Ø± Ø§Ù„ï¿½Â…ØªÙˆÙØ±Ø©ØŸ"
-                                                       },
-                                          "answer":  {
-                                                         "en":  "Tizkar includes soft facial tissues and practical drying tissues for daily home, office, and family care routines.",
-                                                         "ar":  "ØªØ¶ï¿½Â… ØªØ°ÙƒØ§Ø± ï¿½Â…Ø­Ø§Ø±ï¿½Â… ÙˆØ¬Ù‡ Ù†Ø§Ø¹ï¿½Â…Ø© Ùˆï¿½Â…Ø­Ø§Ø±ï¿½Â… ØªÙ†Ø´ÙŠÙ Ø¹ï¿½Â…Ù„ÙŠØ© Ù„Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø§Ù„ÙŠÙˆï¿½Â…ÙŠ ÙÙŠ Ø§Ù„ï¿½Â…Ù†Ø²Ù„ ÙˆØ§Ù„ï¿½Â…ÙƒØªØ¨ ÙˆØ±ÙˆØªÙŠÙ† Ø§Ù„Ø¹Ù†Ø§ÙŠØ© Ø§Ù„Ø¹Ø§Ø¦Ù„ÙŠØ©."
-                                                     }
-                                      },
-                                      {
-                                          "question":  {
-                                                           "en":  "What are Tizkar facial tissues made from?",
-                                                           "ar":  "ï¿½Â…ï¿½Â… ØªØµÙ†Ø¹ ï¿½Â…Ø­Ø§Ø±ï¿½Â… ÙˆØ¬Ù‡ ØªØ°ÙƒØ§Ø±ØŸ"
-                                                       },
-                                          "answer":  {
-                                                         "en":  "Tizkar facial tissues are presented as high-quality tissues made from 100% natural cellulose for softness and cleanliness.",
-                                                         "ar":  "ØªÙ‚Ø¯ï¿½Â… ï¿½Â…Ø­Ø§Ø±ï¿½Â… ÙˆØ¬Ù‡ ØªØ°ÙƒØ§Ø± Ùƒï¿½Â…Ù†ØªØ¬Ø§Øª Ø¹Ø§Ù„ÙŠØ© Ø§Ù„Ø¬ÙˆØ¯Ø© ï¿½Â…ØµÙ†ÙˆØ¹Ø© ï¿½Â…Ù† Ø§Ù„Ø³Ù„ÙŠÙ„ÙˆØ² Ø§Ù„Ø·Ø¨ÙŠØ¹ÙŠ Ø¨Ù†Ø³Ø¨Ø© 100% Ù„ØªÙˆÙÙŠØ± Ø§Ù„Ù†Ø¹Ùˆï¿½Â…Ø© ÙˆØ§Ù„Ù†Ø¸Ø§ÙØ©."
-                                                     }
-                                      },
-                                      {
-                                          "question":  {
-                                                           "en":  "Where can Tizkar tissues be used?",
-                                                           "ar":  "Ø£ÙŠÙ† ÙŠï¿½Â…ÙƒÙ† Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… ï¿½Â…Ø­Ø§Ø±ï¿½Â… ØªØ°ÙƒØ§Ø±ØŸ"
-                                                       },
-                                          "answer":  {
-                                                         "en":  "They are suitable for everyday use at home, in offices, in family spaces, and during practical cleaning or drying routines.",
-                                                         "ar":  "ØªÙ†Ø§Ø³Ø¨ Ø§Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø§Ù„ÙŠÙˆï¿½Â…ÙŠ ÙÙŠ Ø§Ù„ï¿½Â…Ù†Ø²Ù„ ÙˆØ§Ù„ï¿½Â…ÙƒØ§ØªØ¨ ÙˆØ§Ù„ï¿½Â…Ø³Ø§Ø­Ø§Øª Ø§Ù„Ø¹Ø§Ø¦Ù„ÙŠØ©ØŒ Ø¥Ø¶Ø§ÙØ© Ø¥Ù„Ù‰ Ø±ÙˆØªÙŠÙ† Ø§Ù„ØªÙ†Ø¸ÙŠÙ Ø£Ùˆ Ø§Ù„ØªÙ†Ø´ÙŠÙ Ø§Ù„Ø¹ï¿½Â…Ù„ÙŠ."
-                                                     }
-                                      },
-                                      {
-                                          "question":  {
-                                                           "en":  "What is the difference between facial and drying tissues?",
-                                                           "ar":  "ï¿½Â…Ø§ Ø§Ù„ÙØ±Ù‚ Ø¨ÙŠÙ† ï¿½Â…Ø­Ø§Ø±ï¿½Â… Ø§Ù„ÙˆØ¬Ù‡ Ùˆï¿½Â…Ø­Ø§Ø±ï¿½Â… Ø§Ù„ØªÙ†Ø´ÙŠÙØŸ"
-                                                       },
-                                          "answer":  {
-                                                         "en":  "Facial tissues focus on soft everyday contact, while drying tissues are made for more practical drying and care tasks.",
-                                                         "ar":  "ØªØ±ÙƒØ² ï¿½Â…Ø­Ø§Ø±ï¿½Â… Ø§Ù„ÙˆØ¬Ù‡ Ø¹Ù„Ù‰ Ø§Ù„Ù†Ø¹Ùˆï¿½Â…Ø© Ù„Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø§Ù„ÙŠÙˆï¿½Â…ÙŠØŒ Ø¨ÙŠÙ†ï¿½Â…Ø§ Øµï¿½Â…ï¿½Â…Øª ï¿½Â…Ø­Ø§Ø±ï¿½Â… Ø§Ù„ØªÙ†Ø´ÙŠÙ Ù„Ù„ï¿½Â…Ù‡Ø§ï¿½Â… Ø§Ù„Ø¹ï¿½Â…Ù„ÙŠØ© Ø§Ù„Ø®Ø§ØµØ© Ø¨Ø§Ù„ØªÙ†Ø´ÙŠÙ ÙˆØ§Ù„Ø¹Ù†Ø§ÙŠØ©."
-                                                     }
-                                      }
-                                  ]
-                     },
-                     {
-                         "slug":  "fantash",
-                         "title":  {
-                                       "en":  "Fantash",
-                                       "ar":  "ÙÙ†Ø·Ø´"
-                                   },
-                         "category":  {
-                                          "en":  "Baby Diapers",
-                                          "ar":  "Ø­ÙØ§Ø¶Ø§Øª Ø§Ù„Ø£Ø·ÙØ§Ù„"
-                                      },
-                         "image":  "/images/standardized/product-cards/fantash.png",
-                         "logo":  "/images/standardized/logos/fantash.png",
-                         "excerpt":  {
-                                         "en":  "Baby diapers combining practical quality, strong absorption, and accessible value.",
-                                         "ar":  "ÙÙˆØ· Ø£Ø·ÙØ§Ù„ ØªØ¬ï¿½Â…Ø¹ Ø¨ÙŠÙ† Ø§Ù„Ø¬ÙˆØ¯Ø©ØŒ Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ Ø§Ù„Ù‚ÙˆÙŠØŒ ÙˆØ§Ù„Ø³Ø¹Ø± Ø§Ù„ï¿½Â…Ù†Ø§Ø³Ø¨."
-                                     },
-                         "description":  {
-                                             "en":  "Fantash baby diapers combine quality and value with a high-absorption core that helps protect from leakage for up to 12 hours. A fast-absorption layer keeps the surface dry, while deep channels distribute wetness across the core.",
-                                             "ar":  "ÙÙ†Ø·Ø´ ÙÙˆØ· Ø£Ø·ÙØ§Ù„ ï¿½Â…Ù† Ø§Ù„Ø£ÙƒØ«Ø± Ø§Ù†ØªØ´Ø§Ø±Ø§Ù‹ Ùˆï¿½Â…Ø¨ÙŠØ¹Ø§Ù‹ ÙÙŠ Ø³ÙˆØ±ÙŠØ§ØŒ ØªØ¬ï¿½Â…Ø¹ Ø¨ÙŠÙ† Ø§Ù„Ø¬ÙˆØ¯Ø© ÙˆØ§Ù„Ø³Ø¹Ø± Ø§Ù„ï¿½Â…Ù†Ø§Ø³Ø¨. ØªØªï¿½Â…ÙŠØ² Ø¨Ø­Ø´ÙˆØ© Ø¹Ø§Ù„ÙŠØ© Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ ØªÙˆÙØ± Ø­ï¿½Â…Ø§ÙŠØ© ï¿½Â…Ù† Ø§Ù„ØªØ³Ø±ÙŠØ¨ Ø­ØªÙ‰ 12 Ø³Ø§Ø¹Ø©ØŒ ÙˆØ·Ø¨Ù‚Ø© Ø³Ø±ÙŠØ¹Ø© Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ ØªØ­Ø§ÙØ¸ Ø¹Ù„Ù‰ Ø¬ÙØ§Ù Ø³Ø·Ø­ Ø§Ù„ÙÙˆØ·Ø©."
-                                         },
-                         "features":  [
-                                          {
-                                              "icon":  "absorption",
-                                              "title":  {
-                                                            "en":  "Up to 12-hour protection",
-                                                            "ar":  "Ø­ï¿½Â…Ø§ÙŠØ© Ø­ØªÙ‰ 12 Ø³Ø§Ø¹Ø©"
-                                                        },
-                                              "description":  {
-                                                                  "en":  "High-absorption structure designed for dependable everyday care.",
-                                                                  "ar":  "Ø¨Ù†ÙŠØ© Ø¹Ø§Ù„ÙŠØ© Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ ï¿½Â…Øµï¿½Â…ï¿½Â…Ø© Ù„Ø¹Ù†Ø§ÙŠØ© ÙŠÙˆï¿½Â…ÙŠØ© ÙŠï¿½Â…ÙƒÙ† Ø§Ù„Ø§Ø¹Øªï¿½Â…Ø§Ø¯ Ø¹Ù„ÙŠÙ‡Ø§."
-                                                              }
-                                          },
-                                          {
-                                              "icon":  "dryness",
-                                              "title":  {
-                                                            "en":  "Fast dry layer",
-                                                            "ar":  "Ø·Ø¨Ù‚Ø© Ø¬ÙØ§Ù Ø³Ø±ÙŠØ¹Ø©"
-                                                        },
-                                              "description":  {
-                                                                  "en":  "Helps keep the diaper surface drier after absorption.",
-                                                                  "ar":  "ØªØ³Ø§Ø¹Ø¯ Ø¹Ù„Ù‰ Ø¥Ø¨Ù‚Ø§Ø¡ Ø³Ø·Ø­ Ø§Ù„Ø­ÙØ§Ø¶ Ø£ÙƒØ«Ø± Ø¬ÙØ§ÙØ§Ù‹ Ø¨Ø¹Ø¯ Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ."
-                                                              }
-                                          },
-                                          {
-                                              "icon":  "protection",
-                                              "title":  {
-                                                            "en":  "Deep distribution channels",
-                                                            "ar":  "Ù‚Ù†ÙˆØ§Øª ØªÙˆØ²ÙŠØ¹ Ø¹ï¿½Â…ÙŠÙ‚Ø©"
-                                                        },
-                                              "description":  {
-                                                                  "en":  "Designed to move wetness through the core more evenly.",
-                                                                  "ar":  "ï¿½Â…Øµï¿½Â…ï¿½Â…Ø© Ù„ØªÙˆØ²ÙŠØ¹ Ø§Ù„Ø¨Ù„Ù„ Ø¯Ø§Ø®Ù„ Ø§Ù„Ø­Ø´ÙˆØ© Ø¨Ø´ÙƒÙ„ Ø£ÙƒØ«Ø± ØªÙˆØ§Ø²Ù†Ø§Ù‹."
-                                                              }
-                                          }
-                                      ],
-                         "sizes":  [
-                                       {
-                                           "label":  {
-                                                         "en":  "NB",
-                                                         "ar":  "NB"
-                                                     },
-                                           "value":  {
-                                                         "en":  "2-5 kg",
-                                                         "ar":  "2-5 ÙƒØº"
-                                                     },
-                                           "note":  {
-                                                        "en":  "Newborn",
-                                                        "ar":  "Ø­Ø¯ÙŠØ« Ø§Ù„ÙˆÙ„Ø§Ø¯Ø©"
-                                                    }
-                                       },
-                                       {
-                                           "label":  {
-                                                         "en":  "S",
-                                                         "ar":  "S"
-                                                     },
-                                           "value":  {
-                                                         "en":  "3-6 kg",
-                                                         "ar":  "3-6 ÙƒØº"
-                                                     },
-                                           "note":  {
-                                                        "en":  "Small",
-                                                        "ar":  "ØµØºÙŠØ±"
-                                                    }
-                                       },
-                                       {
-                                           "label":  {
-                                                         "en":  "M",
-                                                         "ar":  "M"
-                                                     },
-                                           "value":  {
-                                                         "en":  "5-9 kg",
-                                                         "ar":  "5-9 ÙƒØº"
-                                                     },
-                                           "note":  {
-                                                        "en":  "Medium",
-                                                        "ar":  "ÙˆØ³Ø·"
-                                                    }
-                                       },
-                                       {
-                                           "label":  {
-                                                         "en":  "L",
-                                                         "ar":  "L"
-                                                     },
-                                           "value":  {
-                                                         "en":  "9-15 kg",
-                                                         "ar":  "9-15 ÙƒØº"
-                                                     },
-                                           "note":  {
-                                                        "en":  "Large",
-                                                        "ar":  "ÙƒØ¨ÙŠØ±"
-                                                    }
-                                       },
-                                       {
-                                           "label":  {
-                                                         "en":  "XL",
-                                                         "ar":  "XL"
-                                                     },
-                                           "value":  {
-                                                         "en":  "12-19 kg",
-                                                         "ar":  "12-19 ÙƒØº"
-                                                     },
-                                           "note":  {
-                                                        "en":  "X-Large",
-                                                        "ar":  "ÙƒØ¨ÙŠØ± Ø¬Ø¯Ø§Ù‹"
-                                                    }
-                                       },
-                                       {
-                                           "label":  {
-                                                         "en":  "XXL",
-                                                         "ar":  "XXL"
-                                                     },
-                                           "value":  {
-                                                         "en":  "15-22 kg",
-                                                         "ar":  "15-22 ÙƒØº"
-                                                     },
-                                           "note":  {
-                                                        "en":  "XX-Large",
-                                                        "ar":  "ÙƒØ¨ÙŠØ± Ø¬Ø¯Ø§Ù‹ 2"
-                                                    }
-                                       }
-                                   ],
-                         "cardImage":  "/images/standardized/product-cards/fantash.png",
-                         "bannerImage":  "/images/standardized/banners/fantash.png",
-                         "bannerSize":  {
-                                            "width":  2400,
-                                            "height":  460
-                                        },
-                         "faqs":  [
-                                      {
-                                          "question":  {
-                                                           "en":  "What makes Fantash suitable for everyday baby care?",
-                                                           "ar":  "ما الذي يجعل فنتاش مناسبا للعناية اليومية بالطفل؟"
-                                                       },
-                                          "answer":  {
-                                                         "en":  "Fantash is designed around practical daily protection, combining a high-absorption core, dry surface support, and leakage protection for comfortable baby care.",
-                                                         "ar":  "تم تصميم فنتاش للحماية اليومية العملية من خلال حشوة عالية الامتصاص، ودعم لجفاف السطح، وحماية من التسريب لعناية مريحة بالطفل."
-                                                     }
-                                      },
-                                      {
-                                          "question":  {
-                                                           "en":  "How long can Fantash help protect against leakage?",
-                                                           "ar":  "كم مدة الحماية التي يوفرها فنتاش ضد التسريب؟"
-                                                       },
-                                          "answer":  {
-                                                         "en":  "The product line is presented with leakage protection for up to 12 hours, depending on the baby\u0027s size, fit, and usage conditions.",
-                                                         "ar":  "يوفر خط المنتج حماية من التسريب حتى 12 ساعة بحسب مقاس الطفل وملاءمة الحفاض وظروف الاستخدام."
-                                                     }
-                                      },
-                                      {
-                                          "question":  {
-                                                           "en":  "Which Fantash diaper sizes are available?",
-                                                           "ar":  "ما المقاسات المتوفرة من حفاضات فنتاش؟"
-                                                       },
-                                          "answer":  {
-                                                         "en":  "Fantash follows the baby diaper size guide from NB to XXL, covering babies from newborn stages up to larger toddler sizes.",
-                                                         "ar":  "يتبع فنتاش دليل مقاسات حفاضات الأطفال من NB حتى XXL، ليغطي مراحل حديثي الولادة وحتى المقاسات الأكبر للأطفال."
-                                                     }
-                                      },
-                                      {
-                                          "question":  {
-                                                           "en":  "When should I change to the next size?",
-                                                           "ar":  "متى يجب الانتقال إلى المقاس التالي؟"
-                                                       },
-                                          "answer":  {
-                                                         "en":  "Move to the next size when the diaper feels tight, leaves strong marks, leaks more often, or when your baby\u0027s weight approaches the top of the current range.",
-                                                         "ar":  "ينصح بالانتقال إلى المقاس التالي عندما يصبح الحفاض ضيقا، أو يترك علامات واضحة، أو يحدث تسريب متكرر، أو يقترب وزن الطفل من الحد الأعلى للمقاس الحالي."
-                                                     }
-                                      }
-                                  ]
-                     },
-                     {
-                         "slug":  "bino-tex",
-                         "title":  {
-                                       "en":  "Bino Tex",
-                                       "ar":  "Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³"
-                                   },
-                         "category":  {
-                                          "en":  "Adult Diapers",
-                                          "ar":  "Ø­ÙØ§Ø¶Ø§Øª ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù†"
-                                      },
-                         "image":  "/images/standardized/product-cards/bino-tex.png",
-                         "cardImage":  "/images/standardized/product-cards/bino-tex.png",
-                         "bannerImage":  "/images/standardized/banners/adult-care.png",
-                         "bannerSize":  {
-                                            "width":  2400,
-                                            "height":  460
-                                        },
-                         "logo":  "/images/standardized/logos/bino.png",
-                         "excerpt":  {
-                                         "en":  "Adult-care diapers available in multiple sizes and backsheet formats.",
-                                         "ar":  "ÙÙˆØ· ï¿½Â…Ø®ØµØµØ© Ù„ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù† Ø¨Ø¹Ø¯Ø© ï¿½Â…Ù‚Ø§Ø³Ø§Øª ÙˆØ®ÙŠØ§Ø±Ø§Øª Ø®Ù„ÙÙŠØ©."
-                                     },
-                         "description":  {
-                                             "en":  "Bino Tex adult diapers provide fast absorption and reliable fluid retention for comfort and protection. The line is available in S, L, and XL options from the new Bino collection.",
-                                             "ar":  "Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³ ÙÙˆØ· ï¿½Â…Ø®ØµØµØ© Ù„ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù†ØŒ ØªÙˆÙØ± Ø§ï¿½Â…ØªØµØ§ØµØ§Ù‹ Ø³Ø±ÙŠØ¹Ø§Ù‹ ÙˆÙ‚Ø¯Ø±Ø© Ø¹Ø§Ù„ÙŠØ© Ø¹Ù„Ù‰ Ø§Ø­ØªØ¬Ø§Ø² Ø§Ù„Ø³ÙˆØ§Ø¦Ù„ Ù„Ø¶ï¿½Â…Ø§Ù† Ø§Ù„Ø±Ø§Ø­Ø© ÙˆØ§Ù„Ø­ï¿½Â…Ø§ÙŠØ©. ÙŠØªÙˆÙØ± Ø§Ù„Ø®Ø· Ø¨ï¿½Â…Ù‚Ø§Ø³Ø§Øª S ÙˆL ÙˆXL ï¿½Â…Ù† ï¿½Â…Ø¬ï¿½Â…ÙˆØ¹Ø© Ø¨ÙŠÙ†Ùˆ Ø§Ù„Ø¬Ø¯ÙŠØ¯Ø©."
-                                         },
-                         "features":  [
-                                          {
-                                              "icon":  "absorption",
-                                              "title":  {
-                                                            "en":  "Fast absorption",
-                                                            "ar":  "Ø§ï¿½Â…ØªØµØ§Øµ Ø³Ø±ÙŠØ¹"
-                                                        },
-                                              "description":  {
-                                                                  "en":  "Absorbent structure helps handle daily adult-care needs.",
-                                                                  "ar":  "Ø¨Ù†ÙŠØ© ï¿½Â…Ø§ØµØ© ØªØ³Ø§Ø¹Ø¯ Ø¹Ù„Ù‰ ØªÙ„Ø¨ÙŠØ© Ø§Ø­ØªÙŠØ§Ø¬Ø§Øª Ø§Ù„Ø¹Ù†Ø§ÙŠØ© Ø§Ù„ÙŠÙˆï¿½Â…ÙŠØ© Ù„Ù„ÙƒØ¨Ø§Ø±."
-                                                              }
-                                          },
-                                          {
-                                              "icon":  "protection",
-                                              "title":  {
-                                                            "en":  "Reliable retention",
-                                                            "ar":  "Ø§Ø­ØªØ¬Ø§Ø² ï¿½Â…ÙˆØ«ÙˆÙ‚ Ù„Ù„Ø³ÙˆØ§Ø¦Ù„"
-                                                        },
-                                              "description":  {
-                                                                  "en":  "Helps retain fluid and reduce unwanted leakage.",
-                                                                  "ar":  "ÙŠØ³Ø§Ø¹Ø¯ Ø¹Ù„Ù‰ Ø§Ø­ØªØ¬Ø§Ø² Ø§Ù„Ø³ÙˆØ§Ø¦Ù„ ÙˆØªÙ‚Ù„ÙŠÙ„ Ø§Ù„ØªØ³Ø±ÙŠØ¨ ØºÙŠØ± Ø§Ù„ï¿½Â…Ø±ØºÙˆØ¨."
-                                                              }
-                                          },
-                                          {
-                                              "icon":  "comfort",
-                                              "title":  {
-                                                            "en":  "Backing options",
-                                                            "ar":  "Ø®ÙŠØ§Ø±Ø§Øª Ø®Ù„ÙÙŠØ© ï¿½Â…ØªØ¹Ø¯Ø¯Ø©"
-                                                        },
-                                              "description":  {
-                                                                  "en":  "Selected products are available with cloth-like or nylon backsheets.",
-                                                                  "ar":  "ØªØªÙˆÙØ± Ø¨Ø¹Ø¶ Ø§Ù„ï¿½Â…Ù†ØªØ¬Ø§Øª Ø¨Ø®Ù„ÙÙŠØ© Ù‚ï¿½Â…Ø§Ø´ÙŠØ© Ø£Ùˆ Ø®Ù„ÙÙŠØ© Ù†Ø§ÙŠÙ„ÙˆÙ†."
-                                                              }
-                                          }
-                                      ],
-                         "sizes":  [
-                                       {
-                                           "label":  {
-                                                         "en":  "Bino S",
-                                                         "ar":  "Ø¨ÙŠÙ†Ùˆ S"
-                                                     },
-                                           "value":  {
-                                                         "en":  "Small",
-                                                         "ar":  "ØµØºÙŠØ±"
-                                                     },
-                                           "note":  {
-                                                        "en":  "Bino Tex Small",
-                                                        "ar":  "Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³ ØµØºÙŠØ±"
-                                                    },
-                                           "description":  {
-                                                               "en":  "A compact Bino Tex adult diaper option made for dependable comfort and daily protection.",
-                                                               "ar":  "Ø®ÙŠØ§Ø± ØµØºÙŠØ± ï¿½Â…Ù† Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³ Ù„ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù† ï¿½Â…Øµï¿½Â…ï¿½Â… Ù„Ù„Ø±Ø§Ø­Ø© Ø§Ù„ï¿½Â…ÙˆØ«ÙˆÙ‚Ø© ÙˆØ§Ù„Ø­ï¿½Â…Ø§ÙŠØ© Ø§Ù„ÙŠÙˆï¿½Â…ÙŠØ©."
-                                                           },
-                                           "image":  "/images/standardized/product-options/bino-s.png"
-                                       },
-                                       {
-                                           "label":  {
-                                                         "en":  "Bino L",
-                                                         "ar":  "Ø¨ÙŠÙ†Ùˆ L"
-                                                     },
-                                           "value":  {
-                                                         "en":  "Large",
-                                                         "ar":  "ÙƒØ¨ÙŠØ±"
-                                                     },
-                                           "note":  {
-                                                        "en":  "Bino Tex Large",
-                                                        "ar":  "Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³ ÙƒØ¨ÙŠØ±"
-                                                    },
-                                           "description":  {
-                                                               "en":  "A larger Bino Tex format for secure coverage, practical fit, and reliable retention.",
-                                                               "ar":  "ï¿½Â…Ù‚Ø§Ø³ Ø£ÙƒØ¨Ø± ï¿½Â…Ù† Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³ Ù„ØªØºØ·ÙŠØ© Ø¢ï¿½Â…Ù†Ø© Ùˆï¿½Â…Ù„Ø§Ø¡ï¿½Â…Ø© Ø¹ï¿½Â…Ù„ÙŠØ© ÙˆØ§Ø­ØªØ¬Ø§Ø² ï¿½Â…ÙˆØ«ÙˆÙ‚ Ù„Ù„Ø³ÙˆØ§Ø¦Ù„."
-                                                           },
-                                           "image":  "/images/standardized/product-options/bino-l.png"
-                                       },
-                                       {
-                                           "label":  {
-                                                         "en":  "Bino XL",
-                                                         "ar":  "Ø¨ÙŠÙ†Ùˆ XL"
-                                                     },
-                                           "value":  {
-                                                         "en":  "X-Large",
-                                                         "ar":  "ÙƒØ¨ÙŠØ± Ø¬Ø¯Ø§"
-                                                     },
-                                           "note":  {
-                                                        "en":  "Bino Tex X-Large",
-                                                        "ar":  "Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³ ÙƒØ¨ÙŠØ± Ø¬Ø¯Ø§"
-                                                    },
-                                           "description":  {
-                                                               "en":  "An extra-large Bino Tex option for broader coverage and dependable adult-care support.",
-                                                               "ar":  "Ø®ÙŠØ§Ø± ÙƒØ¨ÙŠØ± Ø¬Ø¯Ø§ ï¿½Â…Ù† Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³ Ù„ØªØºØ·ÙŠØ© Ø£ÙˆØ³Ø¹ ÙˆØ¯Ø¹ï¿½Â… ï¿½Â…ÙˆØ«ÙˆÙ‚ Ù„Ù„Ø¹Ù†Ø§ÙŠØ© Ø¨ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù†."
-                                                           },
-                                           "image":  "/images/standardized/product-options/bino-xl.png"
-                                       }
-                                   ],
-                         "faqs":  [
-                                      {
-                                          "question":  {
-                                                           "en":  "Which Bino Tex options are available?",
-                                                           "ar":  "ï¿½Â…Ø§ Ø®ÙŠØ§Ø±Ø§Øª Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³ Ø§Ù„ï¿½Â…ØªÙˆÙØ±Ø©ØŸ"
-                                                       },
-                                          "answer":  {
-                                                         "en":  "Bino Tex is shown in Small, Large, and X-Large options using the updated product images.",
-                                                         "ar":  "ÙŠØªï¿½Â… Ø¹Ø±Ø¶ Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³ Ø¨Ø®ÙŠØ§Ø±Ø§Øª ØµØºÙŠØ± ÙˆÙƒØ¨ÙŠØ± ÙˆÙƒØ¨ÙŠØ± Ø¬Ø¯Ø§ Ø¨Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… ØµÙˆØ± Ø§Ù„ï¿½Â…Ù†ØªØ¬ Ø§Ù„ï¿½Â…Ø­Ø¯Ø«Ø©."
-                                                     }
-                                      },
-                                      {
-                                          "question":  {
-                                                           "en":  "Is Bino Tex for adult care?",
-                                                           "ar":  "Ù‡Ù„ Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³ ï¿½Â…Ø®ØµØµ Ù„Ù„Ø¹Ù†Ø§ÙŠØ© Ø¨ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù†ØŸ"
-                                                       },
-                                          "answer":  {
-                                                         "en":  "Yes. Bino Tex is an adult diaper line made for daily comfort, absorption, and fluid retention.",
-                                                         "ar":  "Ù†Ø¹ï¿½Â…. Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³ Ø®Ø· Ø­ÙØ§Ø¶Ø§Øª Ù„ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù† ï¿½Â…Øµï¿½Â…ï¿½Â… Ù„Ù„Ø±Ø§Ø­Ø© Ø§Ù„ÙŠÙˆï¿½Â…ÙŠØ© ÙˆØ§Ù„Ø§ï¿½Â…ØªØµØ§Øµ ÙˆØ§Ø­ØªØ¬Ø§Ø² Ø§Ù„Ø³ÙˆØ§Ø¦Ù„."
-                                                     }
-                                      },
-                                      {
-                                          "question":  {
-                                                           "en":  "How should I choose the size?",
-                                                           "ar":  "ÙƒÙŠÙ Ø£Ø®ØªØ§Ø± Ø§Ù„ï¿½Â…Ù‚Ø§Ø³ Ø§Ù„ï¿½Â…Ù†Ø§Ø³Ø¨ØŸ"
-                                                       },
-                                          "answer":  {
-                                                         "en":  "Choose the option that best matches the userâ€™s fit and coverage needs.",
-                                                         "ar":  "Ø§Ø®ØªØ± Ø§Ù„Ø®ÙŠØ§Ø± Ø§Ù„Ø£Ù†Ø³Ø¨ Ù„Ø§Ø­ØªÙŠØ§Ø¬ Ø§Ù„ï¿½Â…Ø³ØªØ®Ø¯ï¿½Â… ï¿½Â…Ù† Ø­ÙŠØ« Ø§Ù„ï¿½Â…Ù„Ø§Ø¡ï¿½Â…Ø© ÙˆØ§Ù„ØªØºØ·ÙŠØ©."
-                                                     }
-                                      }
-                                  ]
-                     },
-                     {
-                         "slug":  "avia",
-                         "title":  {
-                                       "en":  "Avia",
-                                       "ar":  "Ø¢ÙÙŠØ§"
-                                   },
-                         "category":  {
-                                          "en":  "Adult Diapers",
-                                          "ar":  "Ø­ÙØ§Ø¶Ø§Øª ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù†"
-                                      },
-                         "image":  "/images/standardized/product-cards/avia.png",
-                         "cardImage":  "/images/standardized/product-cards/avia.png",
-                         "bannerImage":  "/images/standardized/banners/adult-care.png",
-                         "bannerSize":  {
-                                            "width":  2400,
-                                            "height":  460
-                                        },
-                         "logo":  "/images/standardized/logos/avia.png",
-                         "excerpt":  {
-                                         "en":  "Adult diapers focused on fast absorption, reliable protection, and practical sizing.",
-                                         "ar":  "ÙÙˆØ· ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù† Ù„Ù„Ø§ï¿½Â…ØªØµØ§Øµ Ø§Ù„Ø³Ø±ÙŠØ¹ ÙˆØ§Ù„Ø­ï¿½Â…Ø§ÙŠØ© Ø§Ù„ï¿½Â…ÙˆØ«ÙˆÙ‚Ø© ÙˆØ§Ù„ï¿½Â…Ù‚Ø§Ø³Ø§Øª Ø§Ù„Ø¹ï¿½Â…Ù„ÙŠØ©."
-                                     },
-                         "description":  {
-                                             "en":  "Avia adult diapers provide fast absorption, leakage protection, and reliable fluid retention. The line is available in S, L, and XL options from the new Avia collection.",
-                                             "ar":  "Ø¢ÙÙŠØ§ ÙÙˆØ· ï¿½Â…Ø®ØµØµØ© Ù„ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù†ØŒ ØªÙˆÙØ± Ø§ï¿½Â…ØªØµØ§ØµØ§Ù‹ Ø³Ø±ÙŠØ¹Ø§Ù‹ ÙˆØ­ï¿½Â…Ø§ÙŠØ© ï¿½Â…ÙˆØ«ÙˆÙ‚Ø© ï¿½Â…Ù† Ø§Ù„ØªØ³Ø±ÙŠØ¨ØŒ ï¿½Â…Ø¹ Ù‚Ø¯Ø±Ø© Ø¹Ø§Ù„ÙŠØ© Ø¹Ù„Ù‰ Ø§Ø­ØªØ¬Ø§Ø² Ø§Ù„Ø³ÙˆØ§Ø¦Ù„. ÙŠØªÙˆÙØ± Ø§Ù„Ø®Ø· Ø¨ï¿½Â…Ù‚Ø§Ø³Ø§Øª S ÙˆL ÙˆXL ï¿½Â…Ù† ï¿½Â…Ø¬ï¿½Â…ÙˆØ¹Ø© Ø¢ÙÙŠØ§ Ø§Ù„Ø¬Ø¯ÙŠØ¯Ø©."
-                                         },
-                         "features":  [
-                                          {
-                                              "icon":  "absorption",
-                                              "title":  {
-                                                            "en":  "Fast absorption",
-                                                            "ar":  "Ø§ï¿½Â…ØªØµØ§Øµ Ø³Ø±ÙŠØ¹"
-                                                        },
-                                              "description":  {
-                                                                  "en":  "Absorbent structure helps handle daily adult-care needs.",
-                                                                  "ar":  "Ø¨Ù†ÙŠØ© ï¿½Â…Ø§ØµØ© ØªØ³Ø§Ø¹Ø¯ Ø¹Ù„Ù‰ ØªÙ„Ø¨ÙŠØ© Ø§Ø­ØªÙŠØ§Ø¬Ø§Øª Ø§Ù„Ø¹Ù†Ø§ÙŠØ© Ø§Ù„ÙŠÙˆï¿½Â…ÙŠØ© Ù„Ù„ÙƒØ¨Ø§Ø±."
-                                                              }
-                                          },
-                                          {
-                                              "icon":  "protection",
-                                              "title":  {
-                                                            "en":  "Reliable retention",
-                                                            "ar":  "Ø§Ø­ØªØ¬Ø§Ø² ï¿½Â…ÙˆØ«ÙˆÙ‚ Ù„Ù„Ø³ÙˆØ§Ø¦Ù„"
-                                                        },
-                                              "description":  {
-                                                                  "en":  "Helps retain fluid and reduce unwanted leakage.",
-                                                                  "ar":  "ÙŠØ³Ø§Ø¹Ø¯ Ø¹Ù„Ù‰ Ø§Ø­ØªØ¬Ø§Ø² Ø§Ù„Ø³ÙˆØ§Ø¦Ù„ ÙˆØªÙ‚Ù„ÙŠÙ„ Ø§Ù„ØªØ³Ø±ÙŠØ¨ ØºÙŠØ± Ø§Ù„ï¿½Â…Ø±ØºÙˆØ¨."
-                                                              }
-                                          },
-                                          {
-                                              "icon":  "comfort",
-                                              "title":  {
-                                                            "en":  "Backing options",
-                                                            "ar":  "Ø®ÙŠØ§Ø±Ø§Øª Ø®Ù„ÙÙŠØ© ï¿½Â…ØªØ¹Ø¯Ø¯Ø©"
-                                                        },
-                                              "description":  {
-                                                                  "en":  "Selected products are available with cloth-like or nylon backsheets.",
-                                                                  "ar":  "ØªØªÙˆÙØ± Ø¨Ø¹Ø¶ Ø§Ù„ï¿½Â…Ù†ØªØ¬Ø§Øª Ø¨Ø®Ù„ÙÙŠØ© Ù‚ï¿½Â…Ø§Ø´ÙŠØ© Ø£Ùˆ Ø®Ù„ÙÙŠØ© Ù†Ø§ÙŠÙ„ÙˆÙ†."
-                                                              }
-                                          }
-                                      ],
-                         "sizes":  [
-                                       {
-                                           "label":  {
-                                                         "en":  "Avia S",
-                                                         "ar":  "Ø¢ÙÙŠØ§ S"
-                                                     },
-                                           "value":  {
-                                                         "en":  "Small",
-                                                         "ar":  "ØµØºÙŠØ±"
-                                                     },
-                                           "note":  {
-                                                        "en":  "Avia Small",
-                                                        "ar":  "Ø¢ÙÙŠØ§ ØµØºÙŠØ±"
-                                                    },
-                                           "description":  {
-                                                               "en":  "A small Avia adult diaper option built for comfort, absorption, and everyday confidence.",
-                                                               "ar":  "Ø®ÙŠØ§Ø± ØµØºÙŠØ± ï¿½Â…Ù† Ø¢ÙÙŠØ§ Ù„ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù† ï¿½Â…Øµï¿½Â…ï¿½Â… Ù„Ù„Ø±Ø§Ø­Ø© ÙˆØ§Ù„Ø§ï¿½Â…ØªØµØ§Øµ ÙˆØ§Ù„Ø«Ù‚Ø© Ø§Ù„ÙŠÙˆï¿½Â…ÙŠØ©."
-                                                           },
-                                           "image":  "/images/standardized/product-options/avia-s.png"
-                                       },
-                                       {
-                                           "label":  {
-                                                         "en":  "Avia L",
-                                                         "ar":  "Ø¢ÙÙŠØ§ L"
-                                                     },
-                                           "value":  {
-                                                         "en":  "Large",
-                                                         "ar":  "ÙƒØ¨ÙŠØ±"
-                                                     },
-                                           "note":  {
-                                                        "en":  "Avia Large",
-                                                        "ar":  "Ø¢ÙÙŠØ§ ÙƒØ¨ÙŠØ±"
-                                                    },
-                                           "description":  {
-                                                               "en":  "A large Avia format made for secure protection, better coverage, and practical wear.",
-                                                               "ar":  "ï¿½Â…Ù‚Ø§Ø³ ÙƒØ¨ÙŠØ± ï¿½Â…Ù† Ø¢ÙÙŠØ§ Ù„Ù„Ø­ï¿½Â…Ø§ÙŠØ© Ø§Ù„Ø¢ï¿½Â…Ù†Ø© ÙˆØ§Ù„ØªØºØ·ÙŠØ© Ø§Ù„Ø£ÙØ¶Ù„ ÙˆØ§Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø§Ù„Ø¹ï¿½Â…Ù„ÙŠ."
-                                                           },
-                                           "image":  "/images/standardized/product-options/avia-l.png"
-                                       },
-                                       {
-                                           "label":  {
-                                                         "en":  "Avia XL",
-                                                         "ar":  "Ø¢ÙÙŠØ§ XL"
-                                                     },
-                                           "value":  {
-                                                         "en":  "X-Large",
-                                                         "ar":  "ÙƒØ¨ÙŠØ± Ø¬Ø¯Ø§"
-                                                     },
-                                           "note":  {
-                                                        "en":  "Avia X-Large",
-                                                        "ar":  "Ø¢ÙÙŠØ§ ÙƒØ¨ÙŠØ± Ø¬Ø¯Ø§"
-                                                    },
-                                           "description":  {
-                                                               "en":  "An extra-large Avia option for extended adult-care coverage and reliable protection.",
-                                                               "ar":  "Ø®ÙŠØ§Ø± ÙƒØ¨ÙŠØ± Ø¬Ø¯Ø§ ï¿½Â…Ù† Ø¢ÙÙŠØ§ Ù„ØªØºØ·ÙŠØ© Ø£ÙˆØ³Ø¹ ÙˆØ­ï¿½Â…Ø§ÙŠØ© ï¿½Â…ÙˆØ«ÙˆÙ‚Ø© Ø¶ï¿½Â…Ù† Ø§Ù„Ø¹Ù†Ø§ÙŠØ© Ø¨ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù†."
-                                                           },
-                                           "image":  "/images/standardized/product-options/avia-xl.png"
-                                       }
-                                   ],
-                         "faqs":  [
-                                      {
-                                          "question":  {
-                                                           "en":  "Which Avia options are available?",
-                                                           "ar":  "ï¿½Â…Ø§ Ø®ÙŠØ§Ø±Ø§Øª Ø¢ÙÙŠØ§ Ø§Ù„ï¿½Â…ØªÙˆÙØ±Ø©ØŸ"
-                                                       },
-                                          "answer":  {
-                                                         "en":  "Avia is shown in Small, Large, and X-Large options using the updated product images.",
-                                                         "ar":  "ÙŠØªï¿½Â… Ø¹Ø±Ø¶ Ø¢ÙÙŠØ§ Ø¨Ø®ÙŠØ§Ø±Ø§Øª ØµØºÙŠØ± ÙˆÙƒØ¨ÙŠØ± ÙˆÙƒØ¨ÙŠØ± Ø¬Ø¯Ø§ Ø¨Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… ØµÙˆØ± Ø§Ù„ï¿½Â…Ù†ØªØ¬ Ø§Ù„ï¿½Â…Ø­Ø¯Ø«Ø©."
-                                                     }
-                                      },
-                                      {
-                                          "question":  {
-                                                           "en":  "What is Avia designed for?",
-                                                           "ar":  "Ù„Ø£ÙŠ Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Øµï¿½Â…ï¿½Â…Øª Ø¢ÙÙŠØ§ØŸ"
-                                                       },
-                                          "answer":  {
-                                                         "en":  "Avia is designed for adult-care routines that need dependable absorption, leakage protection, and comfort.",
-                                                         "ar":  "Øµï¿½Â…ï¿½Â…Øª Ø¢ÙÙŠØ§ Ù„Ø±ÙˆØªÙŠÙ† Ø§Ù„Ø¹Ù†Ø§ÙŠØ© Ø¨ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù† Ø§Ù„Ø°ÙŠ ÙŠØ­ØªØ§Ø¬ Ø¥Ù„Ù‰ Ø§ï¿½Â…ØªØµØ§Øµ ï¿½Â…ÙˆØ«ÙˆÙ‚ ÙˆØ­ï¿½Â…Ø§ÙŠØ© ï¿½Â…Ù† Ø§Ù„ØªØ³Ø±ÙŠØ¨ ÙˆØ±Ø§Ø­Ø©."
-                                                     }
-                                      },
-                                      {
-                                          "question":  {
-                                                           "en":  "Does Avia use the same banner style as Bino Tex?",
-                                                           "ar":  "Ù‡Ù„ ØªØ³ØªØ®Ø¯ï¿½Â… Ø¢ÙÙŠØ§ Ù†ÙØ³ ØªØµï¿½Â…ÙŠï¿½Â… Ø¨Ø§Ù†Ø± Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³ØŸ"
-                                                       },
-                                          "answer":  {
-                                                         "en":  "Yes. Avia and Bino Tex use the same shared adult-care banner while keeping separate product pages and size options.",
-                                                         "ar":  "Ù†Ø¹ï¿½Â…. ØªØ³ØªØ®Ø¯ï¿½Â… Ø¢ÙÙŠØ§ ÙˆØ¨ÙŠÙ†Ùˆ ØªÙƒØ³ Ù†ÙØ³ Ø¨Ø§Ù†Ø± Ø§Ù„Ø¹Ù†Ø§ÙŠØ© Ø¨ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù† ï¿½Â…Ø¹ Ø§Ù„Ø­ÙØ§Ø¸ Ø¹Ù„Ù‰ ØµÙØ­Ø§Øª ÙˆØ®ÙŠØ§Ø±Ø§Øª ï¿½Â…Ù†ÙØµÙ„Ø© Ù„ÙƒÙ„ Ø¹Ù„Ø§ï¿½Â…Ø©."
-                                                     }
-                                      }
-                                  ]
-                     }
-                 ],
-    "blogs":  [
-                  {
-                      "slug":  "right-diaper-size",
-                      "image":  "https://images.pexels.com/photos/7491225/pexels-photo-7491225.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=900",
-                      "href":  "https://www.pampers.com/en-us/baby/diapering/article/diaper-size-and-weight-chart",
-                      "source":  {
-                                     "en":  "Pampers",
-                                     "ar":  "Pampers"
-                                 },
-                      "category":  {
-                                       "en":  "Baby Care",
-                                       "ar":  "Ø¹Ù†Ø§ÙŠØ© Ø§Ù„Ø£Ø·ÙØ§Ù„"
-                                   },
-                      "title":  {
-                                    "en":  "Baby Diaper Size Chart Guide",
-                                    "ar":  "Ø¯Ù„ÙŠÙ„ ï¿½Â…Ù‚Ø§Ø³Ø§Øª Ø­ÙØ§Ø¶Ø§Øª Ø§Ù„Ø£Ø·ÙØ§Ù„ Ø­Ø³Ø¨ Ø§Ù„ÙˆØ²Ù†"
-                                },
-                      "description":  {
-                                          "en":  "A practical guide for matching diaper size to current weight, checking fit, and spotting signs that it is time to size up.",
-                                          "ar":  "Ø¯Ù„ÙŠÙ„ Ø¹ï¿½Â…Ù„ÙŠ Ù„ï¿½Â…Ø·Ø§Ø¨Ù‚Ø© ï¿½Â…Ù‚Ø§Ø³ Ø§Ù„Ø­ÙØ§Ø¶ ï¿½Â…Ø¹ ÙˆØ²Ù† Ø§Ù„Ø·ÙÙ„ Ø§Ù„Ø­Ø§Ù„ÙŠØŒ ÙˆÙØ­Øµ Ø§Ù„ï¿½Â…Ù„Ø§Ø¡ï¿½Â…Ø©ØŒ Ùˆï¿½Â…Ø¹Ø±ÙØ© Ø¹Ù„Ø§ï¿½Â…Ø§Øª Ø§Ù„Ø§Ù†ØªÙ‚Ø§Ù„ Ø¥Ù„Ù‰ ï¿½Â…Ù‚Ø§Ø³ Ø£ÙƒØ¨Ø±."
-                                      }
-                  },
-                  {
-                      "slug":  "menstrual-pads-guide",
-                      "image":  "https://images.pexels.com/photos/7692338/pexels-photo-7692338.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=900",
-                      "href":  "https://health.clevelandclinic.org/sanitary-pads",
-                      "source":  {
-                                     "en":  "Cleveland Clinic",
-                                     "ar":  "Cleveland Clinic"
-                                 },
-                      "category":  {
-                                       "en":  "Women Care",
-                                       "ar":  "Ø¹Ù†Ø§ÙŠØ© Ø§Ù„Ù†Ø³Ø§Ø¡"
-                                   },
-                      "title":  {
-                                    "en":  "Menstrual Pads 101: How To Choose and Use Them",
-                                    "ar":  "Ø£Ø³Ø§Ø³ÙŠØ§Øª Ø§Ù„ÙÙˆØ· Ø§Ù„ØµØ­ÙŠØ©: ÙƒÙŠÙ ØªØ®ØªØ§Ø±ÙŠÙ†Ù‡Ø§ ÙˆØªØ³ØªØ®Ø¯ï¿½Â…ÙŠÙ†Ù‡Ø§"
-                                },
-                      "description":  {
-                                          "en":  "A clear overview of pad types, absorbency, materials, changing frequency, and comfort considerations for daily period care.",
-                                          "ar":  "Ù†Ø¸Ø±Ø© ÙˆØ§Ø¶Ø­Ø© Ø¹Ù„Ù‰ Ø£Ù†ÙˆØ§Ø¹ Ø§Ù„ÙÙˆØ·ØŒ Ùˆï¿½Â…Ø³ØªÙˆÙ‰ Ø§Ù„Ø§ï¿½Â…ØªØµØ§ØµØŒ ÙˆØ§Ù„ï¿½Â…ÙˆØ§Ø¯ØŒ Ùˆï¿½Â…ÙˆØ§Ø¹ÙŠØ¯ Ø§Ù„ØªØºÙŠÙŠØ±ØŒ ÙˆØ¹ÙˆØ§ï¿½Â…Ù„ Ø§Ù„Ø±Ø§Ø­Ø© Ù„Ù„Ø¹Ù†Ø§ÙŠØ© Ø§Ù„ÙŠÙˆï¿½Â…ÙŠØ© Ø£Ø«Ù†Ø§Ø¡ Ø§Ù„Ø¯ÙˆØ±Ø©."
-                                      }
-                  },
-                  {
-                      "slug":  "adult-diaper-comfort",
-                      "image":  "https://images.pexels.com/photos/29372693/pexels-photo-29372693.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=900",
-                      "href":  "https://nafc.org/adult-absorbents/",
-                      "source":  {
-                                     "en":  "NAFC",
-                                     "ar":  "NAFC"
-                                 },
-                      "category":  {
-                                       "en":  "Adult Care",
-                                       "ar":  "Ø¹Ù†Ø§ÙŠØ© ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù†"
-                                   },
-                      "title":  {
-                                    "en":  "Adult Absorbents: What To Look For",
-                                    "ar":  "ï¿½Â…Ù†ØªØ¬Ø§Øª Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ Ù„Ù„ÙƒØ¨Ø§Ø±: ï¿½Â…Ø§ Ø§Ù„Ø°ÙŠ ÙŠØ¬Ø¨ Ø§Ù„Ø§Ù†ØªØ¨Ø§Ù‡ Ø¥Ù„ÙŠÙ‡"
-                                },
-                      "description":  {
-                                          "en":  "A useful breakdown of form, fit, and function when choosing adult incontinence products for comfort, discretion, and daily confidence.",
-                                          "ar":  "Ø´Ø±Ø­ ï¿½Â…ÙÙŠØ¯ Ù„Ø¹ÙˆØ§ï¿½Â…Ù„ Ø§Ù„Ø´ÙƒÙ„ ÙˆØ§Ù„ï¿½Â…Ù„Ø§Ø¡ï¿½Â…Ø© ÙˆØ§Ù„ÙˆØ¸ÙŠÙØ© Ø¹Ù†Ø¯ Ø§Ø®ØªÙŠØ§Ø± ï¿½Â…Ù†ØªØ¬Ø§Øª Ø³Ù„Ø³ Ø§Ù„Ø¨ÙˆÙ„ Ù„Ù„ÙƒØ¨Ø§Ø± ï¿½Â…Ù† Ø£Ø¬Ù„ Ø§Ù„Ø±Ø§Ø­Ø© ÙˆØ§Ù„Ø®ØµÙˆØµÙŠØ© ÙˆØ§Ù„Ø«Ù‚Ø© Ø§Ù„ÙŠÙˆï¿½Â…ÙŠØ©."
-                                      }
-                  }
-              ],
-    "news":  [
-                 {
-                     "slug":  "community-hand-hygiene-guidelines",
-                     "image":  "https://images.pexels.com/photos/3872806/pexels-photo-3872806.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=900",
-                     "href":  "https://www.who.int/news/item/15-10-2025-new-guidelines-on-community-hand-hygiene-to-help-governments-reduce-the-spread-of-infectious-diseases",
-                     "source":  {
-                                    "en":  "WHO",
-                                    "ar":  "WHO"
-                                },
-                     "category":  {
-                                      "en":  "Global Hygiene Guidance",
-                                      "ar":  "Ø¥Ø±Ø´Ø§Ø¯Ø§Øª Ø§Ù„Ù†Ø¸Ø§ÙØ© Ø§Ù„Ø¹Ø§Ù„ï¿½Â…ÙŠØ©"
-                                  },
-                     "date":  {
-                                  "en":  "15 October 2025",
-                                  "ar":  "15 Ø£ÙƒØªÙˆØ¨Ø± 2025"
-                              },
-                     "title":  {
-                                   "en":  "WHO and UNICEF Release Community Hand Hygiene Guidelines",
-                                   "ar":  "ï¿½Â…Ù†Ø¸ï¿½Â…Ø© Ø§Ù„ØµØ­Ø© Ø§Ù„Ø¹Ø§Ù„ï¿½Â…ÙŠØ© ÙˆÙŠÙˆÙ†ÙŠØ³Ù ØªØµØ¯Ø±Ø§Ù† Ø¥Ø±Ø´Ø§Ø¯Ø§Øª Ù†Ø¸Ø§ÙØ© Ø§Ù„ÙŠØ¯ÙŠÙ† Ø§Ù„ï¿½Â…Ø¬Øªï¿½Â…Ø¹ÙŠØ©"
-                               },
-                     "description":  {
-                                         "en":  "The first global guidelines for hand hygiene in homes, schools, public spaces, and institutions focus on reducing preventable illness.",
-                                         "ar":  "ØªØ±ÙƒØ² Ø£ÙˆÙ„ Ø¥Ø±Ø´Ø§Ø¯Ø§Øª Ø¹Ø§Ù„ï¿½Â…ÙŠØ© Ù„Ù†Ø¸Ø§ÙØ© Ø§Ù„ÙŠØ¯ÙŠÙ† ÙÙŠ Ø§Ù„ï¿½Â…Ù†Ø§Ø²Ù„ ÙˆØ§Ù„ï¿½Â…Ø¯Ø§Ø±Ø³ ÙˆØ§Ù„Ø£ï¿½Â…Ø§ÙƒÙ† Ø§Ù„Ø¹Ø§ï¿½Â…Ø© ÙˆØ§Ù„ï¿½Â…Ø¤Ø³Ø³Ø§Øª Ø¹Ù„Ù‰ ØªÙ‚Ù„ÙŠÙ„ Ø§Ù„Ø£ï¿½Â…Ø±Ø§Ø¶ Ø§Ù„ØªÙŠ ÙŠï¿½Â…ÙƒÙ† Ø§Ù„ÙˆÙ‚Ø§ÙŠØ© ï¿½Â…Ù†Ù‡Ø§."
-                                     }
-                 },
-                 {
-                     "slug":  "menstrual-health-fact-sheet",
-                     "image":  "https://images.pexels.com/photos/5938424/pexels-photo-5938424.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=900",
-                     "href":  "https://www.who.int/news-room/fact-sheets/detail/menstrual-health",
-                     "source":  {
-                                    "en":  "WHO",
-                                    "ar":  "WHO"
-                                },
-                     "category":  {
-                                      "en":  "Menstrual Health",
-                                      "ar":  "Ø§Ù„ØµØ­Ø© Ø§Ù„Ø´Ù‡Ø±ÙŠØ©"
-                                  },
-                     "date":  {
-                                  "en":  "18 June 2026",
-                                  "ar":  "18 ÙŠÙˆÙ†ÙŠÙˆ 2026"
-                              },
-                     "title":  {
-                                   "en":  "WHO Updates Its Menstrual Health Fact Sheet",
-                                   "ar":  "ï¿½Â…Ù†Ø¸ï¿½Â…Ø© Ø§Ù„ØµØ­Ø© Ø§Ù„Ø¹Ø§Ù„ï¿½Â…ÙŠØ© ØªØ­Ø¯Ø« ØµØ­ÙŠÙØ© Ø­Ù‚Ø§Ø¦Ù‚ Ø§Ù„ØµØ­Ø© Ø§Ù„Ø´Ù‡Ø±ÙŠØ©"
-                               },
-                     "description":  {
-                                         "en":  "The update highlights access to menstrual materials, safe facilities, accurate information, dignity, and health support.",
-                                         "ar":  "ÙŠØ³Ù„Ø· Ø§Ù„ØªØ­Ø¯ÙŠØ« Ø§Ù„Ø¶ÙˆØ¡ Ø¹Ù„Ù‰ Ø§Ù„ÙˆØµÙˆÙ„ Ø¥Ù„Ù‰ ï¿½Â…ÙˆØ§Ø¯ Ø§Ù„Ø¯ÙˆØ±Ø© Ø§Ù„Ø´Ù‡Ø±ÙŠØ© ÙˆØ§Ù„ï¿½Â…Ø±Ø§ÙÙ‚ Ø§Ù„Ø¢ï¿½Â…Ù†Ø© ÙˆØ§Ù„ï¿½Â…Ø¹Ù„Ùˆï¿½Â…Ø§Øª Ø§Ù„Ø¯Ù‚ÙŠÙ‚Ø© ÙˆØ§Ù„ÙƒØ±Ø§ï¿½Â…Ø© ÙˆØ§Ù„Ø¯Ø¹ï¿½Â… Ø§Ù„ØµØ­ÙŠ."
-                                     }
-                 },
-                 {
-                     "slug":  "wash-for-every-child",
-                     "image":  "https://images.pexels.com/photos/7492918/pexels-photo-7492918.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=900",
-                     "href":  "https://www.unicef.org/eu/stories/water-sanitation-and-hygiene-every-child",
-                     "source":  {
-                                    "en":  "UNICEF",
-                                    "ar":  "UNICEF"
-                                },
-                     "category":  {
-                                      "en":  "Children and Hygiene",
-                                      "ar":  "Ø§Ù„Ø£Ø·ÙØ§Ù„ ÙˆØ§Ù„Ù†Ø¸Ø§ÙØ©"
-                                  },
-                     "date":  {
-                                  "en":  "15 April 2026",
-                                  "ar":  "15 Ø£Ø¨Ø±ÙŠÙ„ 2026"
-                              },
-                     "title":  {
-                                   "en":  "Water, Sanitation and Hygiene for Every Child",
-                                   "ar":  "Ø§Ù„ï¿½Â…ÙŠØ§Ù‡ ÙˆØ§Ù„ØµØ±Ù Ø§Ù„ØµØ­ÙŠ ÙˆØ§Ù„Ù†Ø¸Ø§ÙØ© Ù„ÙƒÙ„ Ø·ÙÙ„"
-                               },
-                     "description":  {
-                                         "en":  "UNICEF highlights how safe water, sanitation, and hygiene protect childrenâ€™s survival, health, dignity, and learning.",
-                                         "ar":  "ØªÙˆØ¶Ø­ ÙŠÙˆÙ†ÙŠØ³Ù ÙƒÙŠÙ ØªØ­ï¿½Â…ÙŠ Ø§Ù„ï¿½Â…ÙŠØ§Ù‡ Ø§Ù„Ø¢ï¿½Â…Ù†Ø© ÙˆØ§Ù„ØµØ±Ù Ø§Ù„ØµØ­ÙŠ ÙˆØ§Ù„Ù†Ø¸Ø§ÙØ© Ø¨Ù‚Ø§Ø¡ Ø§Ù„Ø£Ø·ÙØ§Ù„ ÙˆØµØ­ØªÙ‡ï¿½Â… ÙˆÙƒØ±Ø§ï¿½Â…ØªÙ‡ï¿½Â… ÙˆØªØ¹Ù„ï¿½Â…Ù‡ï¿½Â…."
-                                     }
-                 }
-             ],
-    "jobs":  [
-                 {
-                     "id":  "production-quality-specialist",
-                     "title":  {
-                                   "en":  "Production Quality Specialist",
-                                   "ar":  "Ø§Ø®ØªØµØ§ØµÙŠ Ø¬ÙˆØ¯Ø© Ø¥Ù†ØªØ§Ø¬"
-                               },
-                     "department":  {
-                                        "en":  "Quality",
-                                        "ar":  "Ø§Ù„Ø¬ÙˆØ¯Ø©"
-                                    },
-                     "location":  {
-                                      "en":  "Syria",
-                                      "ar":  "Ø³ÙˆØ±ÙŠØ§"
-                                  },
-                     "type":  {
-                                  "en":  "Full time",
-                                  "ar":  "Ø¯ÙˆØ§ï¿½Â… ÙƒØ§ï¿½Â…Ù„"
-                              },
-                     "summary":  {
-                                     "en":  "Support product quality checks, hygiene standards, and documentation across DRC production lines.",
-                                     "ar":  "Ø¯Ø¹ï¿½Â… ÙØ­ÙˆØµØ§Øª Ø¬ÙˆØ¯Ø© Ø§Ù„ï¿½Â…Ù†ØªØ¬ Ùˆï¿½Â…Ø¹Ø§ÙŠÙŠØ± Ø§Ù„Ù†Ø¸Ø§ÙØ© ÙˆØ§Ù„ØªÙˆØ«ÙŠÙ‚ Ø¶ï¿½Â…Ù† Ø®Ø·ÙˆØ· Ø¥Ù†ØªØ§Ø¬ DRC."
-                                 },
-                     "requirements":  [
-                                          {
-                                              "en":  "Experience in quality control or manufacturing environments.",
-                                              "ar":  "Ø®Ø¨Ø±Ø© ÙÙŠ Ø¶Ø¨Ø· Ø§Ù„Ø¬ÙˆØ¯Ø© Ø£Ùˆ Ø¨ÙŠØ¦Ø§Øª Ø§Ù„ØªØµÙ†ÙŠØ¹."
-                                          },
-                                          {
-                                              "en":  "Strong attention to detail and documentation.",
-                                              "ar":  "Ø§Ù‡Øªï¿½Â…Ø§ï¿½Â… Ø¹Ø§Ù„ Ø¨Ø§Ù„ØªÙØ§ØµÙŠÙ„ ÙˆØ§Ù„ØªÙˆØ«ÙŠÙ‚."
-                                          }
-                                      ],
-                     "active":  true,
-                     "createdAt":  "2026-08-10T00:00:00.000Z"
-                 }
-             ]
+{
+  "hero": {
+    "title": {
+      "en": "Everyday Hygiene, Made with Care",
+      "ar": "Ø¹Ù†Ø§ÙŠØ© ÙŠÙˆï¿½Â…ÙŠØ©ØŒ ï¿½Â…ØµÙ†ÙˆØ¹Ø© Ø¨Ø§Ù‡Øªï¿½Â…Ø§ï¿½Â…"
+    },
+    "subtitle": {
+      "en": "DRC provides reliable hygiene products for babies, women, adults, and families, designed to deliver softness, comfort, effective absorption, and dependable everyday protection.",
+      "ar": "ØªÙ‚Ø¯Ù‘ï¿½Â… DRC ï¿½Â…Ù†ØªØ¬Ø§Øª Ø¹Ù†Ø§ÙŠØ© ØµØ­ÙŠØ© ï¿½Â…ÙˆØ«ÙˆÙ‚Ø© Ù„Ù„Ø£Ø·ÙØ§Ù„ ÙˆØ§Ù„Ù†Ø³Ø§Ø¡ ÙˆÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù† ÙˆØ§Ù„Ø¹Ø§Ø¦Ù„Ø©ØŒ ï¿½Â…Øµï¿½Â…ï¿½Â…Ø© Ù„ØªÙˆÙÙŠØ± Ø§Ù„Ù†Ø¹Ùˆï¿½Â…Ø© ÙˆØ§Ù„Ø±Ø§Ø­Ø© ÙˆØ§Ù„Ø§ï¿½Â…ØªØµØ§Øµ Ø§Ù„ÙØ¹Ù‘Ø§Ù„ ÙˆØ§Ù„Ø­ï¿½Â…Ø§ÙŠØ© Ø§Ù„ÙŠÙˆï¿½Â…ÙŠØ©."
+    }
+  },
+  "heroSlides": [
+    {
+      "id": "rexy",
+      "image": {
+        "en": "/images/standardized/hero/hero-1.jpg",
+        "ar": "/images/standardized/hero/hero-1.jpg"
+      },
+      "label": {
+        "en": "Baby care",
+        "ar": "Ø¹Ù†Ø§ÙŠØ© Ø§Ù„Ø£Ø·ÙØ§Ù„"
+      },
+      "title": {
+        "en": "Soft protection for every stage",
+        "ar": "Ø­ï¿½Â…Ø§ÙŠØ© Ù†Ø§Ø¹ï¿½Â…Ø© Ù„ÙƒÙ„ ï¿½Â…Ø±Ø­Ù„Ø©"
+      }
+    },
+    {
+      "id": "hq",
+      "image": {
+        "en": "/images/standardized/hero/hero-2.jpg",
+        "ar": "/images/standardized/hero/hero-2.jpg"
+      },
+      "label": {
+        "en": "Women care",
+        "ar": "Ø¹Ù†Ø§ÙŠØ© Ø§Ù„Ù†Ø³Ø§Ø¡"
+      },
+      "title": {
+        "en": "Comfort, dryness, and confidence",
+        "ar": "Ø±Ø§Ø­Ø© ÙˆØ¬ÙØ§Ù ÙˆØ«Ù‚Ø©"
+      }
+    },
+    {
+      "id": "tizkar",
+      "image": {
+        "en": "/images/standardized/hero/hero-3.jpg",
+        "ar": "/images/standardized/hero/hero-3.jpg"
+      },
+      "label": {
+        "en": "Family care",
+        "ar": "Ø¹Ù†Ø§ÙŠØ© Ø§Ù„Ø¹Ø§Ø¦Ù„Ø©"
+      },
+      "title": {
+        "en": "Clean routines made simpler",
+        "ar": "Ù†Ø¸Ø§ÙØ© ÙŠÙˆï¿½Â…ÙŠØ© Ø£Ø³Ù‡Ù„"
+      }
+    }
+  ],
+  "about": {
+    "eyebrow": {
+      "en": "DRC Group",
+      "ar": "مجموعة DRC"
+    },
+    "title": {
+      "en": "Reliable hygienic and personal-care products for everyday life.",
+      "ar": "منتجات موثوقة للعناية الصحية والشخصية في الحياة اليومية."
+    },
+    "description": {
+      "en": "DRC specializes in hygiene and personal-care products created to support comfort, cleanliness, and confidence throughout every stage of life. The portfolio includes baby diapers, sanitary pads, adult diapers, facial tissues, drying tissues, and baby wipes under a variety of trusted brands.",
+      "ar": "تتخصص DRC في منتجات العناية الصحية والشخصية المصممة لدعم الراحة والنظافة والثقة في مختلف مراحل الحياة. تضم محفظة المنتجات حفاضات الأطفال، والفوط النسائية، وحفاضات كبار السن، ومحارم الوجه، ومحارم التنشيف، والمناديل المبللة للأطفال ضمن مجموعة متنوعة من العلامات الموثوقة."
+    },
+    "metrics": [
+      {
+        "value": "6+",
+        "label": {
+          "en": "Product categories",
+          "ar": "فئات منتجات"
+        }
+      },
+      {
+        "value": "6",
+        "label": {
+          "en": "Sub-brands",
+          "ar": "علامات فرعية"
+        }
+      },
+      {
+        "value": "24/7",
+        "label": {
+          "en": "Everyday protection",
+          "ar": "حماية يومية"
+        }
+      }
+    ]
+  },
+  "products": [
+    {
+      "slug": "baby-rexy",
+      "title": {
+        "en": "Baby Rexy",
+        "ar": "Ø¨ÙŠØ¨ÙŠ Ø±ÙŠÙƒØ³ÙŠ"
+      },
+      "category": {
+        "en": "Baby Diapers",
+        "ar": "Ø­ÙØ§Ø¶Ø§Øª Ø§Ù„Ø£Ø·ÙØ§Ù„"
+      },
+      "image": "/images/standardized/product-cards/baby-rexy.png",
+      "cardImage": "/images/standardized/product-cards/baby-rexy.png",
+      "bannerImage": "/images/standardized/banners/baby-rexy.png",
+      "logo": "/images/standardized/logos/rexy.png",
+      "excerpt": {
+        "en": "Advanced baby diapers designed for night-long comfort, high absorption, and leakage protection.",
+        "ar": "ÙÙˆØ· Ø£Ø·ÙØ§Ù„ ï¿½Â…Ø·ÙˆÙ‘Ø±Ø© Ù„ØªÙˆÙÙŠØ± Ø§Ù„Ø±Ø§Ø­Ø©ØŒ Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ Ø§Ù„Ø¹Ø§Ù„ÙŠØŒ ÙˆØ§Ù„Ø­ï¿½Â…Ø§ÙŠØ© ï¿½Â…Ù† Ø§Ù„ØªØ³Ø±ÙŠØ¨."
+      },
+      "description": {
+        "en": "Baby Rexy diapers are developed with modern Japanese technology for a secure and comfortable fit. They feature a wide elastic waistband, a high-absorption three-dimensional core, wetness-distribution channels, leakage barriers, and soft materials that help keep skin dry.",
+        "ar": "Ø¨ÙŠØ¨ÙŠ Ø±ÙŠÙƒØ³ÙŠ ÙÙˆØ· Ø£Ø·ÙØ§Ù„ ï¿½Â…Ø·ÙˆÙ‘Ø±Ø© Ø¨ØªÙ‚Ù†ÙŠØ© ÙŠØ§Ø¨Ø§Ù†ÙŠØ© Ø­Ø¯ÙŠØ«Ø©ØŒ ØµÙï¿½Â…ï¿½Â…Øª Ù„ØªÙˆÙÙŠØ± Ø«Ø¨Ø§Øª ÙˆØ±Ø§Ø­Ø© Ø£ÙƒØ¨Ø± Ù„Ù„Ø·ÙÙ„ Ùˆï¿½Â…Ù†Ø¹ Ø§Ù„ØªØ³Ø±ÙŠØ¨. ØªØªï¿½Â…ÙŠØ² Ø¨Ø­Ø²Ø§ï¿½Â… Ø®ØµØ± ï¿½Â…Ø·Ø§Ø·ÙŠ Ø¹Ø±ÙŠØ¶ØŒ ÙˆØ­Ø´ÙˆØ© Ø«Ù„Ø§Ø«ÙŠØ© Ø§Ù„Ø£Ø¨Ø¹Ø§Ø¯ Ø¹Ø§Ù„ÙŠØ© Ø§Ù„Ø§ï¿½Â…ØªØµØ§ØµØŒ ï¿½Â…Ø¹ Ù‚Ù†ÙˆØ§Øª Ù„ØªÙˆØ²ÙŠØ¹ Ø§Ù„Ø¨Ù„Ù„ ÙˆØ­ÙˆØ§Ø¬Ø² ï¿½Â…Ø§Ù†Ø¹Ø© Ù„Ù„ØªØ³Ø±ÙŠØ¨."
+      },
+      "features": [
+        {
+          "icon": "fit",
+          "title": {
+            "en": "Wide elastic waist",
+            "ar": "Ø®ØµØ± ï¿½Â…Ø·Ø§Ø·ÙŠ Ø¹Ø±ÙŠØ¶"
+          },
+          "description": {
+            "en": "Helps the diaper stay secure while supporting easier movement.",
+            "ar": "ÙŠØ³Ø§Ø¹Ø¯ Ø§Ù„Ø­ÙØ§Ø¶ Ø¹Ù„Ù‰ Ø§Ù„Ø«Ø¨Ø§Øª ï¿½Â…Ø¹ Ø¯Ø¹ï¿½Â… Ø­Ø±ÙƒØ© Ø§Ù„Ø·ÙÙ„ Ø¨Ø±Ø§Ø­Ø© Ø£ÙƒØ¨Ø±."
+          }
+        },
+        {
+          "icon": "absorption",
+          "title": {
+            "en": "3D absorbent core",
+            "ar": "Ø­Ø´ÙˆØ© Ø«Ù„Ø§Ø«ÙŠØ© Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ"
+          },
+          "description": {
+            "en": "Built to absorb quickly and distribute wetness across the core.",
+            "ar": "ï¿½Â…Øµï¿½Â…ï¿½Â…Ø© Ù„Ù„Ø§ï¿½Â…ØªØµØ§Øµ Ø§Ù„Ø³Ø±ÙŠØ¹ ÙˆØªÙˆØ²ÙŠØ¹ Ø§Ù„Ø¨Ù„Ù„ Ø¯Ø§Ø®Ù„ Ø§Ù„Ø­Ø´ÙˆØ©."
+          }
+        },
+        {
+          "icon": "protection",
+          "title": {
+            "en": "Leakage barriers",
+            "ar": "Ø­ÙˆØ§Ø¬Ø² ï¿½Â…Ø§Ù†Ø¹Ø© Ù„Ù„ØªØ³Ø±ÙŠØ¨"
+          },
+          "description": {
+            "en": "Side guards help reduce leakage during daily and night use.",
+            "ar": "Ø­ÙˆØ§Ø¬Ø² Ø¬Ø§Ù†Ø¨ÙŠØ© ØªØ³Ø§Ø¹Ø¯ Ø¹Ù„Ù‰ ØªÙ‚Ù„ÙŠÙ„ Ø§Ù„ØªØ³Ø±ÙŠØ¨ Ø£Ø«Ù†Ø§Ø¡ Ø§Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø§Ù„ÙŠÙˆï¿½Â…ÙŠ ÙˆØ§Ù„Ù„ÙŠÙ„ÙŠ."
+          }
+        }
+      ],
+      "sizes": [
+        {
+          "label": {
+            "en": "NB",
+            "ar": "NB"
+          },
+          "value": {
+            "en": "2-5 kg",
+            "ar": "2-5 ÙƒØº"
+          },
+          "note": {
+            "en": "Newborn",
+            "ar": "Ø­Ø¯ÙŠØ« Ø§Ù„ÙˆÙ„Ø§Ø¯Ø©"
+          },
+          "description": {
+            "en": "A gentle first fit for newborn babies with soft everyday protection.",
+            "ar": "ï¿½Â…Ù„Ø§Ø¡ï¿½Â…Ø© Ù„Ø·ÙŠÙØ© Ù„Ø­Ø¯ÙŠØ«ÙŠ Ø§Ù„ÙˆÙ„Ø§Ø¯Ø© ï¿½Â…Ø¹ Ø­ï¿½Â…Ø§ÙŠØ© ÙŠÙˆï¿½Â…ÙŠØ© Ù†Ø§Ø¹ï¿½Â…Ø©."
+          },
+          "image": "/images/standardized/product-options/rexy-nb.png"
+        },
+        {
+          "label": {
+            "en": "S",
+            "ar": "S"
+          },
+          "value": {
+            "en": "3-6 kg",
+            "ar": "3-6 ÙƒØº"
+          },
+          "note": {
+            "en": "Small",
+            "ar": "ØµØºÙŠØ±"
+          },
+          "description": {
+            "en": "Comfortable care for early growth and daily diaper changes.",
+            "ar": "Ø¹Ù†Ø§ÙŠØ© ï¿½Â…Ø±ÙŠØ­Ø© Ù„ï¿½Â…Ø±Ø­Ù„Ø© Ø§Ù„Ù†ï¿½Â…Ùˆ Ø§Ù„ï¿½Â…Ø¨ÙƒØ± ÙˆØ§Ù„ØªØºÙŠÙŠØ± Ø§Ù„ÙŠÙˆï¿½Â…ÙŠ."
+          },
+          "image": "/images/standardized/product-options/rexy-s.png"
+        },
+        {
+          "label": {
+            "en": "M",
+            "ar": "M"
+          },
+          "value": {
+            "en": "5-9 kg",
+            "ar": "5-9 ÙƒØº"
+          },
+          "note": {
+            "en": "Medium",
+            "ar": "ÙˆØ³Ø·"
+          },
+          "description": {
+            "en": "Balanced fit and absorption for babies becoming more active.",
+            "ar": "ï¿½Â…Ù„Ø§Ø¡ï¿½Â…Ø© ÙˆØ§ï¿½Â…ØªØµØ§Øµ ï¿½Â…ØªÙˆØ§Ø²Ù† Ù„Ù„Ø£Ø·ÙØ§Ù„ Ø§Ù„Ø£ÙƒØ«Ø± Ø­Ø±ÙƒØ©."
+          },
+          "image": "/images/standardized/product-options/rexy-m.png"
+        },
+        {
+          "label": {
+            "en": "L",
+            "ar": "L"
+          },
+          "value": {
+            "en": "9-15 kg",
+            "ar": "9-15 ÙƒØº"
+          },
+          "note": {
+            "en": "Large",
+            "ar": "ÙƒØ¨ÙŠØ±"
+          },
+          "description": {
+            "en": "More coverage for growing babies during day and night routines.",
+            "ar": "ØªØºØ·ÙŠØ© Ø£ÙƒØ¨Ø± Ù„Ù„Ø£Ø·ÙØ§Ù„ ÙÙŠ Ø±ÙˆØªÙŠÙ† Ø§Ù„Ù†Ù‡Ø§Ø± ÙˆØ§Ù„Ù„ÙŠÙ„."
+          },
+          "image": "/images/standardized/product-options/rexy-l.png"
+        },
+        {
+          "label": {
+            "en": "XL",
+            "ar": "XL"
+          },
+          "value": {
+            "en": "12-19 kg",
+            "ar": "12-19 ÙƒØº"
+          },
+          "note": {
+            "en": "X-Large",
+            "ar": "ÙƒØ¨ÙŠØ± Ø¬Ø¯Ø§Ù‹"
+          },
+          "description": {
+            "en": "A comfortable larger fit for longer daily protection.",
+            "ar": "ï¿½Â…Ù‚Ø§Ø³ Ø£ÙƒØ¨Ø± Ùˆï¿½Â…Ø±ÙŠØ­ Ù„Ø­ï¿½Â…Ø§ÙŠØ© ÙŠÙˆï¿½Â…ÙŠØ© Ø£Ø·ÙˆÙ„."
+          },
+          "image": "/images/standardized/product-options/rexy-xl.png"
+        },
+        {
+          "label": {
+            "en": "XXL",
+            "ar": "XXL"
+          },
+          "value": {
+            "en": "15-22 kg",
+            "ar": "15-22 ÙƒØº"
+          },
+          "note": {
+            "en": "XX-Large",
+            "ar": "ÙƒØ¨ÙŠØ± Ø¬Ø¯Ø§Ù‹ 2"
+          },
+          "description": {
+            "en": "Extra coverage for bigger toddlers who need dependable comfort.",
+            "ar": "ØªØºØ·ÙŠØ© Ø¥Ø¶Ø§ÙÙŠØ© Ù„Ù„Ø£Ø·ÙØ§Ù„ Ø§Ù„Ø£ÙƒØ¨Ø± ï¿½Â…Ø¹ Ø±Ø§Ø­Ø© ÙŠï¿½Â…ÙƒÙ† Ø§Ù„Ø§Ø¹Øªï¿½Â…Ø§Ø¯ Ø¹Ù„ÙŠÙ‡Ø§."
+          },
+          "image": "/images/standardized/product-options/rexy-xxl.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": {
+            "en": "How do I choose the right Baby Rexy diaper size?",
+            "ar": "ÙƒÙŠÙ Ø£Ø®ØªØ§Ø± ï¿½Â…Ù‚Ø§Ø³ Ø¨ÙŠØ¨ÙŠ Ø±ÙŠÙƒØ³ÙŠ Ø§Ù„ï¿½Â…Ù†Ø§Ø³Ø¨ØŸ"
+          },
+          "answer": {
+            "en": "Choose the size based on your baby's current weight range, then check that the waist and leg openings feel secure without leaving strong marks.",
+            "ar": "Ø§Ø®ØªØ± Ø§Ù„ï¿½Â…Ù‚Ø§Ø³ Ø­Ø³Ø¨ ÙˆØ²Ù† Ø§Ù„Ø·ÙÙ„ Ø§Ù„Ø­Ø§Ù„ÙŠØŒ Ø«ï¿½Â… ØªØ£ÙƒØ¯ Ø£Ù† Ø§Ù„Ø®ØµØ± ÙˆÙØªØ­Ø§Øª Ø§Ù„Ø£Ø±Ø¬Ù„ Ø«Ø§Ø¨ØªØ© Ùˆï¿½Â…Ø±ÙŠØ­Ø© Ø¯ÙˆÙ† ØªØ±Ùƒ Ø¹Ù„Ø§ï¿½Â…Ø§Øª Ù‚ÙˆÙŠØ© Ø¹Ù„Ù‰ Ø§Ù„Ø¨Ø´Ø±Ø©."
+          }
+        },
+        {
+          "question": {
+            "en": "When should I move to the next size?",
+            "ar": "ï¿½Â…ØªÙ‰ Ø£Ø­ØªØ§Ø¬ Ù„Ù„Ø§Ù†ØªÙ‚Ø§Ù„ Ø¥Ù„Ù‰ ï¿½Â…Ù‚Ø§Ø³ Ø£ÙƒØ¨Ø±ØŸ"
+          },
+          "answer": {
+            "en": "Move up when the diaper feels tight, leaves noticeable marks, leaks more often, or when your baby's weight is close to the top of the current range.",
+            "ar": "Ø§Ù†ØªÙ‚Ù„ Ø¥Ù„Ù‰ ï¿½Â…Ù‚Ø§Ø³ Ø£ÙƒØ¨Ø± Ø¹Ù†Ø¯ï¿½Â…Ø§ ÙŠØµØ¨Ø­ Ø§Ù„Ø­ÙØ§Ø¶ Ø¶ÙŠÙ‚Ø§Ù‹ØŒ Ø£Ùˆ ÙŠØªØ±Ùƒ Ø¹Ù„Ø§ï¿½Â…Ø§Øª ÙˆØ§Ø¶Ø­Ø©ØŒ Ø£Ùˆ ÙŠØ­Ø¯Ø« ØªØ³Ø±ÙŠØ¨ ï¿½Â…ØªÙƒØ±Ø±ØŒ Ø£Ùˆ ÙŠÙ‚ØªØ±Ø¨ ÙˆØ²Ù† Ø§Ù„Ø·ÙÙ„ ï¿½Â…Ù† Ø§Ù„Ø­Ø¯ Ø§Ù„Ø£Ø¹Ù„Ù‰ Ù„Ù„ï¿½Â…Ù‚Ø§Ø³ Ø§Ù„Ø­Ø§Ù„ÙŠ."
+          }
+        },
+        {
+          "question": {
+            "en": "Which Baby Rexy sizes are available?",
+            "ar": "ï¿½Â…Ø§ Ø§Ù„ï¿½Â…Ù‚Ø§Ø³Ø§Øª Ø§Ù„ï¿½Â…ØªÙˆÙØ±Ø© ï¿½Â…Ù† Ø¨ÙŠØ¨ÙŠ Ø±ÙŠÙƒØ³ÙŠØŸ"
+          },
+          "answer": {
+            "en": "Baby Rexy is available in NB, S, M, L, XL, and XXL, covering babies from 2 kg up to 22 kg.",
+            "ar": "ÙŠØªÙˆÙØ± Ø¨ÙŠØ¨ÙŠ Ø±ÙŠÙƒØ³ÙŠ Ø¨ï¿½Â…Ù‚Ø§Ø³Ø§Øª NB ÙˆS ÙˆM ÙˆL ÙˆXL ÙˆXXLØŒ Ù„ØªØºØ·ÙŠØ© Ø£ÙˆØ²Ø§Ù† Ø§Ù„Ø£Ø·ÙØ§Ù„ ï¿½Â…Ù† 2 ÙƒØº Ø­ØªÙ‰ 22 ÙƒØº."
+          }
+        },
+        {
+          "question": {
+            "en": "What helps Baby Rexy stay comfortable for daily use?",
+            "ar": "ï¿½Â…Ø§ Ø§Ù„Ø°ÙŠ ÙŠØ³Ø§Ø¹Ø¯ Ø¨ÙŠØ¨ÙŠ Ø±ÙŠÙƒØ³ÙŠ Ø¹Ù„Ù‰ ØªÙˆÙÙŠØ± Ø§Ù„Ø±Ø§Ø­Ø© Ù„Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø§Ù„ÙŠÙˆï¿½Â…ÙŠØŸ"
+          },
+          "answer": {
+            "en": "The product line focuses on soft materials, a secure elastic waist, absorbent core structure, wetness distribution, and leakage barriers for dependable everyday care.",
+            "ar": "ÙŠØ±ÙƒØ² Ù‡Ø°Ø§ Ø§Ù„Ø®Ø· Ø¹Ù„Ù‰ Ø§Ù„ï¿½Â…ÙˆØ§Ø¯ Ø§Ù„Ù†Ø§Ø¹ï¿½Â…Ø©ØŒ ÙˆØ®ØµØ± ï¿½Â…Ø·Ø§Ø·ÙŠ Ø«Ø§Ø¨ØªØŒ ÙˆØ¨Ù†ÙŠØ© ï¿½Â…Ø§ØµØ©ØŒ ÙˆØªÙˆØ²ÙŠØ¹ Ø§Ù„Ø¨Ù„Ù„ØŒ ÙˆØ­ÙˆØ§Ø¬Ø² ï¿½Â…Ø§Ù†Ø¹Ø© Ù„Ù„ØªØ³Ø±ÙŠØ¨ Ù„Ø¹Ù†Ø§ÙŠØ© ÙŠÙˆï¿½Â…ÙŠØ© ÙŠï¿½Â…ÙƒÙ† Ø§Ù„Ø§Ø¹Øªï¿½Â…Ø§Ø¯ Ø¹Ù„ÙŠÙ‡Ø§."
+          }
+        }
+      ],
+      "bannerSize": {
+        "width": 2400,
+        "height": 460
+      }
+    },
+    {
+      "slug": "hq-plus",
+      "title": {
+        "en": "HQ+",
+        "ar": "Ø¢ØªØ´ ÙƒÙŠÙˆ +"
+      },
+      "category": {
+        "en": "Sanitary Pads",
+        "ar": "Ø§Ù„ÙÙˆØ· Ø§Ù„Ù†Ø³Ø§Ø¦ÙŠØ©"
+      },
+      "image": "/images/standardized/product-cards/hq-plus.png",
+      "cardImage": "/images/standardized/product-cards/hq-plus.png",
+      "bannerImage": "/images/standardized/banners/hq-plus.png",
+      "bannerSize": {
+        "width": 2400,
+        "height": 460
+      },
+      "logo": "/images/standardized/logos/hq-plus.png",
+      "excerpt": {
+        "en": "Thick sanitary pads with wings, cotton-like softness, fast absorption, and leakage protection.",
+        "ar": "ÙÙˆØ· Ù†Ø³Ø§Ø¦ÙŠØ© Ø³ï¿½Â…ÙŠÙƒØ© Ø¨Ø§Ù„Ø£Ø¬Ù†Ø­Ø©ØŒ Ø¨Ù†Ø¹Ùˆï¿½Â…Ø© Ø§Ù„Ù‚Ø·Ù†ØŒ ÙˆØ§ï¿½Â…ØªØµØ§Øµ Ø³Ø±ÙŠØ¹ØŒ ÙˆØ­ï¿½Â…Ø§ÙŠØ© ï¿½Â…Ù† Ø§Ù„ØªØ³Ø±ÙŠØ¨."
+      },
+      "description": {
+        "en": "HQ+ thick sanitary pads are available in four options: Goodnight, Super Plus, Super, and Normal. Each pad is designed with side wings for a secure fit, a soft cotton-like surface, ADL fast-absorption support, deep distribution channels, super absorbent gel, and side leakage barriers for comfort, dryness, and confidence.",
+        "ar": "ÙÙˆØ· Ø¢ØªØ´ ÙƒÙŠÙˆ Ø§Ù„Ø³ï¿½Â…ÙŠÙƒØ© ï¿½Â…ØªÙˆÙØ±Ø© Ø¨Ø§Ù„ï¿½Â…Ù‚Ø§Ø³Ø§Øª Ø§Ù„Ø£Ø±Ø¨Ø¹Ø©: Ù„ÙŠÙ„ÙŠØ©ØŒ Ø³ÙˆØ¨Ø± Ø¨Ù„Ø§Ø³ØŒ Ø³ÙˆØ¨Ø±ØŒ ÙˆÙ†ÙˆØ±ï¿½Â…Ø§Ù„. Øµï¿½Â…ï¿½Â…Øª ÙƒÙ„ ÙÙˆØ·Ø© Ø¨Ø£Ø¬Ù†Ø­Ø© Ø¬Ø§Ù†Ø¨ÙŠØ© Ù„ØªØ«Ø¨ÙŠØª Ø£ÙØ¶Ù„ØŒ ÙˆØ³Ø·Ø­ Ù†Ø§Ø¹ï¿½Â… Ø´Ø¨ÙŠÙ‡ Ø¨Ø§Ù„Ù‚Ø·Ù†ØŒ ÙˆØ·Ø¨Ù‚Ø© ADL Ù„Ù„ï¿½Â…Ø³Ø§Ø¹Ø¯Ø© Ø¹Ù„Ù‰ Ø³Ø±Ø¹Ø© Ø§Ù„Ø§ï¿½Â…ØªØµØ§ØµØŒ ÙˆØ£Ù‚Ù†ÙŠØ© ØªÙˆØ²ÙŠØ¹ Ø¹ï¿½Â…ÙŠÙ‚Ø©ØŒ ÙˆØ¬Ù„ ÙØ§Ø¦Ù‚ Ø§Ù„Ø§ï¿½Â…ØªØµØ§ØµØŒ ÙˆØ­ÙˆØ§Ø¬Ø² Ø¬Ø§Ù†Ø¨ÙŠØ© Ù„Ù„Ø­ï¿½Â…Ø§ÙŠØ© ï¿½Â…Ù† Ø§Ù„ØªØ³Ø±ÙŠØ¨ ÙˆØ§Ù„Ø´Ø¹ÙˆØ± Ø¨Ø§Ù„Ø±Ø§Ø­Ø© ÙˆØ§Ù„Ø¬ÙØ§Ù ÙˆØ§Ù„Ø«Ù‚Ø©."
+      },
+      "features": [
+        {
+          "icon": "softness",
+          "title": {
+            "en": "Soft cotton-like touch",
+            "ar": "ï¿½Â…Ù„ï¿½Â…Ø³ Ù†Ø§Ø¹ï¿½Â… Ø´Ø¨ÙŠÙ‡ Ø¨Ø§Ù„Ù‚Ø·Ù†"
+          },
+          "description": {
+            "en": "Created for comfortable contact during everyday period care.",
+            "ar": "ï¿½Â…Øµï¿½Â…ï¿½Â…Ø© Ù„ï¿½Â…Ù„Ø§ï¿½Â…Ø³Ø© ï¿½Â…Ø±ÙŠØ­Ø© Ø£Ø«Ù†Ø§Ø¡ Ø§Ù„Ø¹Ù†Ø§ÙŠØ© Ø§Ù„ÙŠÙˆï¿½Â…ÙŠØ© Ø¨Ø§Ù„Ø¯ÙˆØ±Ø©."
+          }
+        },
+        {
+          "icon": "dryness",
+          "title": {
+            "en": "Quick absorption",
+            "ar": "Ø§ï¿½Â…ØªØµØ§Øµ Ø³Ø±ÙŠØ¹"
+          },
+          "description": {
+            "en": "Helps support dryness, comfort, and confidence through the day.",
+            "ar": "ÙŠØ³Ø§Ø¹Ø¯ Ø¹Ù„Ù‰ Ø¯Ø¹ï¿½Â… Ø§Ù„Ø¬ÙØ§Ù ÙˆØ§Ù„Ø±Ø§Ø­Ø© ÙˆØ§Ù„Ø«Ù‚Ø© Ø®Ù„Ø§Ù„ Ø§Ù„ÙŠÙˆï¿½Â…."
+          }
+        },
+        {
+          "icon": "packaging",
+          "title": {
+            "en": "Individually sealed",
+            "ar": "ØªØºÙ„ÙŠÙ ÙØ±Ø¯ÙŠ ï¿½Â…Ø­Ùƒï¿½Â…"
+          },
+          "description": {
+            "en": "Each pad is packed separately for clean, practical handling.",
+            "ar": "ÙƒÙ„ ÙÙˆØ·Ø© ï¿½Â…ØºÙ„ÙØ© Ø¨Ø´ÙƒÙ„ ï¿½Â…Ù†ÙØµÙ„ Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ù†Ø¸ÙŠÙ ÙˆØ¹ï¿½Â…Ù„ÙŠ."
+          }
+        }
+      ],
+      "detailFeatures": [
+        {
+          "icon": "fit",
+          "title": {
+            "en": "Four thick pad options",
+            "ar": "Ø£Ø±Ø¨Ø¹Ø© ï¿½Â…Ù‚Ø§Ø³Ø§Øª Ù„Ù„ÙÙˆØ·Ø© Ø§Ù„Ø³ï¿½Â…ÙŠÙƒØ©"
+          },
+          "description": {
+            "en": "Available in Goodnight, Super Plus, Super, and Normal, with side wings for a more secure fit on underwear.",
+            "ar": "ï¿½Â…ØªÙˆÙØ±Ø© Ø¨Ø§Ù„ï¿½Â…Ù‚Ø§Ø³Ø§Øª Ø§Ù„Ø£Ø±Ø¨Ø¹Ø©: Ù„ÙŠÙ„ÙŠØ©ØŒ Ø³ÙˆØ¨Ø± Ø¨Ù„Ø§Ø³ØŒ Ø³ÙˆØ¨Ø±ØŒ ÙˆÙ†ÙˆØ±ï¿½Â…Ø§Ù„ØŒ ï¿½Â…Ø¹ Ø£Ø¬Ù†Ø­Ø© Ø¬Ø§Ù†Ø¨ÙŠØ© Ù„ØªØ«Ø¨ÙŠØª Ø£ÙØ¶Ù„ Ø¹Ù„Ù‰ Ø§Ù„Ù„Ø¨Ø§Ø³ Ø§Ù„Ø¯Ø§Ø®Ù„ÙŠ."
+          }
+        },
+        {
+          "icon": "softness",
+          "title": {
+            "en": "Cotton-like surface",
+            "ar": "Ø³Ø·Ø­ Ø¨Ù†Ø¹Ùˆï¿½Â…Ø© Ø§Ù„Ù‚Ø·Ù†"
+          },
+          "description": {
+            "en": "The skin-contact layer is soft and highly absorbent to support dryness and help protect sensitive skin.",
+            "ar": "Ø³Ø·Ø­ Ø§Ù„ÙÙˆØ·Ø© Ø§Ù„ï¿½Â…Ù„Ø§ï¿½Â…Ø³ Ù„Ù„Ø¨Ø´Ø±Ø© Ø¨Ù†Ø¹Ùˆï¿½Â…Ø© Ø§Ù„Ù‚Ø·Ù† ÙˆØ°Ùˆ Ù‚Ø¯Ø±Ø© Ø¹Ø§Ù„ÙŠØ© Ø¹Ù„Ù‰ Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ Ù„Ø¯Ø¹ï¿½Â… Ø§Ù„Ø¬ÙØ§Ù ÙˆØ§Ù„Ø­ï¿½Â…Ø§ÙŠØ© ï¿½Â…Ù† Ø§Ù„Ø­Ø³Ø§Ø³ÙŠØ©."
+          }
+        },
+        {
+          "icon": "absorption",
+          "title": {
+            "en": "ADL fast-absorption layer",
+            "ar": "Ø·Ø¨Ù‚Ø© ADL Ø³Ø±ÙŠØ¹Ø© Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ"
+          },
+          "description": {
+            "en": "An added ADL layer below the surface helps speed liquid absorption and reduce leakage.",
+            "ar": "Ø·Ø¨Ù‚Ø© Ø¥Ø¶Ø§ÙÙŠØ© Ø£Ø³ÙÙ„ Ø§Ù„Ø·Ø¨Ù‚Ø© Ø§Ù„Ø³Ø·Ø­ÙŠØ© ADL ØªØ³Ø§Ø¹Ø¯ Ø¹Ù„Ù‰ Ø²ÙŠØ§Ø¯Ø© Ø³Ø±Ø¹Ø© Ø§ï¿½Â…ØªØµØ§Øµ Ø§Ù„Ø³Ø§Ø¦Ù„ Ùˆï¿½Â…Ù†Ø¹ Ø§Ù„ØªØ³Ø±ÙŠØ¨."
+          }
+        },
+        {
+          "icon": "dryness",
+          "title": {
+            "en": "Deep distribution channels",
+            "ar": "Ø£Ù‚Ù†ÙŠØ© ØªÙˆØ²ÙŠØ¹ Ø¹ï¿½Â…ÙŠÙ‚Ø©"
+          },
+          "description": {
+            "en": "Deep channels help distribute wetness properly across the pad for better leakage protection.",
+            "ar": "Ø£Ù‚Ù†ÙŠØ© Ø¹ï¿½Â…ÙŠÙ‚Ø© Ø¨Ø´ÙƒÙ„ ï¿½Â…Ù†Ø§Ø³Ø¨ ØªØ³Ø§Ø¹Ø¯ Ø¹Ù„Ù‰ ØªÙˆØ²Ø¹ Ø§Ù„Ø¨Ù„Ù„ ÙˆØ§Ù„Ø­ï¿½Â…Ø§ÙŠØ© ï¿½Â…Ù† Ø§Ù„ØªØ³Ø±ÙŠØ¨."
+          }
+        },
+        {
+          "icon": "protection",
+          "title": {
+            "en": "Super absorbent gel",
+            "ar": "Ø¬Ù„ ÙØ§Ø¦Ù‚ Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ"
+          },
+          "description": {
+            "en": "Super absorbent gel locks liquid away from the skin to help deliver a fully dry feeling.",
+            "ar": "Ø¬Ù„ ÙØ§Ø¦Ù‚ Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ Ù„Ø­Ø¬Ø² Ø§Ù„Ø³Ø§Ø¦Ù„ ÙˆØ¥Ø¨Ø¹Ø§Ø¯Ù‡ Ø¹Ù† Ø§Ù„Ø¨Ø´Ø±Ø© ÙˆØ§Ù„ï¿½Â…Ø³Ø§Ø¹Ø¯Ø© Ø¹Ù„Ù‰ Ø§Ù„Ø´Ø¹ÙˆØ± Ø¨Ø§Ù„Ø¬ÙØ§Ù."
+          }
+        },
+        {
+          "icon": "protection",
+          "title": {
+            "en": "Side leakage barriers",
+            "ar": "Ø­ÙˆØ§Ø¬Ø² Ø¬Ø§Ù†Ø¨ÙŠØ© ï¿½Â…Ø§Ù†Ø¹Ø© Ù„Ù„ØªØ³Ø±ÙŠØ¨"
+          },
+          "description": {
+            "en": "Non-absorbent side barriers help prevent leakage from the pad sides.",
+            "ar": "Ø­ÙˆØ§Ø¬Ø² Ø¬Ø§Ù†Ø¨ÙŠØ© ØºÙŠØ± ï¿½Â…Ø§ØµØ© ØªØ³Ø§Ø¹Ø¯ Ø¹Ù„Ù‰ ï¿½Â…Ù†Ø¹ Ø§Ù„ØªØ³Ø±ÙŠØ¨ ï¿½Â…Ù† Ø§Ù„Ø¬ÙˆØ§Ù†Ø¨."
+          }
+        },
+        {
+          "icon": "materials",
+          "title": {
+            "en": "Wrapped cotton core",
+            "ar": "Ø­Ø´ÙˆØ© Ù‚Ø·Ù†ÙŠØ© ï¿½Â…Ù„ÙÙˆÙØ©"
+          },
+          "description": {
+            "en": "The cotton core is wrapped with an additional layer to help prevent clumping.",
+            "ar": "Øªï¿½Â… Ù„Ù Ù‚Ø·Ù† Ø§Ù„Ø­Ø´ÙˆØ© Ø¨Ø·Ø¨Ù‚Ø© Ø¥Ø¶Ø§ÙÙŠØ© ï¿½Â…Ù†Ø§Ø³Ø¨Ø© Ù„Ù„ï¿½Â…Ø³Ø§Ø¹Ø¯Ø© Ø¹Ù„Ù‰ ï¿½Â…Ù†Ø¹ ØªÙƒØªÙ„ Ø§Ù„Ù‚Ø·Ù†."
+          }
+        },
+        {
+          "icon": "packaging",
+          "title": {
+            "en": "UV sterilized, no fragrance",
+            "ar": "ØªØ¹Ù‚ÙŠï¿½Â… UV Ø¨Ø¯ÙˆÙ† Ø¹Ø·ÙˆØ±"
+          },
+          "description": {
+            "en": "UV sterilization and fragrance-free production help support protection for sensitive skin.",
+            "ar": "Ù„Ø²ÙŠØ§Ø¯Ø© Ø§Ù„Ø­ï¿½Â…Ø§ÙŠØ© ï¿½Â…Ù† Ø§Ù„Ø­Ø³Ø§Ø³ÙŠØ© ÙŠØªï¿½Â… ØªØ¹Ù‚ÙŠï¿½Â… Ø§Ù„ÙÙˆØ·Ø© Ø¨ØªÙ‚Ù†ÙŠØ© UV Ø¯ÙˆÙ† Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø£ÙŠ ï¿½Â…ÙˆØ§Ø¯ Ø¹Ø·Ø±ÙŠØ©."
+          }
+        }
+      ],
+      "sizes": [
+        {
+          "label": {
+            "en": "N",
+            "ar": "N"
+          },
+          "value": {
+            "en": "Normal",
+            "ar": "Ù†ÙˆØ±ï¿½Â…Ø§Ù„"
+          },
+          "note": {
+            "en": "Normal",
+            "ar": "Ù†ÙˆØ±ï¿½Â…Ø§Ù„"
+          },
+          "description": {
+            "en": "A thick everyday HQ+ sanitary pad with wings for secure fixation, comfort, and leakage protection.",
+            "ar": "ÙÙˆØ·Ø© Ø¢ØªØ´ ÙƒÙŠÙˆ Ø§Ù„Ø³ï¿½Â…ÙŠÙƒØ© Ù„Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø§Ù„ÙŠÙˆï¿½Â…ÙŠ ï¿½Â…Ø¹ Ø£Ø¬Ù†Ø­Ø© Ø¬Ø§Ù†Ø¨ÙŠØ© Ù„ØªØ«Ø¨ÙŠØª Ø£ÙØ¶Ù„ ÙˆØ±Ø§Ø­Ø© ÙˆØ­ï¿½Â…Ø§ÙŠØ© ï¿½Â…Ù† Ø§Ù„ØªØ³Ø±ÙŠØ¨."
+          },
+          "image": "/images/standardized/product-options/hq-normal.png"
+        },
+        {
+          "label": {
+            "en": "S",
+            "ar": "S"
+          },
+          "value": {
+            "en": "Super",
+            "ar": "Ø³ÙˆØ¨Ø±"
+          },
+          "note": {
+            "en": "Super",
+            "ar": "Ø³ÙˆØ¨Ø±"
+          },
+          "description": {
+            "en": "Designed for stronger protection with fast absorption support, side barriers, and comfortable coverage.",
+            "ar": "ï¿½Â…Øµï¿½Â…ï¿½Â…Ø© Ù„Ø­ï¿½Â…Ø§ÙŠØ© Ø£Ù‚ÙˆÙ‰ ï¿½Â…Ø¹ Ø¯Ø¹ï¿½Â… Ø³Ø±Ø¹Ø© Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ ÙˆØ­ÙˆØ§Ø¬Ø² Ø¬Ø§Ù†Ø¨ÙŠØ© ÙˆØªØºØ·ÙŠØ© ï¿½Â…Ø±ÙŠØ­Ø©."
+          },
+          "image": "/images/standardized/product-options/hq-super.png"
+        },
+        {
+          "label": {
+            "en": "S+",
+            "ar": "S+"
+          },
+          "value": {
+            "en": "Super Plus",
+            "ar": "Ø³ÙˆØ¨Ø± Ø¨Ù„Ø§Ø³"
+          },
+          "note": {
+            "en": "Super Plus",
+            "ar": "Ø³ÙˆØ¨Ø± Ø¨Ù„Ø§Ø³"
+          },
+          "description": {
+            "en": "A higher-protection option with super absorbent gel, deep distribution channels, and cotton-like softness.",
+            "ar": "Ø®ÙŠØ§Ø± Ø­ï¿½Â…Ø§ÙŠØ© Ø£Ø¹Ù„Ù‰ ï¿½Â…Ø¹ Ø¬Ù„ ÙØ§Ø¦Ù‚ Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ ÙˆØ£Ù‚Ù†ÙŠØ© ØªÙˆØ²ÙŠØ¹ Ø¹ï¿½Â…ÙŠÙ‚Ø© Ùˆï¿½Â…Ù„ï¿½Â…Ø³ Ù†Ø§Ø¹ï¿½Â… Ø´Ø¨ÙŠÙ‡ Ø¨Ø§Ù„Ù‚Ø·Ù†."
+          },
+          "image": "/images/standardized/product-options/hq-super-plus.png"
+        },
+        {
+          "label": {
+            "en": "GN",
+            "ar": "GN"
+          },
+          "value": {
+            "en": "Goodnight",
+            "ar": "Ù„ÙŠÙ„ÙŠ"
+          },
+          "note": {
+            "en": "Goodnight",
+            "ar": "Ù„ÙŠÙ„ÙŠ"
+          },
+          "description": {
+            "en": "Night protection made for longer wear, dependable dryness, and secure comfort while resting.",
+            "ar": "Ø­ï¿½Â…Ø§ÙŠØ© Ù„ÙŠÙ„ÙŠØ© ï¿½Â…Øµï¿½Â…ï¿½Â…Ø© Ù„Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø§Ù„Ø£Ø·ÙˆÙ„ ï¿½Â…Ø¹ Ø¬ÙØ§Ù ï¿½Â…ÙˆØ«ÙˆÙ‚ ÙˆØ±Ø§Ø­Ø© Ø¢ï¿½Â…Ù†Ø© Ø£Ø«Ù†Ø§Ø¡ Ø§Ù„Ø±Ø§Ø­Ø©."
+          },
+          "image": "/images/standardized/product-options/hq-goodnight.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": {
+            "en": "Which HQ+ sanitary pad options are available?",
+            "ar": "ï¿½Â…Ø§ Ø§Ù„Ø®ÙŠØ§Ø±Ø§Øª Ø§Ù„ï¿½Â…ØªÙˆÙØ±Ø© ï¿½Â…Ù† ÙÙˆØ· Ø¢ØªØ´ ÙƒÙŠÙˆØŸ"
+          },
+          "answer": {
+            "en": "HQ+ thick sanitary pads are available in Normal, Super, Super Plus, and Goodnight options for different daily and night protection needs.",
+            "ar": "ØªØªÙˆÙØ± ÙÙˆØ· Ø¢ØªØ´ ÙƒÙŠÙˆ Ø§Ù„Ø³ï¿½Â…ÙŠÙƒØ© Ø¨Ø®ÙŠØ§Ø±Ø§Øª Ù†ÙˆØ±ï¿½Â…Ø§Ù„ØŒ Ø³ÙˆØ¨Ø±ØŒ Ø³ÙˆØ¨Ø± Ø¨Ù„Ø§Ø³ØŒ ÙˆÙ„ÙŠÙ„ÙŠ Ù„ØªÙ†Ø§Ø³Ø¨ Ø§Ø­ØªÙŠØ§Ø¬Ø§Øª Ø§Ù„Ø­ï¿½Â…Ø§ÙŠØ© Ø§Ù„ÙŠÙˆï¿½Â…ÙŠØ© ÙˆØ§Ù„Ù„ÙŠÙ„ÙŠØ© Ø§Ù„ï¿½Â…Ø®ØªÙ„ÙØ©."
+          }
+        },
+        {
+          "question": {
+            "en": "What helps HQ+ reduce leakage?",
+            "ar": "ï¿½Â…Ø§ Ø§Ù„Ø°ÙŠ ÙŠØ³Ø§Ø¹Ø¯ Ø¢ØªØ´ ÙƒÙŠÙˆ Ø¹Ù„Ù‰ ØªÙ‚Ù„ÙŠÙ„ Ø§Ù„ØªØ³Ø±ÙŠØ¨ØŸ"
+          },
+          "answer": {
+            "en": "HQ+ uses side wings, an ADL fast-absorption layer, deep distribution channels, super absorbent gel, and side leakage barriers to support better protection.",
+            "ar": "ØªØ¹Øªï¿½Â…Ø¯ Ø¢ØªØ´ ÙƒÙŠÙˆ Ø¹Ù„Ù‰ Ø£Ø¬Ù†Ø­Ø© Ø¬Ø§Ù†Ø¨ÙŠØ©ØŒ ÙˆØ·Ø¨Ù‚Ø© ADL Ø³Ø±ÙŠØ¹Ø© Ø§Ù„Ø§ï¿½Â…ØªØµØ§ØµØŒ ÙˆØ£Ù‚Ù†ÙŠØ© ØªÙˆØ²ÙŠØ¹ Ø¹ï¿½Â…ÙŠÙ‚Ø©ØŒ ÙˆØ¬Ù„ ÙØ§Ø¦Ù‚ Ø§Ù„Ø§ï¿½Â…ØªØµØ§ØµØŒ ÙˆØ­ÙˆØ§Ø¬Ø² Ø¬Ø§Ù†Ø¨ÙŠØ© Ù„Ù„ï¿½Â…Ø³Ø§Ø¹Ø¯Ø© Ø¹Ù„Ù‰ Ø­ï¿½Â…Ø§ÙŠØ© Ø£ÙØ¶Ù„."
+          }
+        },
+        {
+          "question": {
+            "en": "Are HQ+ pads fragrance-free?",
+            "ar": "Ù‡Ù„ ÙÙˆØ· Ø¢ØªØ´ ÙƒÙŠÙˆ Ø®Ø§Ù„ÙŠØ© ï¿½Â…Ù† Ø§Ù„Ø¹Ø·ÙˆØ±ØŸ"
+          },
+          "answer": {
+            "en": "Yes. HQ+ pads are presented as fragrance-free and UV sterilized to support comfort for sensitive skin.",
+            "ar": "Ù†Ø¹ï¿½Â…. ÙŠØªï¿½Â… ØªÙ‚Ø¯ÙŠï¿½Â… ÙÙˆØ· Ø¢ØªØ´ ÙƒÙŠÙˆ Ø¨Ø£Ù†Ù‡Ø§ Ø®Ø§Ù„ÙŠØ© ï¿½Â…Ù† Ø§Ù„ï¿½Â…ÙˆØ§Ø¯ Ø§Ù„Ø¹Ø·Ø±ÙŠØ© Ùˆï¿½Â…Ø¹Ù‚ï¿½Â…Ø© Ø¨ØªÙ‚Ù†ÙŠØ© UV Ù„Ø¯Ø¹ï¿½Â… Ø§Ù„Ø±Ø§Ø­Ø© Ù„Ù„Ø¨Ø´Ø±Ø© Ø§Ù„Ø­Ø³Ø§Ø³Ø©."
+          }
+        },
+        {
+          "question": {
+            "en": "How do I choose between Normal, Super, Super Plus, and Goodnight?",
+            "ar": "ÙƒÙŠÙ Ø£Ø®ØªØ§Ø± Ø¨ÙŠÙ† Ù†ÙˆØ±ï¿½Â…Ø§Ù„ ÙˆØ³ÙˆØ¨Ø± ÙˆØ³ÙˆØ¨Ø± Ø¨Ù„Ø§Ø³ ÙˆÙ„ÙŠÙ„ÙŠØŸ"
+          },
+          "answer": {
+            "en": "Choose Normal for regular daily use, Super or Super Plus when stronger protection is preferred, and Goodnight for night use or longer wear.",
+            "ar": "Ø§Ø®ØªØ§Ø±ÙŠ Ù†ÙˆØ±ï¿½Â…Ø§Ù„ Ù„Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø§Ù„ÙŠÙˆï¿½Â…ÙŠ Ø§Ù„Ø¹Ø§Ø¯ÙŠØŒ ÙˆØ³ÙˆØ¨Ø± Ø£Ùˆ Ø³ÙˆØ¨Ø± Ø¨Ù„Ø§Ø³ Ø¹Ù†Ø¯ Ø§Ù„Ø­Ø§Ø¬Ø© Ø¥Ù„Ù‰ Ø­ï¿½Â…Ø§ÙŠØ© Ø£Ù‚ÙˆÙ‰ØŒ ÙˆÙ„ÙŠÙ„ÙŠ Ù„Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø§Ù„Ù„ÙŠÙ„ÙŠ Ø£Ùˆ Ù„ÙØªØ±Ø© Ø£Ø·ÙˆÙ„."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "tizkar",
+      "title": {
+        "en": "Tizkar",
+        "ar": "ØªØ°ÙƒØ§Ø±"
+      },
+      "category": {
+        "en": "Facial Tissues and Wipes",
+        "ar": "ï¿½Â…Ø­Ø§Ø±ï¿½Â… Ùˆï¿½Â…Ù†Ø§Ø¯ÙŠÙ„"
+      },
+      "image": "/images/standardized/product-cards/tizkar.png",
+      "cardImage": "/images/standardized/product-cards/tizkar.png",
+      "bannerImage": "/images/standardized/banners/tizkar.png",
+      "bannerSize": {
+        "width": 2400,
+        "height": 460
+      },
+      "logo": "/images/standardized/logos/tizkar.png",
+      "excerpt": {
+        "en": "Soft facial tissues and wipes made for clean, comfortable family routines.",
+        "ar": "ï¿½Â…Ø­Ø§Ø±ï¿½Â… Ùˆï¿½Â…Ù†Ø§Ø¯ÙŠÙ„ Ù†Ø§Ø¹ï¿½Â…Ø© Ù„Ø¹Ù†Ø§ÙŠØ© Ø¹Ø§Ø¦Ù„ÙŠØ© Ù†Ø¸ÙŠÙØ© Ùˆï¿½Â…Ø±ÙŠØ­Ø©."
+      },
+      "description": {
+        "en": "Tizkar facial tissues are soft, high-quality products made from 100% natural cellulose for cleanliness and comfort. The range includes multiple weights and drying tissues for different everyday needs.",
+        "ar": "ØªØ°ÙƒØ§Ø± ï¿½Â…Ø­Ø§Ø±ï¿½Â… ÙˆØ¬Ù‡ Ù†Ø§Ø¹ï¿½Â…Ø© ÙˆØ¹Ø§Ù„ÙŠØ© Ø§Ù„Ø¬ÙˆØ¯Ø©ØŒ ï¿½Â…ØµÙ†ÙˆØ¹Ø© ï¿½Â…Ù† Ø§Ù„Ø³ÙŠÙ„ÙŠÙ„ÙˆØ² Ø§Ù„Ø·Ø¨ÙŠØ¹ÙŠ Ø¨Ù†Ø³Ø¨Ø© 100% Ù„ØªÙˆÙÙŠØ± Ø§Ù„Ù†Ø¸Ø§ÙØ© ÙˆØ§Ù„Ø±Ø§Ø­Ø©. ØªØªÙˆÙØ± Ø¨Ø¹Ø¯Ø© Ø£ÙˆØ²Ø§Ù†ØŒ Ø¥Ø¶Ø§ÙØ©Ù‹ Ø¥Ù„Ù‰ ï¿½Â…Ø­Ø§Ø±ï¿½Â… ØªÙ†Ø´ÙŠÙ Ø¹Ø§Ù„ÙŠØ© Ø§Ù„Ø¬ÙˆØ¯Ø© ØªÙ„Ø¨ÙŠ ï¿½Â…Ø®ØªÙ„Ù Ø§Ù„Ø§Ø­ØªÙŠØ§Ø¬Ø§Øª."
+      },
+      "features": [
+        {
+          "icon": "materials",
+          "title": {
+            "en": "Natural cellulose",
+            "ar": "Ø³Ù„ÙŠÙ„ÙˆØ² Ø·Ø¨ÙŠØ¹ÙŠ"
+          },
+          "description": {
+            "en": "Made with 100% natural cellulose for softness and cleanliness.",
+            "ar": "ï¿½Â…ØµÙ†ÙˆØ¹Ø© ï¿½Â…Ù† Ø§Ù„Ø³Ù„ÙŠÙ„ÙˆØ² Ø§Ù„Ø·Ø¨ÙŠØ¹ÙŠ Ø¨Ù†Ø³Ø¨Ø© 100% Ù„Ù„Ù†Ø¹Ùˆï¿½Â…Ø© ÙˆØ§Ù„Ù†Ø¸Ø§ÙØ©."
+          }
+        },
+        {
+          "icon": "softness",
+          "title": {
+            "en": "Soft daily feel",
+            "ar": "Ù†Ø¹Ùˆï¿½Â…Ø© Ù„Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø§Ù„ÙŠÙˆï¿½Â…ÙŠ"
+          },
+          "description": {
+            "en": "Designed for face, home, office, and family routines.",
+            "ar": "ï¿½Â…Øµï¿½Â…ï¿½Â…Ø© Ù„Ù„ÙˆØ¬Ù‡ ÙˆØ§Ù„ï¿½Â…Ù†Ø²Ù„ ÙˆØ§Ù„ï¿½Â…ÙƒØªØ¨ ÙˆØ±ÙˆØªÙŠÙ† Ø§Ù„Ø¹Ø§Ø¦Ù„Ø© Ø§Ù„ÙŠÙˆï¿½Â…ÙŠ."
+          }
+        },
+        {
+          "icon": "packaging",
+          "title": {
+            "en": "Multiple formats",
+            "ar": "ØªÙ†Ø³ÙŠÙ‚Ø§Øª ï¿½Â…ØªØ¹Ø¯Ø¯Ø©"
+          },
+          "description": {
+            "en": "Available in different weights and package formats.",
+            "ar": "ï¿½Â…ØªÙˆÙØ±Ø© Ø¨Ø£ÙˆØ²Ø§Ù† ÙˆØªÙ†Ø³ÙŠÙ‚Ø§Øª ØªØ¹Ø¨Ø¦Ø© ï¿½Â…Ø®ØªÙ„ÙØ©."
+          }
+        }
+      ],
+      "sizes": [
+        {
+          "label": {
+            "en": "Facial",
+            "ar": "ÙˆØ¬Ù‡"
+          },
+          "value": {
+            "en": "Facial tissues",
+            "ar": "ï¿½Â…Ø­Ø§Ø±ï¿½Â… ÙˆØ¬Ù‡"
+          },
+          "note": {
+            "en": "Soft facial tissues",
+            "ar": "ï¿½Â…Ø­Ø§Ø±ï¿½Â… ÙˆØ¬Ù‡ Ù†Ø§Ø¹ï¿½Â…Ø©"
+          },
+          "description": {
+            "en": "Soft Tizkar facial tissues made for daily home, office, and family use.",
+            "ar": "ï¿½Â…Ø­Ø§Ø±ï¿½Â… ÙˆØ¬Ù‡ ØªØ°ÙƒØ§Ø± Ù†Ø§Ø¹ï¿½Â…Ø© ï¿½Â…Øµï¿½Â…ï¿½Â…Ø© Ù„Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø§Ù„ÙŠÙˆï¿½Â…ÙŠ ÙÙŠ Ø§Ù„ï¿½Â…Ù†Ø²Ù„ ÙˆØ§Ù„ï¿½Â…ÙƒØªØ¨ Ùˆï¿½Â…Ø¹ Ø§Ù„Ø¹Ø§Ø¦Ù„Ø©."
+          },
+          "image": "/images/standardized/product-options/tizkar-facial.png"
+        },
+        {
+          "label": {
+            "en": "Drying",
+            "ar": "ØªÙ†Ø´ÙŠÙ"
+          },
+          "value": {
+            "en": "Drying tissues",
+            "ar": "ï¿½Â…Ø­Ø§Ø±ï¿½Â… ØªÙ†Ø´ÙŠÙ"
+          },
+          "note": {
+            "en": "Drying tissues",
+            "ar": "ï¿½Â…Ø­Ø§Ø±ï¿½Â… ØªÙ†Ø´ÙŠÙ"
+          },
+          "description": {
+            "en": "Practical drying tissues for clean daily routines and different care needs.",
+            "ar": "ï¿½Â…Ø­Ø§Ø±ï¿½Â… ØªÙ†Ø´ÙŠÙ Ø¹ï¿½Â…Ù„ÙŠØ© Ù„Ø±ÙˆØªÙŠÙ† ÙŠÙˆï¿½Â…ÙŠ Ù†Ø¸ÙŠÙ ÙˆØ§Ø­ØªÙŠØ§Ø¬Ø§Øª Ø¹Ù†Ø§ÙŠØ© ï¿½Â…Ø®ØªÙ„ÙØ©."
+          },
+          "image": "/images/standardized/product-options/tizkar-drying.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": {
+            "en": "Which Tizkar products are available?",
+            "ar": "ï¿½Â…Ø§ ï¿½Â…Ù†ØªØ¬Ø§Øª ØªØ°ÙƒØ§Ø± Ø§Ù„ï¿½Â…ØªÙˆÙØ±Ø©ØŸ"
+          },
+          "answer": {
+            "en": "Tizkar includes soft facial tissues and practical drying tissues for daily home, office, and family care routines.",
+            "ar": "ØªØ¶ï¿½Â… ØªØ°ÙƒØ§Ø± ï¿½Â…Ø­Ø§Ø±ï¿½Â… ÙˆØ¬Ù‡ Ù†Ø§Ø¹ï¿½Â…Ø© Ùˆï¿½Â…Ø­Ø§Ø±ï¿½Â… ØªÙ†Ø´ÙŠÙ Ø¹ï¿½Â…Ù„ÙŠØ© Ù„Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø§Ù„ÙŠÙˆï¿½Â…ÙŠ ÙÙŠ Ø§Ù„ï¿½Â…Ù†Ø²Ù„ ÙˆØ§Ù„ï¿½Â…ÙƒØªØ¨ ÙˆØ±ÙˆØªÙŠÙ† Ø§Ù„Ø¹Ù†Ø§ÙŠØ© Ø§Ù„Ø¹Ø§Ø¦Ù„ÙŠØ©."
+          }
+        },
+        {
+          "question": {
+            "en": "What are Tizkar facial tissues made from?",
+            "ar": "ï¿½Â…ï¿½Â… ØªØµÙ†Ø¹ ï¿½Â…Ø­Ø§Ø±ï¿½Â… ÙˆØ¬Ù‡ ØªØ°ÙƒØ§Ø±ØŸ"
+          },
+          "answer": {
+            "en": "Tizkar facial tissues are presented as high-quality tissues made from 100% natural cellulose for softness and cleanliness.",
+            "ar": "ØªÙ‚Ø¯ï¿½Â… ï¿½Â…Ø­Ø§Ø±ï¿½Â… ÙˆØ¬Ù‡ ØªØ°ÙƒØ§Ø± Ùƒï¿½Â…Ù†ØªØ¬Ø§Øª Ø¹Ø§Ù„ÙŠØ© Ø§Ù„Ø¬ÙˆØ¯Ø© ï¿½Â…ØµÙ†ÙˆØ¹Ø© ï¿½Â…Ù† Ø§Ù„Ø³Ù„ÙŠÙ„ÙˆØ² Ø§Ù„Ø·Ø¨ÙŠØ¹ÙŠ Ø¨Ù†Ø³Ø¨Ø© 100% Ù„ØªÙˆÙÙŠØ± Ø§Ù„Ù†Ø¹Ùˆï¿½Â…Ø© ÙˆØ§Ù„Ù†Ø¸Ø§ÙØ©."
+          }
+        },
+        {
+          "question": {
+            "en": "Where can Tizkar tissues be used?",
+            "ar": "Ø£ÙŠÙ† ÙŠï¿½Â…ÙƒÙ† Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… ï¿½Â…Ø­Ø§Ø±ï¿½Â… ØªØ°ÙƒØ§Ø±ØŸ"
+          },
+          "answer": {
+            "en": "They are suitable for everyday use at home, in offices, in family spaces, and during practical cleaning or drying routines.",
+            "ar": "ØªÙ†Ø§Ø³Ø¨ Ø§Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø§Ù„ÙŠÙˆï¿½Â…ÙŠ ÙÙŠ Ø§Ù„ï¿½Â…Ù†Ø²Ù„ ÙˆØ§Ù„ï¿½Â…ÙƒØ§ØªØ¨ ÙˆØ§Ù„ï¿½Â…Ø³Ø§Ø­Ø§Øª Ø§Ù„Ø¹Ø§Ø¦Ù„ÙŠØ©ØŒ Ø¥Ø¶Ø§ÙØ© Ø¥Ù„Ù‰ Ø±ÙˆØªÙŠÙ† Ø§Ù„ØªÙ†Ø¸ÙŠÙ Ø£Ùˆ Ø§Ù„ØªÙ†Ø´ÙŠÙ Ø§Ù„Ø¹ï¿½Â…Ù„ÙŠ."
+          }
+        },
+        {
+          "question": {
+            "en": "What is the difference between facial and drying tissues?",
+            "ar": "ï¿½Â…Ø§ Ø§Ù„ÙØ±Ù‚ Ø¨ÙŠÙ† ï¿½Â…Ø­Ø§Ø±ï¿½Â… Ø§Ù„ÙˆØ¬Ù‡ Ùˆï¿½Â…Ø­Ø§Ø±ï¿½Â… Ø§Ù„ØªÙ†Ø´ÙŠÙØŸ"
+          },
+          "answer": {
+            "en": "Facial tissues focus on soft everyday contact, while drying tissues are made for more practical drying and care tasks.",
+            "ar": "ØªØ±ÙƒØ² ï¿½Â…Ø­Ø§Ø±ï¿½Â… Ø§Ù„ÙˆØ¬Ù‡ Ø¹Ù„Ù‰ Ø§Ù„Ù†Ø¹Ùˆï¿½Â…Ø© Ù„Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø§Ù„ÙŠÙˆï¿½Â…ÙŠØŒ Ø¨ÙŠÙ†ï¿½Â…Ø§ Øµï¿½Â…ï¿½Â…Øª ï¿½Â…Ø­Ø§Ø±ï¿½Â… Ø§Ù„ØªÙ†Ø´ÙŠÙ Ù„Ù„ï¿½Â…Ù‡Ø§ï¿½Â… Ø§Ù„Ø¹ï¿½Â…Ù„ÙŠØ© Ø§Ù„Ø®Ø§ØµØ© Ø¨Ø§Ù„ØªÙ†Ø´ÙŠÙ ÙˆØ§Ù„Ø¹Ù†Ø§ÙŠØ©."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "fantash",
+      "title": {
+        "en": "Fantash",
+        "ar": "ÙÙ†Ø·Ø´"
+      },
+      "category": {
+        "en": "Baby Diapers",
+        "ar": "Ø­ÙØ§Ø¶Ø§Øª Ø§Ù„Ø£Ø·ÙØ§Ù„"
+      },
+      "image": "/images/standardized/product-cards/fantash.png",
+      "logo": "/images/standardized/logos/fantash.png",
+      "excerpt": {
+        "en": "Baby diapers combining practical quality, strong absorption, and accessible value.",
+        "ar": "ÙÙˆØ· Ø£Ø·ÙØ§Ù„ ØªØ¬ï¿½Â…Ø¹ Ø¨ÙŠÙ† Ø§Ù„Ø¬ÙˆØ¯Ø©ØŒ Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ Ø§Ù„Ù‚ÙˆÙŠØŒ ÙˆØ§Ù„Ø³Ø¹Ø± Ø§Ù„ï¿½Â…Ù†Ø§Ø³Ø¨."
+      },
+      "description": {
+        "en": "Fantash baby diapers combine quality and value with a high-absorption core that helps protect from leakage for up to 12 hours. A fast-absorption layer keeps the surface dry, while deep channels distribute wetness across the core.",
+        "ar": "ÙÙ†Ø·Ø´ ÙÙˆØ· Ø£Ø·ÙØ§Ù„ ï¿½Â…Ù† Ø§Ù„Ø£ÙƒØ«Ø± Ø§Ù†ØªØ´Ø§Ø±Ø§Ù‹ Ùˆï¿½Â…Ø¨ÙŠØ¹Ø§Ù‹ ÙÙŠ Ø³ÙˆØ±ÙŠØ§ØŒ ØªØ¬ï¿½Â…Ø¹ Ø¨ÙŠÙ† Ø§Ù„Ø¬ÙˆØ¯Ø© ÙˆØ§Ù„Ø³Ø¹Ø± Ø§Ù„ï¿½Â…Ù†Ø§Ø³Ø¨. ØªØªï¿½Â…ÙŠØ² Ø¨Ø­Ø´ÙˆØ© Ø¹Ø§Ù„ÙŠØ© Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ ØªÙˆÙØ± Ø­ï¿½Â…Ø§ÙŠØ© ï¿½Â…Ù† Ø§Ù„ØªØ³Ø±ÙŠØ¨ Ø­ØªÙ‰ 12 Ø³Ø§Ø¹Ø©ØŒ ÙˆØ·Ø¨Ù‚Ø© Ø³Ø±ÙŠØ¹Ø© Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ ØªØ­Ø§ÙØ¸ Ø¹Ù„Ù‰ Ø¬ÙØ§Ù Ø³Ø·Ø­ Ø§Ù„ÙÙˆØ·Ø©."
+      },
+      "features": [
+        {
+          "icon": "absorption",
+          "title": {
+            "en": "Up to 12-hour protection",
+            "ar": "Ø­ï¿½Â…Ø§ÙŠØ© Ø­ØªÙ‰ 12 Ø³Ø§Ø¹Ø©"
+          },
+          "description": {
+            "en": "High-absorption structure designed for dependable everyday care.",
+            "ar": "Ø¨Ù†ÙŠØ© Ø¹Ø§Ù„ÙŠØ© Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ ï¿½Â…Øµï¿½Â…ï¿½Â…Ø© Ù„Ø¹Ù†Ø§ÙŠØ© ÙŠÙˆï¿½Â…ÙŠØ© ÙŠï¿½Â…ÙƒÙ† Ø§Ù„Ø§Ø¹Øªï¿½Â…Ø§Ø¯ Ø¹Ù„ÙŠÙ‡Ø§."
+          }
+        },
+        {
+          "icon": "dryness",
+          "title": {
+            "en": "Fast dry layer",
+            "ar": "Ø·Ø¨Ù‚Ø© Ø¬ÙØ§Ù Ø³Ø±ÙŠØ¹Ø©"
+          },
+          "description": {
+            "en": "Helps keep the diaper surface drier after absorption.",
+            "ar": "ØªØ³Ø§Ø¹Ø¯ Ø¹Ù„Ù‰ Ø¥Ø¨Ù‚Ø§Ø¡ Ø³Ø·Ø­ Ø§Ù„Ø­ÙØ§Ø¶ Ø£ÙƒØ«Ø± Ø¬ÙØ§ÙØ§Ù‹ Ø¨Ø¹Ø¯ Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ."
+          }
+        },
+        {
+          "icon": "protection",
+          "title": {
+            "en": "Deep distribution channels",
+            "ar": "Ù‚Ù†ÙˆØ§Øª ØªÙˆØ²ÙŠØ¹ Ø¹ï¿½Â…ÙŠÙ‚Ø©"
+          },
+          "description": {
+            "en": "Designed to move wetness through the core more evenly.",
+            "ar": "ï¿½Â…Øµï¿½Â…ï¿½Â…Ø© Ù„ØªÙˆØ²ÙŠØ¹ Ø§Ù„Ø¨Ù„Ù„ Ø¯Ø§Ø®Ù„ Ø§Ù„Ø­Ø´ÙˆØ© Ø¨Ø´ÙƒÙ„ Ø£ÙƒØ«Ø± ØªÙˆØ§Ø²Ù†Ø§Ù‹."
+          }
+        }
+      ],
+      "sizes": [
+        {
+          "label": {
+            "en": "NB",
+            "ar": "NB"
+          },
+          "value": {
+            "en": "2-5 kg",
+            "ar": "2-5 ÙƒØº"
+          },
+          "note": {
+            "en": "Newborn",
+            "ar": "Ø­Ø¯ÙŠØ« Ø§Ù„ÙˆÙ„Ø§Ø¯Ø©"
+          }
+        },
+        {
+          "label": {
+            "en": "S",
+            "ar": "S"
+          },
+          "value": {
+            "en": "3-6 kg",
+            "ar": "3-6 ÙƒØº"
+          },
+          "note": {
+            "en": "Small",
+            "ar": "ØµØºÙŠØ±"
+          }
+        },
+        {
+          "label": {
+            "en": "M",
+            "ar": "M"
+          },
+          "value": {
+            "en": "5-9 kg",
+            "ar": "5-9 ÙƒØº"
+          },
+          "note": {
+            "en": "Medium",
+            "ar": "ÙˆØ³Ø·"
+          }
+        },
+        {
+          "label": {
+            "en": "L",
+            "ar": "L"
+          },
+          "value": {
+            "en": "9-15 kg",
+            "ar": "9-15 ÙƒØº"
+          },
+          "note": {
+            "en": "Large",
+            "ar": "ÙƒØ¨ÙŠØ±"
+          }
+        },
+        {
+          "label": {
+            "en": "XL",
+            "ar": "XL"
+          },
+          "value": {
+            "en": "12-19 kg",
+            "ar": "12-19 ÙƒØº"
+          },
+          "note": {
+            "en": "X-Large",
+            "ar": "ÙƒØ¨ÙŠØ± Ø¬Ø¯Ø§Ù‹"
+          }
+        },
+        {
+          "label": {
+            "en": "XXL",
+            "ar": "XXL"
+          },
+          "value": {
+            "en": "15-22 kg",
+            "ar": "15-22 ÙƒØº"
+          },
+          "note": {
+            "en": "XX-Large",
+            "ar": "ÙƒØ¨ÙŠØ± Ø¬Ø¯Ø§Ù‹ 2"
+          }
+        }
+      ],
+      "cardImage": "/images/standardized/product-cards/fantash.png",
+      "bannerImage": "/images/standardized/banners/fantash.png",
+      "bannerSize": {
+        "width": 2400,
+        "height": 460
+      },
+      "faqs": [
+        {
+          "question": {
+            "en": "What makes Fantash suitable for everyday baby care?",
+            "ar": "ما الذي يجعل فنتاش مناسبا للعناية اليومية بالطفل؟"
+          },
+          "answer": {
+            "en": "Fantash is designed around practical daily protection, combining a high-absorption core, dry surface support, and leakage protection for comfortable baby care.",
+            "ar": "تم تصميم فنتاش للحماية اليومية العملية من خلال حشوة عالية الامتصاص، ودعم لجفاف السطح، وحماية من التسريب لعناية مريحة بالطفل."
+          }
+        },
+        {
+          "question": {
+            "en": "How long can Fantash help protect against leakage?",
+            "ar": "كم مدة الحماية التي يوفرها فنتاش ضد التسريب؟"
+          },
+          "answer": {
+            "en": "The product line is presented with leakage protection for up to 12 hours, depending on the baby's size, fit, and usage conditions.",
+            "ar": "يوفر خط المنتج حماية من التسريب حتى 12 ساعة بحسب مقاس الطفل وملاءمة الحفاض وظروف الاستخدام."
+          }
+        },
+        {
+          "question": {
+            "en": "Which Fantash diaper sizes are available?",
+            "ar": "ما المقاسات المتوفرة من حفاضات فنتاش؟"
+          },
+          "answer": {
+            "en": "Fantash follows the baby diaper size guide from NB to XXL, covering babies from newborn stages up to larger toddler sizes.",
+            "ar": "يتبع فنتاش دليل مقاسات حفاضات الأطفال من NB حتى XXL، ليغطي مراحل حديثي الولادة وحتى المقاسات الأكبر للأطفال."
+          }
+        },
+        {
+          "question": {
+            "en": "When should I change to the next size?",
+            "ar": "متى يجب الانتقال إلى المقاس التالي؟"
+          },
+          "answer": {
+            "en": "Move to the next size when the diaper feels tight, leaves strong marks, leaks more often, or when your baby's weight approaches the top of the current range.",
+            "ar": "ينصح بالانتقال إلى المقاس التالي عندما يصبح الحفاض ضيقا، أو يترك علامات واضحة، أو يحدث تسريب متكرر، أو يقترب وزن الطفل من الحد الأعلى للمقاس الحالي."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "pinotex",
+      "title": {
+        "en": "Pinotex",
+        "ar": "Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³"
+      },
+      "category": {
+        "en": "Adult Diapers",
+        "ar": "Ø­ÙØ§Ø¶Ø§Øª ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù†"
+      },
+      "image": "/images/standardized/product-cards/bino-tex.png",
+      "cardImage": "/images/standardized/product-cards/bino-tex.png",
+      "bannerImage": "/images/standardized/banners/adult-care.png",
+      "bannerSize": {
+        "width": 2400,
+        "height": 460
+      },
+      "logo": "/images/standardized/logos/bino.png",
+      "excerpt": {
+        "en": "Adult-care diapers available in multiple sizes and backsheet formats.",
+        "ar": "ÙÙˆØ· ï¿½Â…Ø®ØµØµØ© Ù„ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù† Ø¨Ø¹Ø¯Ø© ï¿½Â…Ù‚Ø§Ø³Ø§Øª ÙˆØ®ÙŠØ§Ø±Ø§Øª Ø®Ù„ÙÙŠØ©."
+      },
+      "description": {
+        "en": "Pinotex adult diapers provide fast absorption and reliable fluid retention for comfort and protection. The line is available in S, L, and XL options from the new Pinotex collection.",
+        "ar": "Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³ ÙÙˆØ· ï¿½Â…Ø®ØµØµØ© Ù„ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù†ØŒ ØªÙˆÙØ± Ø§ï¿½Â…ØªØµØ§ØµØ§Ù‹ Ø³Ø±ÙŠØ¹Ø§Ù‹ ÙˆÙ‚Ø¯Ø±Ø© Ø¹Ø§Ù„ÙŠØ© Ø¹Ù„Ù‰ Ø§Ø­ØªØ¬Ø§Ø² Ø§Ù„Ø³ÙˆØ§Ø¦Ù„ Ù„Ø¶ï¿½Â…Ø§Ù† Ø§Ù„Ø±Ø§Ø­Ø© ÙˆØ§Ù„Ø­ï¿½Â…Ø§ÙŠØ©. ÙŠØªÙˆÙØ± Ø§Ù„Ø®Ø· Ø¨ï¿½Â…Ù‚Ø§Ø³Ø§Øª S ÙˆL ÙˆXL ï¿½Â…Ù† ï¿½Â…Ø¬ï¿½Â…ÙˆØ¹Ø© Ø¨ÙŠÙ†Ùˆ Ø§Ù„Ø¬Ø¯ÙŠØ¯Ø©."
+      },
+      "features": [
+        {
+          "icon": "absorption",
+          "title": {
+            "en": "Fast absorption",
+            "ar": "Ø§ï¿½Â…ØªØµØ§Øµ Ø³Ø±ÙŠØ¹"
+          },
+          "description": {
+            "en": "Absorbent structure helps handle daily adult-care needs.",
+            "ar": "Ø¨Ù†ÙŠØ© ï¿½Â…Ø§ØµØ© ØªØ³Ø§Ø¹Ø¯ Ø¹Ù„Ù‰ ØªÙ„Ø¨ÙŠØ© Ø§Ø­ØªÙŠØ§Ø¬Ø§Øª Ø§Ù„Ø¹Ù†Ø§ÙŠØ© Ø§Ù„ÙŠÙˆï¿½Â…ÙŠØ© Ù„Ù„ÙƒØ¨Ø§Ø±."
+          }
+        },
+        {
+          "icon": "protection",
+          "title": {
+            "en": "Reliable retention",
+            "ar": "Ø§Ø­ØªØ¬Ø§Ø² ï¿½Â…ÙˆØ«ÙˆÙ‚ Ù„Ù„Ø³ÙˆØ§Ø¦Ù„"
+          },
+          "description": {
+            "en": "Helps retain fluid and reduce unwanted leakage.",
+            "ar": "ÙŠØ³Ø§Ø¹Ø¯ Ø¹Ù„Ù‰ Ø§Ø­ØªØ¬Ø§Ø² Ø§Ù„Ø³ÙˆØ§Ø¦Ù„ ÙˆØªÙ‚Ù„ÙŠÙ„ Ø§Ù„ØªØ³Ø±ÙŠØ¨ ØºÙŠØ± Ø§Ù„ï¿½Â…Ø±ØºÙˆØ¨."
+          }
+        },
+        {
+          "icon": "comfort",
+          "title": {
+            "en": "Backing options",
+            "ar": "Ø®ÙŠØ§Ø±Ø§Øª Ø®Ù„ÙÙŠØ© ï¿½Â…ØªØ¹Ø¯Ø¯Ø©"
+          },
+          "description": {
+            "en": "Selected products are available with cloth-like or nylon backsheets.",
+            "ar": "ØªØªÙˆÙØ± Ø¨Ø¹Ø¶ Ø§Ù„ï¿½Â…Ù†ØªØ¬Ø§Øª Ø¨Ø®Ù„ÙÙŠØ© Ù‚ï¿½Â…Ø§Ø´ÙŠØ© Ø£Ùˆ Ø®Ù„ÙÙŠØ© Ù†Ø§ÙŠÙ„ÙˆÙ†."
+          }
+        }
+      ],
+      "sizes": [
+        {
+          "label": {
+            "en": "Pinotex S",
+            "ar": "Ø¨ÙŠÙ†Ùˆ S"
+          },
+          "value": {
+            "en": "Small",
+            "ar": "ØµØºÙŠØ±"
+          },
+          "note": {
+            "en": "Pinotex Small",
+            "ar": "Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³ ØµØºÙŠØ±"
+          },
+          "description": {
+            "en": "A compact Pinotex adult diaper option made for dependable comfort and daily protection.",
+            "ar": "Ø®ÙŠØ§Ø± ØµØºÙŠØ± ï¿½Â…Ù† Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³ Ù„ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù† ï¿½Â…Øµï¿½Â…ï¿½Â… Ù„Ù„Ø±Ø§Ø­Ø© Ø§Ù„ï¿½Â…ÙˆØ«ÙˆÙ‚Ø© ÙˆØ§Ù„Ø­ï¿½Â…Ø§ÙŠØ© Ø§Ù„ÙŠÙˆï¿½Â…ÙŠØ©."
+          },
+          "image": "/images/standardized/product-options/bino-s.png"
+        },
+        {
+          "label": {
+            "en": "Pinotex L",
+            "ar": "Ø¨ÙŠÙ†Ùˆ L"
+          },
+          "value": {
+            "en": "Large",
+            "ar": "ÙƒØ¨ÙŠØ±"
+          },
+          "note": {
+            "en": "Pinotex Large",
+            "ar": "Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³ ÙƒØ¨ÙŠØ±"
+          },
+          "description": {
+            "en": "A larger Pinotex format for secure coverage, practical fit, and reliable retention.",
+            "ar": "ï¿½Â…Ù‚Ø§Ø³ Ø£ÙƒØ¨Ø± ï¿½Â…Ù† Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³ Ù„ØªØºØ·ÙŠØ© Ø¢ï¿½Â…Ù†Ø© Ùˆï¿½Â…Ù„Ø§Ø¡ï¿½Â…Ø© Ø¹ï¿½Â…Ù„ÙŠØ© ÙˆØ§Ø­ØªØ¬Ø§Ø² ï¿½Â…ÙˆØ«ÙˆÙ‚ Ù„Ù„Ø³ÙˆØ§Ø¦Ù„."
+          },
+          "image": "/images/standardized/product-options/bino-l.png"
+        },
+        {
+          "label": {
+            "en": "Pinotex XL",
+            "ar": "Ø¨ÙŠÙ†Ùˆ XL"
+          },
+          "value": {
+            "en": "X-Large",
+            "ar": "ÙƒØ¨ÙŠØ± Ø¬Ø¯Ø§"
+          },
+          "note": {
+            "en": "Pinotex X-Large",
+            "ar": "Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³ ÙƒØ¨ÙŠØ± Ø¬Ø¯Ø§"
+          },
+          "description": {
+            "en": "An extra-large Pinotex option for broader coverage and dependable adult-care support.",
+            "ar": "Ø®ÙŠØ§Ø± ÙƒØ¨ÙŠØ± Ø¬Ø¯Ø§ ï¿½Â…Ù† Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³ Ù„ØªØºØ·ÙŠØ© Ø£ÙˆØ³Ø¹ ÙˆØ¯Ø¹ï¿½Â… ï¿½Â…ÙˆØ«ÙˆÙ‚ Ù„Ù„Ø¹Ù†Ø§ÙŠØ© Ø¨ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù†."
+          },
+          "image": "/images/standardized/product-options/bino-xl.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": {
+            "en": "Which Pinotex options are available?",
+            "ar": "ï¿½Â…Ø§ Ø®ÙŠØ§Ø±Ø§Øª Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³ Ø§Ù„ï¿½Â…ØªÙˆÙØ±Ø©ØŸ"
+          },
+          "answer": {
+            "en": "Pinotex is shown in Small, Large, and X-Large options using the updated product images.",
+            "ar": "ÙŠØªï¿½Â… Ø¹Ø±Ø¶ Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³ Ø¨Ø®ÙŠØ§Ø±Ø§Øª ØµØºÙŠØ± ÙˆÙƒØ¨ÙŠØ± ÙˆÙƒØ¨ÙŠØ± Ø¬Ø¯Ø§ Ø¨Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… ØµÙˆØ± Ø§Ù„ï¿½Â…Ù†ØªØ¬ Ø§Ù„ï¿½Â…Ø­Ø¯Ø«Ø©."
+          }
+        },
+        {
+          "question": {
+            "en": "Is Pinotex for adult care?",
+            "ar": "Ù‡Ù„ Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³ ï¿½Â…Ø®ØµØµ Ù„Ù„Ø¹Ù†Ø§ÙŠØ© Ø¨ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù†ØŸ"
+          },
+          "answer": {
+            "en": "Yes. Pinotex is an adult diaper line made for daily comfort, absorption, and fluid retention.",
+            "ar": "Ù†Ø¹ï¿½Â…. Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³ Ø®Ø· Ø­ÙØ§Ø¶Ø§Øª Ù„ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù† ï¿½Â…Øµï¿½Â…ï¿½Â… Ù„Ù„Ø±Ø§Ø­Ø© Ø§Ù„ÙŠÙˆï¿½Â…ÙŠØ© ÙˆØ§Ù„Ø§ï¿½Â…ØªØµØ§Øµ ÙˆØ§Ø­ØªØ¬Ø§Ø² Ø§Ù„Ø³ÙˆØ§Ø¦Ù„."
+          }
+        },
+        {
+          "question": {
+            "en": "How should I choose the size?",
+            "ar": "ÙƒÙŠÙ Ø£Ø®ØªØ§Ø± Ø§Ù„ï¿½Â…Ù‚Ø§Ø³ Ø§Ù„ï¿½Â…Ù†Ø§Ø³Ø¨ØŸ"
+          },
+          "answer": {
+            "en": "Choose the option that best matches the userâ€™s fit and coverage needs.",
+            "ar": "Ø§Ø®ØªØ± Ø§Ù„Ø®ÙŠØ§Ø± Ø§Ù„Ø£Ù†Ø³Ø¨ Ù„Ø§Ø­ØªÙŠØ§Ø¬ Ø§Ù„ï¿½Â…Ø³ØªØ®Ø¯ï¿½Â… ï¿½Â…Ù† Ø­ÙŠØ« Ø§Ù„ï¿½Â…Ù„Ø§Ø¡ï¿½Â…Ø© ÙˆØ§Ù„ØªØºØ·ÙŠØ©."
+          }
+        }
+      ],
+      "aliases": [
+        "bino-tex"
+      ]
+    },
+    {
+      "slug": "avia",
+      "title": {
+        "en": "Avia",
+        "ar": "Ø¢ÙÙŠØ§"
+      },
+      "category": {
+        "en": "Adult Diapers",
+        "ar": "Ø­ÙØ§Ø¶Ø§Øª ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù†"
+      },
+      "image": "/images/standardized/product-cards/avia.png",
+      "cardImage": "/images/standardized/product-cards/avia.png",
+      "bannerImage": "/images/standardized/banners/adult-care.png",
+      "bannerSize": {
+        "width": 2400,
+        "height": 460
+      },
+      "logo": "/images/standardized/logos/avia.png",
+      "excerpt": {
+        "en": "Adult diapers focused on fast absorption, reliable protection, and practical sizing.",
+        "ar": "ÙÙˆØ· ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù† Ù„Ù„Ø§ï¿½Â…ØªØµØ§Øµ Ø§Ù„Ø³Ø±ÙŠØ¹ ÙˆØ§Ù„Ø­ï¿½Â…Ø§ÙŠØ© Ø§Ù„ï¿½Â…ÙˆØ«ÙˆÙ‚Ø© ÙˆØ§Ù„ï¿½Â…Ù‚Ø§Ø³Ø§Øª Ø§Ù„Ø¹ï¿½Â…Ù„ÙŠØ©."
+      },
+      "description": {
+        "en": "Avia adult diapers provide fast absorption, leakage protection, and reliable fluid retention. The line is available in S, L, and XL options from the new Avia collection.",
+        "ar": "Ø¢ÙÙŠØ§ ÙÙˆØ· ï¿½Â…Ø®ØµØµØ© Ù„ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù†ØŒ ØªÙˆÙØ± Ø§ï¿½Â…ØªØµØ§ØµØ§Ù‹ Ø³Ø±ÙŠØ¹Ø§Ù‹ ÙˆØ­ï¿½Â…Ø§ÙŠØ© ï¿½Â…ÙˆØ«ÙˆÙ‚Ø© ï¿½Â…Ù† Ø§Ù„ØªØ³Ø±ÙŠØ¨ØŒ ï¿½Â…Ø¹ Ù‚Ø¯Ø±Ø© Ø¹Ø§Ù„ÙŠØ© Ø¹Ù„Ù‰ Ø§Ø­ØªØ¬Ø§Ø² Ø§Ù„Ø³ÙˆØ§Ø¦Ù„. ÙŠØªÙˆÙØ± Ø§Ù„Ø®Ø· Ø¨ï¿½Â…Ù‚Ø§Ø³Ø§Øª S ÙˆL ÙˆXL ï¿½Â…Ù† ï¿½Â…Ø¬ï¿½Â…ÙˆØ¹Ø© Ø¢ÙÙŠØ§ Ø§Ù„Ø¬Ø¯ÙŠØ¯Ø©."
+      },
+      "features": [
+        {
+          "icon": "absorption",
+          "title": {
+            "en": "Fast absorption",
+            "ar": "Ø§ï¿½Â…ØªØµØ§Øµ Ø³Ø±ÙŠØ¹"
+          },
+          "description": {
+            "en": "Absorbent structure helps handle daily adult-care needs.",
+            "ar": "Ø¨Ù†ÙŠØ© ï¿½Â…Ø§ØµØ© ØªØ³Ø§Ø¹Ø¯ Ø¹Ù„Ù‰ ØªÙ„Ø¨ÙŠØ© Ø§Ø­ØªÙŠØ§Ø¬Ø§Øª Ø§Ù„Ø¹Ù†Ø§ÙŠØ© Ø§Ù„ÙŠÙˆï¿½Â…ÙŠØ© Ù„Ù„ÙƒØ¨Ø§Ø±."
+          }
+        },
+        {
+          "icon": "protection",
+          "title": {
+            "en": "Reliable retention",
+            "ar": "Ø§Ø­ØªØ¬Ø§Ø² ï¿½Â…ÙˆØ«ÙˆÙ‚ Ù„Ù„Ø³ÙˆØ§Ø¦Ù„"
+          },
+          "description": {
+            "en": "Helps retain fluid and reduce unwanted leakage.",
+            "ar": "ÙŠØ³Ø§Ø¹Ø¯ Ø¹Ù„Ù‰ Ø§Ø­ØªØ¬Ø§Ø² Ø§Ù„Ø³ÙˆØ§Ø¦Ù„ ÙˆØªÙ‚Ù„ÙŠÙ„ Ø§Ù„ØªØ³Ø±ÙŠØ¨ ØºÙŠØ± Ø§Ù„ï¿½Â…Ø±ØºÙˆØ¨."
+          }
+        },
+        {
+          "icon": "comfort",
+          "title": {
+            "en": "Backing options",
+            "ar": "Ø®ÙŠØ§Ø±Ø§Øª Ø®Ù„ÙÙŠØ© ï¿½Â…ØªØ¹Ø¯Ø¯Ø©"
+          },
+          "description": {
+            "en": "Selected products are available with cloth-like or nylon backsheets.",
+            "ar": "ØªØªÙˆÙØ± Ø¨Ø¹Ø¶ Ø§Ù„ï¿½Â…Ù†ØªØ¬Ø§Øª Ø¨Ø®Ù„ÙÙŠØ© Ù‚ï¿½Â…Ø§Ø´ÙŠØ© Ø£Ùˆ Ø®Ù„ÙÙŠØ© Ù†Ø§ÙŠÙ„ÙˆÙ†."
+          }
+        }
+      ],
+      "sizes": [
+        {
+          "label": {
+            "en": "Avia S",
+            "ar": "Ø¢ÙÙŠØ§ S"
+          },
+          "value": {
+            "en": "Small",
+            "ar": "ØµØºÙŠØ±"
+          },
+          "note": {
+            "en": "Avia Small",
+            "ar": "Ø¢ÙÙŠØ§ ØµØºÙŠØ±"
+          },
+          "description": {
+            "en": "A small Avia adult diaper option built for comfort, absorption, and everyday confidence.",
+            "ar": "Ø®ÙŠØ§Ø± ØµØºÙŠØ± ï¿½Â…Ù† Ø¢ÙÙŠØ§ Ù„ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù† ï¿½Â…Øµï¿½Â…ï¿½Â… Ù„Ù„Ø±Ø§Ø­Ø© ÙˆØ§Ù„Ø§ï¿½Â…ØªØµØ§Øµ ÙˆØ§Ù„Ø«Ù‚Ø© Ø§Ù„ÙŠÙˆï¿½Â…ÙŠØ©."
+          },
+          "image": "/images/standardized/product-options/avia-s.png"
+        },
+        {
+          "label": {
+            "en": "Avia L",
+            "ar": "Ø¢ÙÙŠØ§ L"
+          },
+          "value": {
+            "en": "Large",
+            "ar": "ÙƒØ¨ÙŠØ±"
+          },
+          "note": {
+            "en": "Avia Large",
+            "ar": "Ø¢ÙÙŠØ§ ÙƒØ¨ÙŠØ±"
+          },
+          "description": {
+            "en": "A large Avia format made for secure protection, better coverage, and practical wear.",
+            "ar": "ï¿½Â…Ù‚Ø§Ø³ ÙƒØ¨ÙŠØ± ï¿½Â…Ù† Ø¢ÙÙŠØ§ Ù„Ù„Ø­ï¿½Â…Ø§ÙŠØ© Ø§Ù„Ø¢ï¿½Â…Ù†Ø© ÙˆØ§Ù„ØªØºØ·ÙŠØ© Ø§Ù„Ø£ÙØ¶Ù„ ÙˆØ§Ù„Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Ø§Ù„Ø¹ï¿½Â…Ù„ÙŠ."
+          },
+          "image": "/images/standardized/product-options/avia-l.png"
+        },
+        {
+          "label": {
+            "en": "Avia XL",
+            "ar": "Ø¢ÙÙŠØ§ XL"
+          },
+          "value": {
+            "en": "X-Large",
+            "ar": "ÙƒØ¨ÙŠØ± Ø¬Ø¯Ø§"
+          },
+          "note": {
+            "en": "Avia X-Large",
+            "ar": "Ø¢ÙÙŠØ§ ÙƒØ¨ÙŠØ± Ø¬Ø¯Ø§"
+          },
+          "description": {
+            "en": "An extra-large Avia option for extended adult-care coverage and reliable protection.",
+            "ar": "Ø®ÙŠØ§Ø± ÙƒØ¨ÙŠØ± Ø¬Ø¯Ø§ ï¿½Â…Ù† Ø¢ÙÙŠØ§ Ù„ØªØºØ·ÙŠØ© Ø£ÙˆØ³Ø¹ ÙˆØ­ï¿½Â…Ø§ÙŠØ© ï¿½Â…ÙˆØ«ÙˆÙ‚Ø© Ø¶ï¿½Â…Ù† Ø§Ù„Ø¹Ù†Ø§ÙŠØ© Ø¨ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù†."
+          },
+          "image": "/images/standardized/product-options/avia-xl.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": {
+            "en": "Which Avia options are available?",
+            "ar": "ï¿½Â…Ø§ Ø®ÙŠØ§Ø±Ø§Øª Ø¢ÙÙŠØ§ Ø§Ù„ï¿½Â…ØªÙˆÙØ±Ø©ØŸ"
+          },
+          "answer": {
+            "en": "Avia is shown in Small, Large, and X-Large options using the updated product images.",
+            "ar": "ÙŠØªï¿½Â… Ø¹Ø±Ø¶ Ø¢ÙÙŠØ§ Ø¨Ø®ÙŠØ§Ø±Ø§Øª ØµØºÙŠØ± ÙˆÙƒØ¨ÙŠØ± ÙˆÙƒØ¨ÙŠØ± Ø¬Ø¯Ø§ Ø¨Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… ØµÙˆØ± Ø§Ù„ï¿½Â…Ù†ØªØ¬ Ø§Ù„ï¿½Â…Ø­Ø¯Ø«Ø©."
+          }
+        },
+        {
+          "question": {
+            "en": "What is Avia designed for?",
+            "ar": "Ù„Ø£ÙŠ Ø§Ø³ØªØ®Ø¯Ø§ï¿½Â… Øµï¿½Â…ï¿½Â…Øª Ø¢ÙÙŠØ§ØŸ"
+          },
+          "answer": {
+            "en": "Avia is designed for adult-care routines that need dependable absorption, leakage protection, and comfort.",
+            "ar": "Øµï¿½Â…ï¿½Â…Øª Ø¢ÙÙŠØ§ Ù„Ø±ÙˆØªÙŠÙ† Ø§Ù„Ø¹Ù†Ø§ÙŠØ© Ø¨ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù† Ø§Ù„Ø°ÙŠ ÙŠØ­ØªØ§Ø¬ Ø¥Ù„Ù‰ Ø§ï¿½Â…ØªØµØ§Øµ ï¿½Â…ÙˆØ«ÙˆÙ‚ ÙˆØ­ï¿½Â…Ø§ÙŠØ© ï¿½Â…Ù† Ø§Ù„ØªØ³Ø±ÙŠØ¨ ÙˆØ±Ø§Ø­Ø©."
+          }
+        },
+        {
+          "question": {
+            "en": "Does Avia use the same banner style as Pinotex?",
+            "ar": "Ù‡Ù„ ØªØ³ØªØ®Ø¯ï¿½Â… Ø¢ÙÙŠØ§ Ù†ÙØ³ ØªØµï¿½Â…ÙŠï¿½Â… Ø¨Ø§Ù†Ø± Ø¨ÙŠÙ†Ùˆ ØªÙƒØ³ØŸ"
+          },
+          "answer": {
+            "en": "Yes. Avia and Pinotex use the same shared adult-care banner while keeping separate product pages and size options.",
+            "ar": "Ù†Ø¹ï¿½Â…. ØªØ³ØªØ®Ø¯ï¿½Â… Ø¢ÙÙŠØ§ ÙˆØ¨ÙŠÙ†Ùˆ ØªÙƒØ³ Ù†ÙØ³ Ø¨Ø§Ù†Ø± Ø§Ù„Ø¹Ù†Ø§ÙŠØ© Ø¨ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù† ï¿½Â…Ø¹ Ø§Ù„Ø­ÙØ§Ø¸ Ø¹Ù„Ù‰ ØµÙØ­Ø§Øª ÙˆØ®ÙŠØ§Ø±Ø§Øª ï¿½Â…Ù†ÙØµÙ„Ø© Ù„ÙƒÙ„ Ø¹Ù„Ø§ï¿½Â…Ø©."
+          }
+        }
+      ]
+    }
+  ],
+  "blogs": [
+    {
+      "slug": "right-diaper-size",
+      "image": "https://images.pexels.com/photos/7491225/pexels-photo-7491225.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "href": "https://www.pampers.com/en-us/baby/diapering/article/diaper-size-and-weight-chart",
+      "source": {
+        "en": "Pampers",
+        "ar": "Pampers"
+      },
+      "category": {
+        "en": "Baby Care",
+        "ar": "Ø¹Ù†Ø§ÙŠØ© Ø§Ù„Ø£Ø·ÙØ§Ù„"
+      },
+      "title": {
+        "en": "Baby Diaper Size Chart Guide",
+        "ar": "Ø¯Ù„ÙŠÙ„ ï¿½Â…Ù‚Ø§Ø³Ø§Øª Ø­ÙØ§Ø¶Ø§Øª Ø§Ù„Ø£Ø·ÙØ§Ù„ Ø­Ø³Ø¨ Ø§Ù„ÙˆØ²Ù†"
+      },
+      "description": {
+        "en": "A practical guide for matching diaper size to current weight, checking fit, and spotting signs that it is time to size up.",
+        "ar": "Ø¯Ù„ÙŠÙ„ Ø¹ï¿½Â…Ù„ÙŠ Ù„ï¿½Â…Ø·Ø§Ø¨Ù‚Ø© ï¿½Â…Ù‚Ø§Ø³ Ø§Ù„Ø­ÙØ§Ø¶ ï¿½Â…Ø¹ ÙˆØ²Ù† Ø§Ù„Ø·ÙÙ„ Ø§Ù„Ø­Ø§Ù„ÙŠØŒ ÙˆÙØ­Øµ Ø§Ù„ï¿½Â…Ù„Ø§Ø¡ï¿½Â…Ø©ØŒ Ùˆï¿½Â…Ø¹Ø±ÙØ© Ø¹Ù„Ø§ï¿½Â…Ø§Øª Ø§Ù„Ø§Ù†ØªÙ‚Ø§Ù„ Ø¥Ù„Ù‰ ï¿½Â…Ù‚Ø§Ø³ Ø£ÙƒØ¨Ø±."
+      }
+    },
+    {
+      "slug": "menstrual-pads-guide",
+      "image": "https://images.pexels.com/photos/7692338/pexels-photo-7692338.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "href": "https://health.clevelandclinic.org/sanitary-pads",
+      "source": {
+        "en": "Cleveland Clinic",
+        "ar": "Cleveland Clinic"
+      },
+      "category": {
+        "en": "Women Care",
+        "ar": "Ø¹Ù†Ø§ÙŠØ© Ø§Ù„Ù†Ø³Ø§Ø¡"
+      },
+      "title": {
+        "en": "Menstrual Pads 101: How To Choose and Use Them",
+        "ar": "Ø£Ø³Ø§Ø³ÙŠØ§Øª Ø§Ù„ÙÙˆØ· Ø§Ù„ØµØ­ÙŠØ©: ÙƒÙŠÙ ØªØ®ØªØ§Ø±ÙŠÙ†Ù‡Ø§ ÙˆØªØ³ØªØ®Ø¯ï¿½Â…ÙŠÙ†Ù‡Ø§"
+      },
+      "description": {
+        "en": "A clear overview of pad types, absorbency, materials, changing frequency, and comfort considerations for daily period care.",
+        "ar": "Ù†Ø¸Ø±Ø© ÙˆØ§Ø¶Ø­Ø© Ø¹Ù„Ù‰ Ø£Ù†ÙˆØ§Ø¹ Ø§Ù„ÙÙˆØ·ØŒ Ùˆï¿½Â…Ø³ØªÙˆÙ‰ Ø§Ù„Ø§ï¿½Â…ØªØµØ§ØµØŒ ÙˆØ§Ù„ï¿½Â…ÙˆØ§Ø¯ØŒ Ùˆï¿½Â…ÙˆØ§Ø¹ÙŠØ¯ Ø§Ù„ØªØºÙŠÙŠØ±ØŒ ÙˆØ¹ÙˆØ§ï¿½Â…Ù„ Ø§Ù„Ø±Ø§Ø­Ø© Ù„Ù„Ø¹Ù†Ø§ÙŠØ© Ø§Ù„ÙŠÙˆï¿½Â…ÙŠØ© Ø£Ø«Ù†Ø§Ø¡ Ø§Ù„Ø¯ÙˆØ±Ø©."
+      }
+    },
+    {
+      "slug": "adult-diaper-comfort",
+      "image": "https://images.pexels.com/photos/29372693/pexels-photo-29372693.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "href": "https://nafc.org/adult-absorbents/",
+      "source": {
+        "en": "NAFC",
+        "ar": "NAFC"
+      },
+      "category": {
+        "en": "Adult Care",
+        "ar": "Ø¹Ù†Ø§ÙŠØ© ÙƒØ¨Ø§Ø± Ø§Ù„Ø³Ù†"
+      },
+      "title": {
+        "en": "Adult Absorbents: What To Look For",
+        "ar": "ï¿½Â…Ù†ØªØ¬Ø§Øª Ø§Ù„Ø§ï¿½Â…ØªØµØ§Øµ Ù„Ù„ÙƒØ¨Ø§Ø±: ï¿½Â…Ø§ Ø§Ù„Ø°ÙŠ ÙŠØ¬Ø¨ Ø§Ù„Ø§Ù†ØªØ¨Ø§Ù‡ Ø¥Ù„ÙŠÙ‡"
+      },
+      "description": {
+        "en": "A useful breakdown of form, fit, and function when choosing adult incontinence products for comfort, discretion, and daily confidence.",
+        "ar": "Ø´Ø±Ø­ ï¿½Â…ÙÙŠØ¯ Ù„Ø¹ÙˆØ§ï¿½Â…Ù„ Ø§Ù„Ø´ÙƒÙ„ ÙˆØ§Ù„ï¿½Â…Ù„Ø§Ø¡ï¿½Â…Ø© ÙˆØ§Ù„ÙˆØ¸ÙŠÙØ© Ø¹Ù†Ø¯ Ø§Ø®ØªÙŠØ§Ø± ï¿½Â…Ù†ØªØ¬Ø§Øª Ø³Ù„Ø³ Ø§Ù„Ø¨ÙˆÙ„ Ù„Ù„ÙƒØ¨Ø§Ø± ï¿½Â…Ù† Ø£Ø¬Ù„ Ø§Ù„Ø±Ø§Ø­Ø© ÙˆØ§Ù„Ø®ØµÙˆØµÙŠØ© ÙˆØ§Ù„Ø«Ù‚Ø© Ø§Ù„ÙŠÙˆï¿½Â…ÙŠØ©."
+      }
+    }
+  ],
+  "news": [
+    {
+      "slug": "community-hand-hygiene-guidelines",
+      "image": "https://images.pexels.com/photos/3872806/pexels-photo-3872806.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "href": "https://www.who.int/news/item/15-10-2025-new-guidelines-on-community-hand-hygiene-to-help-governments-reduce-the-spread-of-infectious-diseases",
+      "source": {
+        "en": "WHO",
+        "ar": "WHO"
+      },
+      "category": {
+        "en": "Global Hygiene Guidance",
+        "ar": "Ø¥Ø±Ø´Ø§Ø¯Ø§Øª Ø§Ù„Ù†Ø¸Ø§ÙØ© Ø§Ù„Ø¹Ø§Ù„ï¿½Â…ÙŠØ©"
+      },
+      "date": {
+        "en": "15 October 2025",
+        "ar": "15 Ø£ÙƒØªÙˆØ¨Ø± 2025"
+      },
+      "title": {
+        "en": "WHO and UNICEF Release Community Hand Hygiene Guidelines",
+        "ar": "ï¿½Â…Ù†Ø¸ï¿½Â…Ø© Ø§Ù„ØµØ­Ø© Ø§Ù„Ø¹Ø§Ù„ï¿½Â…ÙŠØ© ÙˆÙŠÙˆÙ†ÙŠØ³Ù ØªØµØ¯Ø±Ø§Ù† Ø¥Ø±Ø´Ø§Ø¯Ø§Øª Ù†Ø¸Ø§ÙØ© Ø§Ù„ÙŠØ¯ÙŠÙ† Ø§Ù„ï¿½Â…Ø¬Øªï¿½Â…Ø¹ÙŠØ©"
+      },
+      "description": {
+        "en": "The first global guidelines for hand hygiene in homes, schools, public spaces, and institutions focus on reducing preventable illness.",
+        "ar": "ØªØ±ÙƒØ² Ø£ÙˆÙ„ Ø¥Ø±Ø´Ø§Ø¯Ø§Øª Ø¹Ø§Ù„ï¿½Â…ÙŠØ© Ù„Ù†Ø¸Ø§ÙØ© Ø§Ù„ÙŠØ¯ÙŠÙ† ÙÙŠ Ø§Ù„ï¿½Â…Ù†Ø§Ø²Ù„ ÙˆØ§Ù„ï¿½Â…Ø¯Ø§Ø±Ø³ ÙˆØ§Ù„Ø£ï¿½Â…Ø§ÙƒÙ† Ø§Ù„Ø¹Ø§ï¿½Â…Ø© ÙˆØ§Ù„ï¿½Â…Ø¤Ø³Ø³Ø§Øª Ø¹Ù„Ù‰ ØªÙ‚Ù„ÙŠÙ„ Ø§Ù„Ø£ï¿½Â…Ø±Ø§Ø¶ Ø§Ù„ØªÙŠ ÙŠï¿½Â…ÙƒÙ† Ø§Ù„ÙˆÙ‚Ø§ÙŠØ© ï¿½Â…Ù†Ù‡Ø§."
+      }
+    },
+    {
+      "slug": "menstrual-health-fact-sheet",
+      "image": "https://images.pexels.com/photos/5938424/pexels-photo-5938424.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "href": "https://www.who.int/news-room/fact-sheets/detail/menstrual-health",
+      "source": {
+        "en": "WHO",
+        "ar": "WHO"
+      },
+      "category": {
+        "en": "Menstrual Health",
+        "ar": "Ø§Ù„ØµØ­Ø© Ø§Ù„Ø´Ù‡Ø±ÙŠØ©"
+      },
+      "date": {
+        "en": "18 June 2026",
+        "ar": "18 ÙŠÙˆÙ†ÙŠÙˆ 2026"
+      },
+      "title": {
+        "en": "WHO Updates Its Menstrual Health Fact Sheet",
+        "ar": "ï¿½Â…Ù†Ø¸ï¿½Â…Ø© Ø§Ù„ØµØ­Ø© Ø§Ù„Ø¹Ø§Ù„ï¿½Â…ÙŠØ© ØªØ­Ø¯Ø« ØµØ­ÙŠÙØ© Ø­Ù‚Ø§Ø¦Ù‚ Ø§Ù„ØµØ­Ø© Ø§Ù„Ø´Ù‡Ø±ÙŠØ©"
+      },
+      "description": {
+        "en": "The update highlights access to menstrual materials, safe facilities, accurate information, dignity, and health support.",
+        "ar": "ÙŠØ³Ù„Ø· Ø§Ù„ØªØ­Ø¯ÙŠØ« Ø§Ù„Ø¶ÙˆØ¡ Ø¹Ù„Ù‰ Ø§Ù„ÙˆØµÙˆÙ„ Ø¥Ù„Ù‰ ï¿½Â…ÙˆØ§Ø¯ Ø§Ù„Ø¯ÙˆØ±Ø© Ø§Ù„Ø´Ù‡Ø±ÙŠØ© ÙˆØ§Ù„ï¿½Â…Ø±Ø§ÙÙ‚ Ø§Ù„Ø¢ï¿½Â…Ù†Ø© ÙˆØ§Ù„ï¿½Â…Ø¹Ù„Ùˆï¿½Â…Ø§Øª Ø§Ù„Ø¯Ù‚ÙŠÙ‚Ø© ÙˆØ§Ù„ÙƒØ±Ø§ï¿½Â…Ø© ÙˆØ§Ù„Ø¯Ø¹ï¿½Â… Ø§Ù„ØµØ­ÙŠ."
+      }
+    },
+    {
+      "slug": "wash-for-every-child",
+      "image": "https://images.pexels.com/photos/7492918/pexels-photo-7492918.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "href": "https://www.unicef.org/eu/stories/water-sanitation-and-hygiene-every-child",
+      "source": {
+        "en": "UNICEF",
+        "ar": "UNICEF"
+      },
+      "category": {
+        "en": "Children and Hygiene",
+        "ar": "Ø§Ù„Ø£Ø·ÙØ§Ù„ ÙˆØ§Ù„Ù†Ø¸Ø§ÙØ©"
+      },
+      "date": {
+        "en": "15 April 2026",
+        "ar": "15 Ø£Ø¨Ø±ÙŠÙ„ 2026"
+      },
+      "title": {
+        "en": "Water, Sanitation and Hygiene for Every Child",
+        "ar": "Ø§Ù„ï¿½Â…ÙŠØ§Ù‡ ÙˆØ§Ù„ØµØ±Ù Ø§Ù„ØµØ­ÙŠ ÙˆØ§Ù„Ù†Ø¸Ø§ÙØ© Ù„ÙƒÙ„ Ø·ÙÙ„"
+      },
+      "description": {
+        "en": "UNICEF highlights how safe water, sanitation, and hygiene protect childrenâ€™s survival, health, dignity, and learning.",
+        "ar": "ØªÙˆØ¶Ø­ ÙŠÙˆÙ†ÙŠØ³Ù ÙƒÙŠÙ ØªØ­ï¿½Â…ÙŠ Ø§Ù„ï¿½Â…ÙŠØ§Ù‡ Ø§Ù„Ø¢ï¿½Â…Ù†Ø© ÙˆØ§Ù„ØµØ±Ù Ø§Ù„ØµØ­ÙŠ ÙˆØ§Ù„Ù†Ø¸Ø§ÙØ© Ø¨Ù‚Ø§Ø¡ Ø§Ù„Ø£Ø·ÙØ§Ù„ ÙˆØµØ­ØªÙ‡ï¿½Â… ÙˆÙƒØ±Ø§ï¿½Â…ØªÙ‡ï¿½Â… ÙˆØªØ¹Ù„ï¿½Â…Ù‡ï¿½Â…."
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "id": "production-quality-specialist",
+      "title": {
+        "en": "Production Quality Specialist",
+        "ar": "Ø§Ø®ØªØµØ§ØµÙŠ Ø¬ÙˆØ¯Ø© Ø¥Ù†ØªØ§Ø¬"
+      },
+      "department": {
+        "en": "Quality",
+        "ar": "Ø§Ù„Ø¬ÙˆØ¯Ø©"
+      },
+      "location": {
+        "en": "Syria",
+        "ar": "Ø³ÙˆØ±ÙŠØ§"
+      },
+      "type": {
+        "en": "Full time",
+        "ar": "Ø¯ÙˆØ§ï¿½Â… ÙƒØ§ï¿½Â…Ù„"
+      },
+      "summary": {
+        "en": "Support product quality checks, hygiene standards, and documentation across DRC production lines.",
+        "ar": "Ø¯Ø¹ï¿½Â… ÙØ­ÙˆØµØ§Øª Ø¬ÙˆØ¯Ø© Ø§Ù„ï¿½Â…Ù†ØªØ¬ Ùˆï¿½Â…Ø¹Ø§ÙŠÙŠØ± Ø§Ù„Ù†Ø¸Ø§ÙØ© ÙˆØ§Ù„ØªÙˆØ«ÙŠÙ‚ Ø¶ï¿½Â…Ù† Ø®Ø·ÙˆØ· Ø¥Ù†ØªØ§Ø¬ DRC."
+      },
+      "requirements": [
+        {
+          "en": "Experience in quality control or manufacturing environments.",
+          "ar": "Ø®Ø¨Ø±Ø© ÙÙŠ Ø¶Ø¨Ø· Ø§Ù„Ø¬ÙˆØ¯Ø© Ø£Ùˆ Ø¨ÙŠØ¦Ø§Øª Ø§Ù„ØªØµÙ†ÙŠØ¹."
+        },
+        {
+          "en": "Strong attention to detail and documentation.",
+          "ar": "Ø§Ù‡Øªï¿½Â…Ø§ï¿½Â… Ø¹Ø§Ù„ Ø¨Ø§Ù„ØªÙØ§ØµÙŠÙ„ ÙˆØ§Ù„ØªÙˆØ«ÙŠÙ‚."
+        }
+      ],
+      "active": true,
+      "createdAt": "2026-08-10T00:00:00.000Z"
+    }
+  ]
 }

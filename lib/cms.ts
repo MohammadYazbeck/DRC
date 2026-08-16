@@ -79,7 +79,7 @@ export function getVisibleProducts(content: Pick<CmsContent, "products">) {
 }
 
 export function getProductBySlug(content: Pick<CmsContent, "products">, slug: string) {
-  return getVisibleProducts(content).find((product) => product.slug === slug);
+  return getVisibleProducts(content).find((product) => product.slug === slug || product.aliases?.includes(slug));
 }
 
 export function getBrandLogosFromProducts(content: Pick<CmsContent, "products">) {

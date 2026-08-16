@@ -23,7 +23,7 @@ type LanguageContextValue = {
 const LanguageContext = createContext<LanguageContextValue | null>(null);
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [locale, setLocale] = useState<Locale>("en");
+  const [locale, setLocale] = useState<Locale>("ar");
   const direction: Direction = locale === "ar" ? "rtl" : "ltr";
 
   useEffect(() => {

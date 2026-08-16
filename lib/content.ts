@@ -177,7 +177,7 @@ export const brandLogos: ProductBrandLogo[] = [
   { name: "HQ+", src: "/images/standardized/logos/hq-plus.png" },
   { name: "Tizkar", src: "/images/standardized/logos/tizkar.png" },
   { name: "Fantash", src: "/images/standardized/logos/fantash.png" },
-  { name: "Bino", src: "/images/standardized/logos/bino.png" },
+  { name: "Pinotex", src: "/images/standardized/logos/bino.png" },
   { name: "Avia", src: "/images/standardized/logos/avia.png" }
 ];
 
@@ -443,32 +443,32 @@ const productSizeGroups = {
   ],
   aviaBinoAdultDiapers: [
     {
-      label: { en: "Bino S", ar: "بينو S" },
+      label: { en: "Pinotex S", ar: "بينوتكس S" },
       value: { en: "Small", ar: "صغير" },
-      note: { en: "Bino Tex Small", ar: "بينو تكس صغير" },
+      note: { en: "Pinotex Small", ar: "بينوتكس صغير" },
       description: {
-        en: "A compact Bino Tex adult diaper option made for dependable comfort and daily protection.",
-        ar: "خيار صغير من بينو تكس لكبار السن مصمم للراحة الموثوقة والحماية اليومية."
+        en: "A compact Pinotex adult diaper option made for dependable comfort and daily protection.",
+        ar: "خيار صغير من بينوتكس لكبار السن مصمم للراحة الموثوقة والحماية اليومية."
       },
       image: "/images/standardized/product-options/bino-s.png"
     },
     {
-      label: { en: "Bino L", ar: "بينو L" },
+      label: { en: "Pinotex L", ar: "بينوتكس L" },
       value: { en: "Large", ar: "كبير" },
-      note: { en: "Bino Tex Large", ar: "بينو تكس كبير" },
+      note: { en: "Pinotex Large", ar: "بينوتكس كبير" },
       description: {
-        en: "A larger Bino Tex format for secure coverage, practical fit, and reliable retention.",
-        ar: "مقاس أكبر من بينو تكس لتغطية آمنة وملاءمة عملية واحتجاز موثوق للسوائل."
+        en: "A larger Pinotex format for secure coverage, practical fit, and reliable retention.",
+        ar: "مقاس أكبر من بينوتكس لتغطية آمنة وملاءمة عملية واحتجاز موثوق للسوائل."
       },
       image: "/images/standardized/product-options/bino-l.png"
     },
     {
-      label: { en: "Bino XL", ar: "بينو XL" },
+      label: { en: "Pinotex XL", ar: "بينوتكس XL" },
       value: { en: "X-Large", ar: "كبير جدا" },
-      note: { en: "Bino Tex X-Large", ar: "بينو تكس كبير جدا" },
+      note: { en: "Pinotex X-Large", ar: "بينوتكس كبير جدا" },
       description: {
-        en: "An extra-large Bino Tex option for broader coverage and dependable adult-care support.",
-        ar: "خيار كبير جدا من بينو تكس لتغطية أوسع ودعم موثوق للعناية بكبار السن."
+        en: "An extra-large Pinotex option for broader coverage and dependable adult-care support.",
+        ar: "خيار كبير جدا من بينوتكس لتغطية أوسع ودعم موثوق للعناية بكبار السن."
       },
       image: "/images/standardized/product-options/bino-xl.png"
     },
@@ -868,8 +868,8 @@ export const products: Product[] = [
   {
     slug: "bino-avia",
     hidden: true,
-    aliases: ["bino-tex", "avia"],
-    title: { en: "Bino Tex & Avia", ar: "بينو تكس وآفيا" },
+    aliases: ["pinotex", "bino-tex", "avia"],
+    title: { en: "Pinotex & Avia", ar: "بينوتكس وآفيا" },
     category: { en: "Adult Diapers", ar: "حفاضات كبار السن" },
     image: "/images/standardized/product-cards/bino-tex.png",
     cardImages: [
@@ -880,24 +880,24 @@ export const products: Product[] = [
     bannerSize: { width: 2400, height: 460 },
     logo: "/images/standardized/logos/bino.png",
     logos: [
-      { name: "Bino", src: "/images/standardized/logos/bino.png" },
+      { name: "Pinotex", src: "/images/standardized/logos/bino.png" },
       { name: "Avia", src: "/images/standardized/logos/avia.png" }
     ],
     excerpt: {
-      en: "Adult-care diapers from Bino Tex and Avia, available in practical sizes for reliable daily protection.",
-      ar: "حفاضات عناية لكبار السن من بينو تكس وآفيا بمقاسات عملية لحماية يومية موثوقة."
+      en: "Adult-care diapers from Pinotex and Avia, available in practical sizes for reliable daily protection.",
+      ar: "حفاضات عناية لكبار السن من بينوتكس وآفيا بمقاسات عملية لحماية يومية موثوقة."
     },
     description: {
-      en: "Bino Tex and Avia adult diapers support comfortable daily care with fast absorption, reliable fluid retention, and leakage protection. The line includes separate Bino Tex and Avia options in S, L, and XL formats.",
-      ar: "تدعم حفاضات بينو تكس وآفيا العناية اليومية المريحة لكبار السن من خلال الامتصاص السريع واحتجاز السوائل والحماية من التسريب. يتضمن الخط خيارات منفصلة من بينو تكس وآفيا بمقاسات S وL وXL."
+      en: "Pinotex and Avia adult diapers support comfortable daily care with fast absorption, reliable fluid retention, and leakage protection. The line includes separate Pinotex and Avia options in S, L, and XL formats.",
+      ar: "تدعم حفاضات بينوتكس وآفيا العناية اليومية المريحة لكبار السن من خلال الامتصاص السريع واحتجاز السوائل والحماية من التسريب. يتضمن الخط خيارات منفصلة من بينوتكس وآفيا بمقاسات S وL وXL."
     },
     features: productFeatureSets.adultDiapers,
     sizes: productSizeGroups.aviaBinoAdultDiapers,
     faqs: [
       {
         question: {
-          en: "Are Bino Tex and Avia shown on one product page?",
-          ar: "هل يتم عرض بينو تكس وآفيا في صفحة منتج واحدة؟"
+          en: "Are Pinotex and Avia shown on one product page?",
+          ar: "هل يتم عرض بينوتكس وآفيا في صفحة منتج واحدة؟"
         },
         answer: {
           en: "Yes. They are grouped together as adult-care diaper brands, with each available option shown separately by brand and size.",
@@ -910,8 +910,8 @@ export const products: Product[] = [
           ar: "ما المقاسات المتوفرة؟"
         },
         answer: {
-          en: "The current product line shows Bino Tex S, L, XL and Avia S, L, XL.",
-          ar: "يعرض خط المنتج الحالي مقاسات بينو تكس S وL وXL، ومقاسات آفيا S وL وXL."
+          en: "The current product line shows Pinotex S, L, XL and Avia S, L, XL.",
+          ar: "يعرض خط المنتج الحالي مقاسات بينوتكس S وL وXL، ومقاسات آفيا S وL وXL."
         }
       },
       {
@@ -937,8 +937,9 @@ export const products: Product[] = [
     ]
   },
   {
-    slug: "bino-tex",
-    title: { en: "Bino Tex", ar: "بينو تكس" },
+    slug: "pinotex",
+    aliases: ["bino-tex"],
+    title: { en: "Pinotex", ar: "بينوتكس" },
     category: { en: "Adult Diapers", ar: "حفاضات كبار السن" },
     image: "/images/standardized/product-cards/bino-tex.png",
     cardImage: "/images/standardized/product-cards/bino-tex.png",
@@ -950,30 +951,30 @@ export const products: Product[] = [
       ar: "فوط مخصصة لكبار السن بعدة مقاسات وخيارات خلفية."
     },
     description: {
-      en: "Bino Tex adult diapers provide fast absorption and reliable fluid retention for comfort and protection. The line is available in S, L, and XL options from the new Bino collection.",
-      ar: "بينو تكس فوط مخصصة لكبار السن، توفر امتصاصاً سريعاً وقدرة عالية على احتجاز السوائل لضمان الراحة والحماية. يتوفر الخط بمقاسات S وL وXL من مجموعة بينو الجديدة."
+      en: "Pinotex adult diapers provide fast absorption and reliable fluid retention for comfort and protection. The line is available in S, L, and XL options from the new Pinotex collection.",
+      ar: "بينوتكس فوط مخصصة لكبار السن، توفر امتصاصاً سريعاً وقدرة عالية على احتجاز السوائل لضمان الراحة والحماية. يتوفر الخط بمقاسات S وL وXL من مجموعة بينوتكس الجديدة."
     },
     features: productFeatureSets.adultDiapers,
-    sizes: productSizeGroups.aviaBinoAdultDiapers.filter((size) => size.label.en.startsWith("Bino")),
+    sizes: productSizeGroups.aviaBinoAdultDiapers.filter((size) => size.label.en.startsWith("Pinotex")),
     faqs: [
       {
         question: {
-          en: "Which Bino Tex options are available?",
-          ar: "ما خيارات بينو تكس المتوفرة؟"
+          en: "Which Pinotex options are available?",
+          ar: "ما خيارات بينوتكس المتوفرة؟"
         },
         answer: {
-          en: "Bino Tex is shown in Small, Large, and X-Large options using the updated product images.",
-          ar: "يتم عرض بينو تكس بخيارات صغير وكبير وكبير جدا باستخدام صور المنتج المحدثة."
+          en: "Pinotex is shown in Small, Large, and X-Large options using the updated product images.",
+          ar: "يتم عرض بينوتكس بخيارات صغير وكبير وكبير جدا باستخدام صور المنتج المحدثة."
         }
       },
       {
         question: {
-          en: "Is Bino Tex for adult care?",
-          ar: "هل بينو تكس مخصص للعناية بكبار السن؟"
+          en: "Is Pinotex for adult care?",
+          ar: "هل بينوتكس مخصص للعناية بكبار السن؟"
         },
         answer: {
-          en: "Yes. Bino Tex is an adult diaper line made for daily comfort, absorption, and fluid retention.",
-          ar: "نعم. بينو تكس خط حفاضات لكبار السن مصمم للراحة اليومية والامتصاص واحتجاز السوائل."
+          en: "Yes. Pinotex is an adult diaper line made for daily comfort, absorption, and fluid retention.",
+          ar: "نعم. بينوتكس خط حفاضات لكبار السن مصمم للراحة اليومية والامتصاص واحتجاز السوائل."
         }
       },
       {
@@ -1030,12 +1031,12 @@ export const products: Product[] = [
       },
       {
         question: {
-          en: "Does Avia use the same banner style as Bino Tex?",
-          ar: "هل تستخدم آفيا نفس تصميم بانر بينو تكس؟"
+          en: "Does Avia use the same banner style as Pinotex?",
+          ar: "هل تستخدم آفيا نفس تصميم بانر بينوتكس؟"
         },
         answer: {
-          en: "Yes. Avia and Bino Tex use the same shared adult-care banner while keeping separate product pages and size options.",
-          ar: "نعم. تستخدم آفيا وبينو تكس نفس بانر العناية بكبار السن مع الحفاظ على صفحات وخيارات منفصلة لكل علامة."
+          en: "Yes. Avia and Pinotex use the same shared adult-care banner while keeping separate product pages and size options.",
+          ar: "نعم. تستخدم آفيا وبينوتكس نفس بانر العناية بكبار السن مع الحفاظ على صفحات وخيارات منفصلة لكل علامة."
         }
       }
     ]
