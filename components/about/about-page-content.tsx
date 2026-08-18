@@ -92,7 +92,7 @@ const values = [
 
 const brandCopy: Record<string, { name: LocalizedString; category: LocalizedString }> = {
   "baby-rexy": {
-    name: { en: "Baby Rexy", ar: "Baby Rexy" },
+    name: { en: "New Baby Rexy", ar: "نيو بيبي ريكسي" },
     category: { en: "Baby diapers", ar: "حفاضات الأطفال" }
   },
   "hq-plus": {

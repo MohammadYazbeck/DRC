@@ -43,13 +43,14 @@ export function FaqSection() {
                 <button
                   type="button"
                   onClick={() => setOpenIndex(isOpen ? -1 : index)}
+                  dir={isRtl ? "rtl" : "ltr"}
                   className={cn(
                     "focus-ring flex w-full items-center justify-between gap-3 px-4 py-4 text-left transition hover:bg-sky/45 sm:gap-4 sm:px-7 sm:py-5",
-                    isRtl && "flex-row-reverse text-right"
+                    isRtl && "text-right"
                   )}
                   aria-expanded={isOpen}
                 >
-                  <span className="text-base font-bold leading-7 text-ink sm:text-xl sm:leading-8">{text(item.question, locale)}</span>
+                  <span className={cn("flex-1 text-base font-bold leading-7 text-ink sm:text-xl sm:leading-8", isRtl && "text-right")}>{text(item.question, locale)}</span>
                   <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-[18px] bg-primary text-white shadow-soft sm:h-12 sm:w-12 sm:rounded-[22px]">
                     <motion.span
                       animate={{ rotate: isOpen ? 45 : 0, scale: isOpen ? 1.08 : 1 }}

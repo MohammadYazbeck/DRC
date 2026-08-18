@@ -61,7 +61,10 @@ function TopBar({ hidden }: { hidden: boolean }) {
         <div className={cn("flex min-w-0 flex-wrap items-center gap-x-3 gap-y-1", isRtl && "justify-end")}>
           <a href={`tel:${phoneValue.replace(/\s/g, "")}`} className={cn("focus-ring inline-flex items-center gap-2 rounded-[18px]", isRtl && "flex-row-reverse")}>
             <Phone className="h-4 w-4 sm:h-5 sm:w-5" aria-hidden="true" />
+            <p dir="ltr">
             {phoneValue}
+            </p>
+
           </a>
           <a href={`mailto:${emailValue}`} className={cn("focus-ring hidden items-center gap-2 rounded-[18px] sm:inline-flex", isRtl && "flex-row-reverse")}>
             <Mail className="h-5 w-5" aria-hidden="true" />
@@ -144,6 +147,21 @@ function NavigationBar({ hasScrolled }: { hasScrolled: boolean }) {
   const leadingNavLinks = navLinks.slice(0, 2);
   const trailingNavLinks = navLinks.slice(2);
   const productsLabel = locale === "en" ? "Products" : "\u0627\u0644\u0645\u0646\u062a\u062c\u0627\u062a";
+  const navLinkClass = cn(
+    "focus-ring rounded-[22px] px-5 py-3 text-lg font-bold transition",
+    "text-ink hover:bg-white/80 hover:text-primary"
+  );
+  const controlClass = cn(
+    "focus-ring inline-flex h-10 items-center gap-1.5 rounded-[18px] border px-3 text-sm font-bold text-primary transition sm:h-14 sm:gap-2 sm:rounded-[22px] sm:px-5 sm:text-lg",
+    solidNav
+      ? "border-border bg-white/75 hover:bg-white"
+      : "border-primary/25 bg-transparent hover:bg-white/65",
+    isRtl && "flex-row-reverse"
+  );
+  const mobileMenuButtonClass = cn(
+    "focus-ring inline-flex h-10 w-10 items-center justify-center rounded-[18px] border text-primary transition sm:h-12 sm:w-12 sm:rounded-[22px] lg:hidden",
+    solidNav ? "border-border" : "border-primary/20"
+  );
 
   return (
     <nav
@@ -174,15 +192,23 @@ function NavigationBar({ hasScrolled }: { hasScrolled: boolean }) {
               priority
             />
           </span>
-          <span className={cn("hidden text-xl font-bold text-primary sm:block lg:text-3xl", isRtl ? "-mr-2" : "-ml-2")}>Group</span>
+          <span className={cn("hidden text-xl font-bold text-primary sm:block lg:text-3xl", isRtl ? "-mr-2" : "-ml-2")}>
+            Group
+          </span>
         </Link>
 
-        <div dir={isRtl ? "rtl" : "ltr"} className="hidden items-center gap-2 lg:flex">
+        <div
+          dir={isRtl ? "rtl" : "ltr"}
+          className={cn(
+            "hidden items-center gap-1 rounded-[28px] p-1 transition duration-300 lg:flex",
+            solidNav ? "bg-transparent" : "bg-white shadow-[0_10px_30px_rgba(16,32,51,0.08)]"
+          )}
+        >
           {leadingNavLinks.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className="focus-ring rounded-[22px] px-5 py-3 text-lg font-bold text-ink transition hover:bg-white/80 hover:text-primary"
+              className={navLinkClass}
             >
               {label(item.label, locale)}
             </Link>
@@ -197,7 +223,8 @@ function NavigationBar({ hasScrolled }: { hasScrolled: boolean }) {
               type="button"
               onClick={() => setProductsOpen((open) => !open)}
               className={cn(
-                "focus-ring inline-flex items-center gap-2 rounded-[22px] px-5 py-3 text-lg font-bold text-ink transition hover:bg-white/80 hover:text-primary",
+                navLinkClass,
+                "inline-flex items-center gap-2",
                 isRtl && "flex-row-reverse"
               )}
               aria-expanded={productsOpen}
@@ -223,7 +250,7 @@ function NavigationBar({ hasScrolled }: { hasScrolled: boolean }) {
             <Link
               key={item.href}
               href={item.href}
-              className="focus-ring rounded-[22px] px-5 py-3 text-lg font-bold text-ink transition hover:bg-white/80 hover:text-primary"
+              className={navLinkClass}
             >
               {label(item.label, locale)}
             </Link>
@@ -234,13 +261,7 @@ function NavigationBar({ hasScrolled }: { hasScrolled: boolean }) {
           <button
             type="button"
             onClick={toggleLocale}
-            className={cn(
-              "focus-ring inline-flex h-10 items-center gap-1.5 rounded-[18px] border px-3 text-sm font-bold text-primary transition sm:h-14 sm:gap-2 sm:rounded-[22px] sm:px-5 sm:text-lg",
-              solidNav
-                ? "border-border bg-white/75 hover:bg-white"
-                : "border-primary/25 bg-transparent hover:bg-white/65",
-              isRtl && "flex-row-reverse"
-            )}
+            className={controlClass}
           >
             <Globe2 className="h-4 w-4 sm:h-5 sm:w-5" aria-hidden="true" />
             {locale === "en" ? "\u0627\u0644\u0639\u0631\u0628\u064a\u0629" : "English"}
@@ -249,7 +270,7 @@ function NavigationBar({ hasScrolled }: { hasScrolled: boolean }) {
           <button
             type="button"
             onClick={() => setMenuOpen((open) => !open)}
-            className="focus-ring inline-flex h-10 w-10 items-center justify-center rounded-[18px] border border-border text-primary sm:h-12 sm:w-12 sm:rounded-[22px] lg:hidden"
+            className={mobileMenuButtonClass}
             aria-label={menuOpen ? "Close menu" : "Open menu"}
             aria-expanded={menuOpen}
           >

@@ -95,7 +95,7 @@ const detailFeatureIconMap: Record<ProductFeatureIcon, LucideIcon> = {
 
 const productPageCopy = {
   sizesEyebrow: { en: "Sizes and formats", ar: "المقاسات والتنسيقات" },
-  sizesTitle: { en: "Available options for this product line.", ar: "الخيارات المتوفرة ضمن هذا الخط." },
+  sizesTitle: { en: "Available options for this product", ar: "الخيارات المتوفرة ضمن هذا المنتج" },
   sizesSubtitle: {
     en: "A simple guide to the sizes, weights, and package formats available for this product.",
     ar: "دليل بسيط للمقاسات والأوزان وتنسيقات العبوات المتوفرة لهذا المنتج."
@@ -208,7 +208,7 @@ function ProductSizeScale({
                 className={cn(
                   "flex gap-3",
                   stackSizeValue ? "flex-col" : "items-start justify-between",
-                  stackSizeValue ? (isRtl ? "items-end" : "items-start") : isRtl && "flex-row-reverse"
+                  stackSizeValue ? (isRtl ? "items-end" : "items-start") : undefined
                 )}
               >
                 <span className={cn("font-bold leading-none", labelSizeClass, theme.label)}>
@@ -244,8 +244,9 @@ function ProductFaqList({
   isRtl: boolean;
 }) {
   const [openIndex, setOpenIndex] = useState(0);
-  const faqTitle =
-    locale === "en"
+  const faqTitle = product.faqTitle
+    ? text(product.faqTitle, locale)
+    : locale === "en"
       ? `Quick answers about ${text(product.title, locale)}.`
       : `إجابات سريعة حول ${text(product.title, locale)}.`;
 
@@ -275,13 +276,14 @@ function ProductFaqList({
                 <button
                   type="button"
                   onClick={() => setOpenIndex(isOpen ? -1 : index)}
+                  dir={isRtl ? "rtl" : "ltr"}
                   className={cn(
                     "focus-ring flex w-full items-center justify-between gap-3 px-4 py-4 text-left transition hover:bg-sky/45 sm:gap-4 sm:px-7 sm:py-5",
-                    isRtl && "flex-row-reverse text-right"
+                    isRtl && "text-right"
                   )}
                   aria-expanded={isOpen}
                 >
-                  <span className="text-base font-bold leading-7 text-ink sm:text-xl sm:leading-8">{text(item.question, locale)}</span>
+                  <span className={cn("flex-1 text-base font-bold leading-7 text-ink sm:text-xl sm:leading-8", isRtl && "text-right")}>{text(item.question, locale)}</span>
                   <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-[18px] bg-primary text-white shadow-soft sm:h-12 sm:w-12 sm:rounded-[22px]">
                     <motion.span
                       animate={{ rotate: isOpen ? 45 : 0, scale: isOpen ? 1.08 : 1 }}
@@ -427,7 +429,7 @@ export function ProductDetail({ product }: { product: Product }) {
         {text(product.category, locale)}
       </p>
       <h1 className="mt-4 text-3xl font-bold leading-tight text-primary sm:mt-5 sm:text-6xl">{text(product.title, locale)}</h1>
-      <p className={cn("mt-4 max-w-2xl text-base leading-7 text-ink/70 sm:mt-6 sm:text-xl sm:leading-9", isRtl && "ml-auto")}>{text(product.description, locale)}</p>
+      <p className={cn("mt-4 max-w-2xl whitespace-pre-line text-base leading-7 text-ink/70 sm:mt-6 sm:text-xl sm:leading-9", isRtl && "ml-auto")}>{text(product.description, locale)}</p>
       <Link
         href="/#contact"
         className={cn(
@@ -589,8 +591,8 @@ export function ProductDetail({ product }: { product: Product }) {
                             )}
                           </div>
                           <div className="px-1 pt-4 sm:pt-5">
-                            <div className={cn("flex items-start justify-between gap-3", isRtl && "flex-row-reverse")}>
-                              <h3 className="text-xl font-bold leading-7 text-ink sm:text-2xl sm:leading-8">{title}</h3>
+                            <div className="flex items-start justify-between gap-3">
+                              <h3 className={cn("text-xl font-bold leading-7 text-ink sm:text-2xl sm:leading-8", isRtl && "text-right")}>{title}</h3>
                               {showValue && (
                                 <span className="shrink-0 rounded-full bg-primary/10 px-3 py-1.5 text-sm font-bold text-primary">
                                   {value}

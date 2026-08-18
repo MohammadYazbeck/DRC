@@ -8,9 +8,9 @@ import "./globals.css";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "DRC Group | Everyday Hygiene, Made with Care",
+  title: "DRC Group | Everyday Care, Made with Love and Attention",
   description:
-    "DRC Group provides reliable hygienic and sanitary products for babies, women, adults, and families."
+    "DRC Group provides trusted hygienic care products for every member of the family, designed for comfort, softness, and effective absorption."
 };
 
 export default async function RootLayout({

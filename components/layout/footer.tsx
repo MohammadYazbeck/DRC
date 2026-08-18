@@ -37,21 +37,30 @@ export function Footer() {
 
   return (
     <footer id="contact" className="border-t border-border bg-primary text-white">
-      <div className={cn("section-shell grid gap-8 py-10 sm:py-16 lg:grid-cols-[1.25fr_0.75fr_0.75fr] lg:gap-10", isRtl && "text-right")}>
-        <div>
+      <div
+        dir="ltr"
+        className={cn(
+          "section-shell grid gap-8 py-10 sm:py-16 lg:grid-cols-[1.25fr_0.75fr_0.75fr] lg:gap-10",
+          isRtl && "text-right lg:grid-cols-[0.75fr_0.75fr_1.25fr]"
+        )}
+      >
+        <div
+          dir={isRtl ? "rtl" : "ltr"}
+          className={cn("max-w-md", isRtl && "flex w-full flex-col items-start justify-self-end text-right lg:col-start-3 lg:row-start-1")}
+        >
           <Link
             href="/"
-            className={cn("focus-ring inline-flex items-center gap-2 rounded-[22px]", isRtl && "flex-row-reverse")}
+            className="focus-ring inline-flex items-center gap-2 rounded-[22px]"
           >
             <span className="relative h-14 w-14 overflow-hidden rounded-[18px] bg-white sm:h-20 sm:w-20 sm:rounded-[22px]">
               <Image src="/images/brands/drc-logo-transparent-cropped.png" alt="DRC Group" fill sizes="64px" className="object-contain p-2" />
             </span>
             <span className="text-3xl font-bold sm:text-4xl">Group</span>
           </Link>
-          <p className="mt-4 max-w-md text-base leading-7 text-white/80 sm:mt-5 sm:text-lg sm:leading-8">
+          <p className={cn("mt-4 max-w-md text-base leading-7 text-white/80 sm:mt-5 sm:text-lg sm:leading-8", isRtl && "text-right")}>
             {text(footer.description, locale)}
           </p>
-          <div className={cn("mt-5 flex items-center gap-2 sm:mt-6", isRtl && "justify-end")}>
+          <div className={cn("mt-5 flex items-center gap-2 sm:mt-6", isRtl && "w-full justify-start")}>
             {socialLinks.map((item) => {
               const Icon = socialIconMap[item.icon];
               return (
@@ -70,11 +79,14 @@ export function Footer() {
           </div>
         </div>
 
-        <div>
+        <div
+          dir={isRtl ? "rtl" : "ltr"}
+          className={cn(isRtl && "flex flex-col items-start justify-self-end text-right lg:col-start-2 lg:row-start-1")}
+        >
           <h2 className="text-xl font-bold">{text(footer.quickLinksTitle, locale)}</h2>
-          <ul className="mt-4 grid gap-2.5 text-sm font-semibold text-white/80 sm:mt-5 sm:gap-3 sm:text-base">
+          <ul className={cn("mt-4 grid gap-2.5 text-sm font-semibold text-white/80 sm:mt-5 sm:gap-3 sm:text-base", isRtl && "justify-items-start text-right")}>
             {quickLinks.map((item) => (
-              <li key={item.href}>
+              <li key={item.href} className={cn(isRtl && "text-right")}>
                 <Link className="focus-ring rounded-[22px] transition hover:text-white" href={item.href}>
                   {text(item.label, locale)}
                 </Link>
@@ -83,11 +95,14 @@ export function Footer() {
           </ul>
         </div>
 
-        <div>
+        <div
+          dir={isRtl ? "rtl" : "ltr"}
+          className={cn(isRtl && "flex flex-col items-start justify-self-end text-right lg:col-start-1 lg:row-start-1")}
+        >
           <h2 className="text-xl font-bold">{text(footer.productLinksTitle, locale)}</h2>
-          <ul className="mt-4 grid gap-2.5 text-sm font-semibold text-white/80 sm:mt-5 sm:gap-3 sm:text-base">
+          <ul className={cn("mt-4 grid gap-2.5 text-sm font-semibold text-white/80 sm:mt-5 sm:gap-3 sm:text-base", isRtl && "justify-items-start text-right")}>
             {products.map((product) => (
-              <li key={product.slug}>
+              <li key={product.slug} className={cn(isRtl && "text-right")}>
                 <Link className="focus-ring rounded-[22px] transition hover:text-white" href={`/products/${product.slug}`}>
                   {text(product.title, locale)}
                 </Link>

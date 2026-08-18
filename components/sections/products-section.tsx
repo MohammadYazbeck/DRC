@@ -36,12 +36,12 @@ export function ProductsSection() {
         <SectionHeading
           eyebrow={{ en: "Our Products", ar: "منتجاتنا" }}
           title={{
-            en: "Featured hygiene brands for home and professional care.",
-            ar: "علامات عناية صحية مميزة للمنزل والاستخدام المهني."
+            en: "Distinctive hygienic products for family and home use.",
+            ar: "منتجات صحية مميزة لاستخدام العائلة والاستخدامات المنزلية"
           }}
           subtitle={{
-            en: "Explore a focused selection from DRC Group's portfolio, designed around comfort, softness, and practical everyday protection.",
-            ar: "استكشف مجموعة مختارة من منتجات DRC المصممة حول الراحة والنعومة والحماية اليومية العملية."
+            en: "Explore a selected range of DRC products specially designed to ensure comfort and dependable everyday protection.",
+            ar: "استكشف مجموعة مختارة من منتجات DRC المصممة خصيصا لتضمن لك الراحة والحماية اليومية الأكيدة."
           }}
         />
 

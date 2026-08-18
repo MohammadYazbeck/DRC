@@ -68,6 +68,7 @@ export type Product = {
   description: LocalizedString;
   optionsTitle?: LocalizedString;
   optionsSubtitle?: LocalizedString;
+  faqTitle?: LocalizedString;
   features?: ProductFeature[];
   detailFeatures?: ProductFeature[];
   sizes?: ProductSize[];
@@ -80,8 +81,8 @@ export const common = {
     ar: "استكشف المزيد"
   },
   moreInfo: {
-    en: "More Info",
-    ar: "معلومات أكثر"
+    en: "More",
+    ar: "المزيد"
   },
   readMore: {
     en: "Read More",
@@ -128,12 +129,12 @@ export const navLinks = [
 
 export const hero = {
   title: {
-    en: "Everyday Hygiene, Made with Care",
-    ar: "عناية يومية، مصنوعة باهتمام"
+    en: "Everyday Care, Made with Love and Attention",
+    ar: "عناية يومية مصنوعة ، بكل حب واهتمام"
   },
   subtitle: {
-    en: "DRC provides reliable hygiene products for babies, women, adults, and families, designed to deliver softness, comfort, effective absorption, and dependable everyday protection.",
-    ar: "تقدّم DRC منتجات عناية صحية موثوقة للأطفال والنساء وكبار السن والعائلة، مصممة لتوفير النعومة والراحة والامتصاص الفعّال والحماية اليومية."
+    en: "DRC provides trusted hygienic care products for every member of the family, including babies, women, and seniors. Designed with care and high quality, they deliver superior everyday care for comfort, softness, and effective absorption.",
+    ar: "تقدّم DRC منتجات عناية صحية موثوقة لجميع أفراد العائلة من أطفال ونساء و كبار سن ، وهي منتجات مصممة بعناية وجودة عالية  ، توفر عناية يومية فائقة تضمن لكم الراحة ، النعومة و الامتصاص الفعال."
   }
 } satisfies Record<string, LocalizedString>;
 
@@ -154,7 +155,7 @@ export const heroSlides = [
       ar: "/images/standardized/hero/hero-2.jpg"
     },
     label: { en: "Women care", ar: "عناية النساء" },
-    title: { en: "Comfort, dryness, and confidence", ar: "راحة وجفاف وثقة" }
+    title: { en: "Comfort, safety, and confidence.", ar: "راحة أمان وثقة." }
   },
   {
     id: "tizkar",
@@ -163,7 +164,7 @@ export const heroSlides = [
       ar: "/images/standardized/hero/hero-3.jpg"
     },
     label: { en: "Family care", ar: "عناية العائلة" },
-    title: { en: "Clean routines made simpler", ar: "نظافة يومية أسهل" }
+    title: { en: "Everyday care with gentle softness.", ar: "عناية يومية بكل نعومة." }
   }
 ] satisfies Array<{
   id: string;
@@ -406,7 +407,7 @@ const productSizeGroups = {
     { label: { en: "M", ar: "M" }, value: { en: "5-9 kg", ar: "5-9 كغ" }, note: { en: "Medium", ar: "وسط" } },
     { label: { en: "L", ar: "L" }, value: { en: "9-15 kg", ar: "9-15 كغ" }, note: { en: "Large", ar: "كبير" } },
     { label: { en: "XL", ar: "XL" }, value: { en: "12-19 kg", ar: "12-19 كغ" }, note: { en: "X-Large", ar: "كبير جداً" } },
-    { label: { en: "XXL", ar: "XXL" }, value: { en: "15-22 kg", ar: "15-22 كغ" }, note: { en: "XX-Large", ar: "كبير جداً 2" } }
+    { label: { en: "XXL", ar: "XXL" }, value: { en: "15-22 kg", ar: "15-22 كغ" }, note: { en: "Extra Extra Large", ar: "كبير جداً جداً" } }
   ],
   sanitaryPads: [
     { label: { en: "Daily", ar: "يومي" }, value: { en: "Light flow", ar: "تدفق خفيف" }, note: { en: "Soft daily comfort", ar: "راحة ناعمة للاستخدام اليومي" } },
@@ -435,8 +436,8 @@ const productSizeGroups = {
       value: { en: "Drying tissues", ar: "محارم تنشيف" },
       note: { en: "Drying tissues", ar: "محارم تنشيف" },
       description: {
-        en: "Practical drying tissues for clean daily routines and different care needs.",
-        ar: "محارم تنشيف عملية لروتين يومي نظيف واحتياجات عناية مختلفة."
+        en: "Practical drying tissues for all types of home, office, and hotel use.",
+        ar: "محارم تنشيف عملية لكافة انواع الاستخدام المنزلي والمكتبي و الفندقي."
       },
       image: "/images/standardized/product-options/tizkar-drying.png"
     }
@@ -464,11 +465,11 @@ const productSizeGroups = {
     },
     {
       label: { en: "Pinotex XL", ar: "بينوتكس XL" },
-      value: { en: "X-Large", ar: "كبير جدا" },
-      note: { en: "Pinotex X-Large", ar: "بينوتكس كبير جدا" },
+      value: { en: "X-Large", ar: "كبير جداً" },
+      note: { en: "Pinotex X-Large", ar: "بينوتكس كبير جداً" },
       description: {
         en: "An extra-large Pinotex option for broader coverage and dependable adult-care support.",
-        ar: "خيار كبير جدا من بينوتكس لتغطية أوسع ودعم موثوق للعناية بكبار السن."
+        ar: "خيار كبير جداً من بينوتكس لتغطية أوسع ودعم موثوق للعناية بكبار السن."
       },
       image: "/images/standardized/product-options/bino-xl.png"
     },
@@ -494,11 +495,11 @@ const productSizeGroups = {
     },
     {
       label: { en: "Avia XL", ar: "آفيا XL" },
-      value: { en: "X-Large", ar: "كبير جدا" },
-      note: { en: "Avia X-Large", ar: "آفيا كبير جدا" },
+      value: { en: "X-Large", ar: "كبير جداً" },
+      note: { en: "Avia X-Large", ar: "آفيا كبير جداً" },
       description: {
         en: "An extra-large Avia option for extended adult-care coverage and reliable protection.",
-        ar: "خيار كبير جدا من آفيا لتغطية أوسع وحماية موثوقة ضمن العناية بكبار السن."
+        ar: "خيار كبير جداً من آفيا لتغطية أوسع وحماية موثوقة ضمن العناية بكبار السن."
       },
       image: "/images/standardized/product-options/avia-xl.png"
     }
@@ -605,7 +606,7 @@ const productSizeGroups = {
     {
       label: { en: "XXL", ar: "XXL" },
       value: { en: "15-22 kg", ar: "15-22 كغ" },
-      note: { en: "XX-Large", ar: "كبير جداً 2" },
+      note: { en: "Extra Extra Large", ar: "كبير جداً جداً" },
       description: {
         en: "Extra coverage for bigger toddlers who need dependable comfort.",
         ar: "تغطية إضافية للأطفال الأكبر مع راحة يمكن الاعتماد عليها."
@@ -618,7 +619,7 @@ const productSizeGroups = {
 export const products: Product[] = [
   {
     slug: "baby-rexy",
-    title: { en: "Baby Rexy", ar: "بيبي ريكسي" },
+    title: { en: "New Baby Rexy", ar: "نيو بيبي ريكسي" },
     category: { en: "Baby Diapers", ar: "حفاضات الأطفال" },
     image: "/images/standardized/product-cards/baby-rexy.png",
     cardImage: "/images/standardized/product-cards/baby-rexy.png",
@@ -626,20 +627,24 @@ export const products: Product[] = [
     bannerSize: { width: 2400, height: 460 },
     logo: "/images/standardized/logos/rexy.png",
     excerpt: {
-      en: "Advanced baby diapers designed for night-long comfort, high absorption, and leakage protection.",
-      ar: "فوط أطفال مطوّرة لتوفير الراحة، الامتصاص العالي، والحماية من التسريب."
+      en: "New Baby Rexy diapers feature an innovative medical waistband designed to support the baby's spine and help with steady early walking.",
+      ar: "نيو بيبي ريكسي فوط مطورة بميزة حزام الخصر الطبي المبتكر لدعم العمود الفقري للطفل و مساعدته على المشي المبكر بثبات."
     },
     description: {
-      en: "Baby Rexy diapers are developed with modern Japanese technology for a secure and comfortable fit. They feature a wide elastic waistband, a high-absorption three-dimensional core, wetness-distribution channels, leakage barriers, and soft materials that help keep skin dry.",
-      ar: "بيبي ريكسي فوط أطفال مطوّرة بتقنية يابانية حديثة، صُممت لتوفير ثبات وراحة أكبر للطفل ومنع التسريب. تتميز بحزام خصر مطاطي عريض، وحشوة ثلاثية الأبعاد عالية الامتصاص، مع قنوات لتوزيع البلل وحواجز مانعة للتسريب."
+      en: "• New Baby Rexy baby diapers are advanced diapers designed with modern Japanese technology. They feature a high-absorption three-dimensional core, wetness-distribution channels, and leakage barriers to help ensure dryness that lasts for more than 12 hours.\nNew Baby Rexy diapers are designed to provide complete comfort for the baby and gentle protection for sensitive skin. Their innovative medical waistband supports the baby's spine and helps them walk early with stability.",
+      ar: "•نيو بيبي ريكسي فوط أطفال مطوّرة مصممة بالتقنية اليابانية حديثة،  تتميز بحشوة ثلاثية الأبعاد عالية الامتصاص، مع قنوات لتوزيع البلل وحواجز مانعة للتسريب ، تضمن جفاف يدوم لأكثر من 12 ساعة\nحفاضات نيو بيبي ريكسي صُممت لتوفير الراحة الكاملة للطفل والحماية الناعمة لبشرته الحساسة ، و مع ميزة حزام الخصر الطبي المبتكر ، الذي  يدعم العمود الفقري للطفل و يساعده على المشي المبكر بكل ثبات."
+    },
+    optionsTitle: {
+      en: "Available options for New Baby Rexy diapers",
+      ar: "الخيارات المتوفرة من حفاضات نيو بيبي ريكسي"
     },
     features: productFeatureSets.babyPremium,
     sizes: productSizeGroups.rexyDiapers,
     faqs: [
       {
         question: {
-          en: "How do I choose the right Baby Rexy diaper size?",
-          ar: "كيف أختار مقاس بيبي ريكسي المناسب؟"
+          en: "How do I choose the right New Baby Rexy diaper size?",
+          ar: "كيف أختار مقاس نيو بيبي ريكسي المناسب؟"
         },
         answer: {
           en: "Choose the size based on your baby's current weight range, then check that the waist and leg openings feel secure without leaving strong marks.",
@@ -658,22 +663,22 @@ export const products: Product[] = [
       },
       {
         question: {
-          en: "Which Baby Rexy sizes are available?",
-          ar: "ما المقاسات المتوفرة من بيبي ريكسي؟"
+          en: "Which New Baby Rexy sizes are available?",
+          ar: "ما المقاسات المتوفرة من نيو بيبي ريكسي؟"
         },
         answer: {
-          en: "Baby Rexy is available in NB, S, M, L, XL, and XXL, covering babies from 2 kg up to 22 kg.",
-          ar: "يتوفر بيبي ريكسي بمقاسات NB وS وM وL وXL وXXL، لتغطية أوزان الأطفال من 2 كغ حتى 22 كغ."
+          en: "New Baby Rexy is available in NB, S, M, L, XL, and XXL, covering babies from 2 kg up to 22 kg.",
+          ar: "يتوفر نيو بيبي ريكسي بمقاسات NB وS وM وL وXL وXXL، لتغطية أوزان الأطفال من 2 كغ حتى 22 كغ."
         }
       },
       {
         question: {
-          en: "What helps Baby Rexy stay comfortable for daily use?",
-          ar: "ما الذي يساعد بيبي ريكسي على توفير الراحة للاستخدام اليومي؟"
+          en: "What helps New Baby Rexy stay comfortable for daily use?",
+          ar: "ما الذي يساعد نيو بيبي ريكسي على توفير الراحة للاستخدام اليومي؟"
         },
         answer: {
-          en: "The product line focuses on soft materials, a secure elastic waist, absorbent core structure, wetness distribution, and leakage barriers for dependable everyday care.",
-          ar: "يركز هذا الخط على المواد الناعمة، وخصر مطاطي ثابت، وبنية ماصة، وتوزيع البلل، وحواجز مانعة للتسريب لعناية يومية يمكن الاعتماد عليها."
+          en: "This product features an innovative medical and wide elastic waistband, along with an advanced absorbent core that helps distribute wetness, plus leakage barriers for dependable everyday care.",
+          ar: "يتصف هذا المنتج بحزام الخصر المبتكر الطبي و المطاطي العريض ، وبالحشوة الماصة المطورة ، تساعد على توزيع البلل ، وحواجز مانعة للتسريب لعناية يومية يمكن الاعتماد عليها."
         }
       }
     ]
@@ -688,12 +693,12 @@ export const products: Product[] = [
     bannerSize: { width: 2400, height: 460 },
     logo: "/images/standardized/logos/hq-plus.png",
     excerpt: {
-      en: "Thick sanitary pads with wings, cotton-like softness, fast absorption, and leakage protection.",
-      ar: "فوط نسائية سميكة بالأجنحة، بنعومة القطن، وامتصاص سريع، وحماية من التسريب."
+      en: "Thick sanitary pads with wings, featuring cotton softness, fast absorption, and high leakage protection.",
+      ar: "فوط نسائية سميكة بالأجنحة، تتميز بنعومة القطن، وامتصاص سريع، وحماية عالية من التسريب."
     },
     description: {
-      en: "HQ+ thick sanitary pads are available in four options: Goodnight, Super Plus, Super, and Normal. Each pad is designed with side wings for a secure fit, a soft cotton-like surface, ADL fast-absorption support, deep distribution channels, super absorbent gel, and side leakage barriers for comfort, dryness, and confidence.",
-      ar: "فوط آتش كيو السميكة متوفرة بالمقاسات الأربعة: ليلية، سوبر بلاس، سوبر، ونورمال. صممت كل فوطة بأجنحة جانبية لتثبيت أفضل، وسطح ناعم شبيه بالقطن، وطبقة ADL للمساعدة على سرعة الامتصاص، وأقنية توزيع عميقة، وجل فائق الامتصاص، وحواجز جانبية للحماية من التسريب والشعور بالراحة والجفاف والثقة."
+      en: "HQ+ thick sanitary pads are available in four sizes: Goodnight, Super Plus, Super, and Normal. Each pad is designed with side wings that improve fixation on fabric, a soft cotton-like surface, an ADL layer to support fast absorption, deep distribution channels, super absorbent gel, and side barriers for leakage protection, comfort, dryness, and confidence.",
+      ar: "فوط آتش كيو السميكة متوفرة بأربعة مقاسات : ليلية، سوبر بلاس، سوبر، ونورمال. صممت كل فوطة بأجنحة جانبية تزيد من تثبيت الفوطة على القماش ، وسطح ناعم شبيه بالقطن، مع طبقة ADL للمساعدة على سرعة الامتصاص، أقنية توزيع عميقة، جل فائق الامتصاص، وحواجز جانبية للحماية من التسريب والشعور بالراحة والجفاف والثقة."
     },
     features: productFeatureSets.sanitaryPads,
     detailFeatures: productFeatureSets.hqPads,
@@ -751,34 +756,46 @@ export const products: Product[] = [
     bannerSize: { width: 2400, height: 460 },
     logo: "/images/standardized/logos/tizkar.png",
     excerpt: {
-      en: "Soft facial tissues and wipes made for clean, comfortable family routines.",
-      ar: "محارم ومناديل ناعمة لعناية عائلية نظيفة ومريحة."
+      en: "Soft tissues and wipes suitable for every member of the family, made from 100% natural cellulose.",
+      ar: "محارم ومناديل ناعمة تناسب جميع أفراد العائلة مصنوعة من السيللوز الطبيعي 100%"
     },
     description: {
       en: "Tizkar facial tissues are soft, high-quality products made from 100% natural cellulose for cleanliness and comfort. The range includes multiple weights and drying tissues for different everyday needs.",
       ar: "تذكار محارم وجه ناعمة وعالية الجودة، مصنوعة من السيليلوز الطبيعي بنسبة 100% لتوفير النظافة والراحة. تتوفر بعدة أوزان، إضافةً إلى محارم تنشيف عالية الجودة تلبي مختلف الاحتياجات."
+    },
+    optionsTitle: {
+      en: "Available Tizkar options",
+      ar: "الخيارات المتوفرة من تذكار"
+    },
+    optionsSubtitle: {
+      en: "Premium facial tissues with exceptional softness in different package sizes for every member of the family.",
+      ar: "محارم وجه فاخرة ذات نعومة فائقة بعبوات مختلفة الأحجام لاستخدام جميع أفراد العائلة"
+    },
+    faqTitle: {
+      en: "Quick answers about Tizkar tissues",
+      ar: "إجابات سريعة حول محارم تذكار"
     },
     features: productFeatureSets.tissues,
     sizes: productSizeGroups.tizkarTissues,
     faqs: [
       {
         question: {
-          en: "Which Tizkar products are available?",
-          ar: "ما منتجات تذكار المتوفرة؟"
+          en: "What products are available from Tizkar tissues?",
+          ar: "ماهي المنتجات المتوفرة من محارم تذكار ؟"
         },
         answer: {
-          en: "Tizkar includes soft facial tissues and practical drying tissues for daily home, office, and family care routines.",
-          ar: "تضم تذكار محارم وجه ناعمة ومحارم تنشيف عملية للاستخدام اليومي في المنزل والمكتب وروتين العناية العائلية."
+          en: "Tizkar tissues are available as soft facial tissues and practical drying tissues for everyday use at home, in offices, restaurants, and hotels.",
+          ar: "تتوفر محارم تذكار ، كمحارم وجه ناعمة ومحارم تنشيف عملية للاستخدام اليومي في المنزل والمكتب والمطاعم والفنادق."
         }
       },
       {
         question: {
-          en: "What are Tizkar facial tissues made from?",
-          ar: "مم تصنع محارم وجه تذكار؟"
+          en: "What are Tizkar tissues made from?",
+          ar: "مما تصنع محارم تذكار ؟"
         },
         answer: {
-          en: "Tizkar facial tissues are presented as high-quality tissues made from 100% natural cellulose for softness and cleanliness.",
-          ar: "تقدم محارم وجه تذكار كمنتجات عالية الجودة مصنوعة من السليلوز الطبيعي بنسبة 100% لتوفير النعومة والنظافة."
+          en: "Tizkar facial tissues are premium soft tissues made from 100% natural cellulose to provide exceptional softness and comfort for the family.",
+          ar: "إن محارم وجه تذكار هي مناديل فاخرة ناعمة مصنوعة من السليلوز الطبيعي بنسبة 100% لتوفير النعومة و الراحة الفائقة للعائلة ."
         }
       },
       {
@@ -787,18 +804,18 @@ export const products: Product[] = [
           ar: "أين يمكن استخدام محارم تذكار؟"
         },
         answer: {
-          en: "They are suitable for everyday use at home, in offices, in family spaces, and during practical cleaning or drying routines.",
-          ar: "تناسب الاستخدام اليومي في المنزل والمكاتب والمساحات العائلية، إضافة إلى روتين التنظيف أو التنشيف العملي."
+          en: "They are suitable for everyday use at home, in offices, hotels, and restaurants.",
+          ar: "تناسب الاستخدام اليومي في المنزل والمكاتب و الفنادق و المطاعم ."
         }
       },
       {
         question: {
           en: "What is the difference between facial and drying tissues?",
-          ar: "ما الفرق بين محارم الوجه ومحارم التنشيف؟"
+          ar: "مالفرق بين محارم الوجه ومحارم التنشيف؟"
         },
         answer: {
-          en: "Facial tissues focus on soft everyday contact, while drying tissues are made for more practical drying and care tasks.",
-          ar: "تركز محارم الوجه على النعومة للاستخدام اليومي، بينما صممت محارم التنشيف للمهام العملية الخاصة بالتنشيف والعناية."
+          en: "Facial tissues are exceptionally soft for all types of personal use, while drying tissues are designed with strong durability to provide excellent drying for hands, tools, and surfaces with high resistance to tearing.",
+          ar: "تتميز محارم الوجه بالنعومة الفائقة لكافة أنواع الاستخدام الشخصي ، بينما صممت محارم التنشيف بكل متانة لتضمن تجفيف رائع للأيدي والأدوات والاسطح مع مقاومة عالية للتفتت"
         }
       }
     ]
@@ -820,37 +837,45 @@ export const products: Product[] = [
       en: "Fantash baby diapers combine quality and value with a high-absorption core that helps protect from leakage for up to 12 hours. A fast-absorption layer keeps the surface dry, while deep channels distribute wetness across the core.",
       ar: "فنطش فوط أطفال من الأكثر انتشاراً ومبيعاً في سوريا، تجمع بين الجودة والسعر المناسب. تتميز بحشوة عالية الامتصاص توفر حماية من التسريب حتى 12 ساعة، وطبقة سريعة الامتصاص تحافظ على جفاف سطح الفوطة."
     },
+    optionsTitle: {
+      en: "Available options for this product",
+      ar: "الخيارات المتوفرة ضمن هذا المنتج"
+    },
+    faqTitle: {
+      en: "Quick answers about Fantash",
+      ar: "إجابات سريعة حول فنطش"
+    },
     features: productFeatureSets.babyValue,
     sizes: productSizeGroups.babyDiapers,
     faqs: [
       {
         question: {
           en: "What makes Fantash suitable for everyday baby care?",
-          ar: "ما الذي يجعل فنتاش مناسبا للعناية اليومية بالطفل؟"
+          ar: "ما الذي يجعل فنطش مناسبا للعناية اليومية بالطفل؟"
         },
         answer: {
-          en: "Fantash is designed around practical daily protection, combining a high-absorption core, dry surface support, and leakage protection for comfortable baby care.",
-          ar: "تم تصميم فنتاش للحماية اليومية العملية من خلال حشوة عالية الامتصاص، ودعم لجفاف السطح، وحماية من التسريب لعناية مريحة بالطفل."
+          en: "Fantash is designed for high leakage protection through a high-absorption core and support for longer dryness, giving your child the comfort and care they deserve.",
+          ar: "تم تصميم فنطش لحماية عالية من التسريب من خلال حشوة عالية الامتصاص، ودعم لجفاف أطول يمنح طفلك الراحة و العناية التي يستحقها."
         }
       },
       {
         question: {
           en: "How long can Fantash help protect against leakage?",
-          ar: "كم مدة الحماية التي يوفرها فنتاش ضد التسريب؟"
+          ar: "كم مدة الحماية التي يوفرها فنطش ضد التسريب؟"
         },
         answer: {
-          en: "The product line is presented with leakage protection for up to 12 hours, depending on the baby's size, fit, and usage conditions.",
-          ar: "يوفر خط المنتج حماية من التسريب حتى 12 ساعة بحسب مقاس الطفل وملاءمة الحفاض وظروف الاستخدام."
+          en: "Fantash provides leakage protection that lasts up to 12 hours, depending on the baby's size, diaper fit, and usage conditions.",
+          ar: "يوفر منتج فنطش حماية من التسريب ، تدوم حتى 12 ساعة بحسب مقاس الطفل وملاءمة الحفاض وظروف الاستخدام."
         }
       },
       {
         question: {
           en: "Which Fantash diaper sizes are available?",
-          ar: "ما المقاسات المتوفرة من حفاضات فنتاش؟"
+          ar: "ما المقاسات المتوفرة من حفاضات فنطش؟"
         },
         answer: {
-          en: "Fantash follows the baby diaper size guide from NB to XXL, covering babies from newborn stages up to larger toddler sizes.",
-          ar: "يتبع فنتاش دليل مقاسات حفاضات الأطفال من NB حتى XXL، ليغطي مراحل حديثي الولادة وحتى المقاسات الأكبر للأطفال."
+          en: "Fantash is available in sizes that cover newborn stages through larger children's sizes.",
+          ar: "يتوفر من منتج فنطش مقاسات تغطي مراحل حديثي الولادة وحتى المقاسات الأكبر للأطفال."
         }
       },
       {
@@ -947,12 +972,12 @@ export const products: Product[] = [
     bannerSize: { width: 2400, height: 460 },
     logo: "/images/standardized/logos/bino.png",
     excerpt: {
-      en: "Adult-care diapers available in multiple sizes and backsheet formats.",
-      ar: "فوط مخصصة لكبار السن بعدة مقاسات وخيارات خلفية."
+      en: "Adult-care diapers available in multiple sizes.",
+      ar: "فوط مخصصة لكبار السن بعدة مقاسات."
     },
     description: {
-      en: "Pinotex adult diapers provide fast absorption and reliable fluid retention for comfort and protection. The line is available in S, L, and XL options from the new Pinotex collection.",
-      ar: "بينوتكس فوط مخصصة لكبار السن، توفر امتصاصاً سريعاً وقدرة عالية على احتجاز السوائل لضمان الراحة والحماية. يتوفر الخط بمقاسات S وL وXL من مجموعة بينوتكس الجديدة."
+      en: "Pinotex adult diapers provide fast absorption and reliable fluid retention for comfort and protection. This product is available in S, L, and XL sizes from the new Pinotex collection.",
+      ar: "بينوتكس فوط مخصصة لكبار السن، توفر امتصاصاً سريعاً وقدرة عالية على احتجاز السوائل لضمان الراحة والحماية. يتوفر هذا المنتج بمقاسات S وL وXL من مجموعة بينوتكس الجديدة."
     },
     features: productFeatureSets.adultDiapers,
     sizes: productSizeGroups.aviaBinoAdultDiapers.filter((size) => size.label.en.startsWith("Pinotex")),
@@ -964,7 +989,7 @@ export const products: Product[] = [
         },
         answer: {
           en: "Pinotex is shown in Small, Large, and X-Large options using the updated product images.",
-          ar: "يتم عرض بينوتكس بخيارات صغير وكبير وكبير جدا باستخدام صور المنتج المحدثة."
+          ar: "يتم عرض بينوتكس بخيارات صغير وكبير وكبير جداً باستخدام صور المنتج المحدثة."
         }
       },
       {
@@ -1016,7 +1041,7 @@ export const products: Product[] = [
         },
         answer: {
           en: "Avia is shown in Small, Large, and X-Large options using the updated product images.",
-          ar: "يتم عرض آفيا بخيارات صغير وكبير وكبير جدا باستخدام صور المنتج المحدثة."
+          ar: "يتم عرض آفيا بخيارات صغير وكبير وكبير جداً باستخدام صور المنتج المحدثة."
         }
       },
       {
@@ -1053,7 +1078,7 @@ export const diaperSizes = [
   { size: "M", name: { en: "Medium", ar: "وسط" }, range: "5-9", min: 5, max: 9 },
   { size: "L", name: { en: "Large", ar: "كبير" }, range: "9-15", min: 9, max: 15 },
   { size: "XL", name: { en: "X-Large", ar: "كبير جداً" }, range: "12-19", min: 12, max: 19 },
-  { size: "XXL", name: { en: "XX-Large", ar: "كبير جداً 2" }, range: "15-22", min: 15, max: 22 }
+  { size: "XXL", name: { en: "Extra Extra Large", ar: "كبير جداً جداً" }, range: "15-22", min: 15, max: 22 }
 ];
 
 export const whyFeatures = [
@@ -1242,7 +1267,7 @@ export const faqs = [
     }
   },
   {
-    question: { en: "How do I choose the correct Baby Rexy diaper size?", ar: "كيف أختار مقاس بيبي ريكسي المناسب؟" },
+    question: { en: "How do I choose the correct New Baby Rexy diaper size?", ar: "كيف أختار مقاس نيو بيبي ريكسي المناسب؟" },
     answer: {
       en: "Choose the size according to your baby's current weight and the weight range printed on the product packaging. A proper fit should feel secure without leaving strong marks.",
       ar: "اختر المقاس حسب وزن الطفل الحالي ونطاق الوزن المطبوع على العبوة. يجب أن يكون المقاس ثابتاً دون ترك علامات قوية على البشرة."
