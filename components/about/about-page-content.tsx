@@ -96,11 +96,11 @@ const brandCopy: Record<string, { name: LocalizedString; category: LocalizedStri
     category: { en: "Baby diapers", ar: "حفاضات الأطفال" }
   },
   "hq-plus": {
-    name: { en: "HQ+", ar: "HQ+" },
+    name: { en: "+HQ", ar: "+HQ" },
     category: { en: "Sanitary pads", ar: "الفوط النسائية" }
   },
-  tizkar: {
-    name: { en: "Tizkar", ar: "Tizkar" },
+  tzkar: {
+    name: { en: "Tzkar", ar: "تذكار" },
     category: { en: "Facial tissues", ar: "محارم الوجه" }
   },
   fantash: {

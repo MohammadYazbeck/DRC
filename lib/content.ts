@@ -57,6 +57,7 @@ export type Product = {
   image: string;
   cardImage?: string;
   cardImages?: string[];
+  detailImage?: string;
   bannerImage?: string;
   bannerSize?: {
     width: number;
@@ -122,7 +123,9 @@ export const socialLinks = [
 export const navLinks = [
   { label: { en: "Home", ar: "الرئيسية" }, href: "/" },
   { label: { en: "About Us", ar: "من نحن" }, href: "/about" },
+  /*
   { label: { en: "Careers", ar: "الوظائف" }, href: "/careers" },
+  */
   { label: { en: "Blogs & News", ar: "المدونة والأخبار" }, href: "/blog" },
   { label: { en: "Contact Us", ar: "تواصل معنا" }, href: "/#contact" }
 ] satisfies Array<{ label: LocalizedString; href: string }>;
@@ -158,7 +161,7 @@ export const heroSlides = [
     title: { en: "Comfort, safety, and confidence.", ar: "راحة أمان وثقة." }
   },
   {
-    id: "tizkar",
+    id: "tzkar",
     image: {
       en: "/images/standardized/hero/hero-3.jpg",
       ar: "/images/standardized/hero/hero-3.jpg"
@@ -175,8 +178,8 @@ export const heroSlides = [
 
 export const brandLogos: ProductBrandLogo[] = [
   { name: "Rexy", src: "/images/standardized/logos/rexy.png" },
-  { name: "HQ+", src: "/images/standardized/logos/hq-plus.png" },
-  { name: "Tizkar", src: "/images/standardized/logos/tizkar.png" },
+  { name: "+HQ", src: "/images/standardized/logos/hq-plus.png" },
+  { name: "Tzkar", src: "/images/standardized/logos/tzkar.png" },
   { name: "Fantash", src: "/images/standardized/logos/fantash.png" },
   { name: "Pinotex", src: "/images/standardized/logos/bino.png" },
   { name: "Avia", src: "/images/standardized/logos/avia.png" }
@@ -188,17 +191,17 @@ export const about = {
     ar: "مجموعة DRC"
   },
   title: {
-    en: "Reliable hygienic and personal-care products for everyday life.",
-    ar: "منتجات موثوقة للعناية الصحية والشخصية في الحياة اليومية."
+    en: "Syrian manufacturing experience in hygienic and personal-care products.",
+    ar: "خبرة صناعية سورية في منتجات العناية الصحية والشخصية."
   },
   description: {
-    en: "DRC specializes in hygiene and personal-care products created to support comfort, cleanliness, and confidence throughout every stage of life. The portfolio includes baby diapers, sanitary pads, adult diapers, facial tissues, drying tissues, and baby wipes under a variety of trusted brands.",
-    ar: "تتخصص DRC في منتجات العناية الصحية والشخصية المصممة لدعم الراحة والنظافة والثقة في مختلف مراحل الحياة. تضم محفظة المنتجات حفاضات الأطفال، والفوط النسائية، وحفاضات كبار السن، ومحارم الوجه، ومحارم التنشيف، والمناديل المبللة للأطفال ضمن مجموعة متنوعة من العلامات الموثوقة."
+    en: "DRC is a Syrian industrial manufacturer specializing in personal-care and hygienic products since 2005. Based in Adra Industrial City in Rural Damascus, its 25,000 m² site includes production buildings, administrative facilities, warehouses, and support services. DRC produces baby diapers, feminine sanitary pads, adult-care diapers, paper tissues, and wet wipes, with a continued focus on quality, modern production technology, operating efficiency, and growth in local and export markets.",
+    ar: "تُعد DRC منشأة صناعية سورية متخصصة في إنتاج منتجات العناية الشخصية والمنتجات الصحية منذ عام 2005. يقع مقرها في مدينة عدرا الصناعية بريف دمشق، وتمارس نشاطها على مساحة تبلغ 25,000 متر مربع تضم المباني الإنتاجية والإدارية والمستودعات والخدمات المساندة. تنتج DRC فوط الأطفال، والفوط الصحية النسائية، وفوط العناية بكبار السن، والمناديل الورقية، والمناديل المبللة، مع تركيز مستمر على الجودة وتحديث خطوط الإنتاج ورفع كفاءة العمليات لخدمة السوق المحلية والتوسع في الأسواق الخارجية."
   },
   metrics: [
-    { value: "6+", label: { en: "Product categories", ar: "فئات منتجات" } },
-    { value: "6", label: { en: "Sub-brands", ar: "علامات فرعية" } },
-    { value: "24/7", label: { en: "Everyday protection", ar: "حماية يومية" } }
+    { value: "2005", label: { en: "Founded", ar: "عام التأسيس" } },
+    { value: "25,000 m²", label: { en: "Industrial site", ar: "مساحة المنشأة" } },
+    { value: "370", label: { en: "Team members", ar: "عامل وموظف" } }
   ]
 };
 const productFeatureSets = {
@@ -315,10 +318,10 @@ const productFeatureSets = {
     },
     {
       icon: "protection",
-      title: { en: "Super absorbent gel", ar: "جل فائق الامتصاص" },
+      title: { en: "Super absorbent granules", ar: "حبيبات فائقة الامتصاص" },
       description: {
-        en: "Super absorbent gel locks liquid away from the skin to help deliver a fully dry feeling.",
-        ar: "جل فائق الامتصاص لحجز السائل وإبعاده عن البشرة والمساعدة على الشعور بالجفاف."
+        en: "Super absorbent granules lock liquid away from the skin to help deliver a fully dry feeling.",
+        ar: "حبيبات فائقة الامتصاص لحجز السائل وإبعاده عن البشرة والمساعدة على الشعور بالجفاف."
       }
     },
     {
@@ -420,26 +423,26 @@ const productSizeGroups = {
     { label: { en: "Family", ar: "عائلي" }, value: { en: "Larger pack", ar: "عبوة أكبر" }, note: { en: "Daily family use", ar: "للاستخدام العائلي اليومي" } },
     { label: { en: "Drying", ar: "تنشيف" }, value: { en: "Drying tissues", ar: "محارم تنشيف" }, note: { en: "Practical care routines", ar: "لروتين عناية عملي" } }
   ],
-  tizkarTissues: [
+  tzkarTissues: [
     {
-      label: { en: "Facial", ar: "وجه" },
+      label: { en: "Purple", ar: "البنفسجي" },
       value: { en: "Facial tissues", ar: "محارم وجه" },
-      note: { en: "Soft facial tissues", ar: "محارم وجه ناعمة" },
+      note: { en: "Purple cover", ar: "الغلاف البنفسجي" },
       description: {
-        en: "Soft Tizkar facial tissues made for daily home, office, and family use.",
-        ar: "محارم وجه تذكار ناعمة مصممة للاستخدام اليومي في المنزل والمكتب ومع العائلة."
+        en: "Soft Tzkar facial tissues for everyday family, home, office, hotel, and restaurant use.",
+        ar: "محارم وجه تذكار ناعمة للاستخدام اليومي للعائلة والمنزل والمكتب والفنادق والمطاعم."
       },
-      image: "/images/standardized/product-options/tizkar-facial.png"
+      image: "/images/standardized/product-options/tzkar-product-1.png"
     },
     {
-      label: { en: "Drying", ar: "تنشيف" },
-      value: { en: "Drying tissues", ar: "محارم تنشيف" },
-      note: { en: "Drying tissues", ar: "محارم تنشيف" },
+      label: { en: "Blue", ar: "الأزرق" },
+      value: { en: "500 g", ar: "500 غ" },
+      note: { en: "Blue cover", ar: "الغلاف الأزرق" },
       description: {
-        en: "Practical drying tissues for all types of home, office, and hotel use.",
-        ar: "محارم تنشيف عملية لكافة انواع الاستخدام المنزلي والمكتبي و الفندقي."
+        en: "Premium soft Tzkar facial tissues in the blue cover format for practical everyday use.",
+        ar: "محارم وجه تذكار فاخرة وناعمة بتصميم الغلاف الأزرق للاستخدام اليومي العملي."
       },
-      image: "/images/standardized/product-options/tizkar-drying.png"
+      image: "/images/standardized/product-options/tzkar-product-2.png"
     }
   ],
   aviaBinoAdultDiapers: [
@@ -516,7 +519,7 @@ const productSizeGroups = {
       value: { en: "Normal", ar: "نورمال" },
       note: { en: "Normal", ar: "نورمال" },
       description: {
-        en: "A thick everyday HQ+ sanitary pad with wings for secure fixation, comfort, and leakage protection.",
+        en: "A thick everyday +HQ sanitary pad with wings for secure fixation, comfort, and leakage protection.",
         ar: "فوطة آتش كيو السميكة للاستخدام اليومي مع أجنحة جانبية لتثبيت أفضل وراحة وحماية من التسريب."
       },
       image: "/images/standardized/product-options/hq-normal.png"
@@ -536,8 +539,8 @@ const productSizeGroups = {
       value: { en: "Super Plus", ar: "سوبر بلاس" },
       note: { en: "Super Plus", ar: "سوبر بلاس" },
       description: {
-        en: "A higher-protection option with super absorbent gel, deep distribution channels, and cotton-like softness.",
-        ar: "خيار حماية أعلى مع جل فائق الامتصاص وأقنية توزيع عميقة وملمس ناعم شبيه بالقطن."
+        en: "A higher-protection option with super absorbent granules, deep distribution channels, and cotton-like softness.",
+        ar: "خيار حماية أعلى مع حبيبات فائقة الامتصاص وأقنية توزيع عميقة وملمس ناعم شبيه بالقطن."
       },
       image: "/images/standardized/product-options/hq-super-plus.png"
     },
@@ -616,6 +619,31 @@ const productSizeGroups = {
   ]
 } satisfies Record<string, ProductSize[]>;
 
+const rexyWipesOption: ProductSize = {
+  label: { en: "Wipes", ar: "مناديل" },
+  value: { en: "100 wipes", ar: "100 منديل" },
+  note: { en: "Baby wet wipes", ar: "محارم مبللة للأطفال" },
+  description: {
+    en: "New Baby Rexy baby wet wipes for gentle everyday cleaning and practical care routines.",
+    ar: "محارم نيو بيبي ريكسي المبللة للأطفال لتنظيف يومي لطيف وروتين عناية عملي."
+  },
+  image: "/images/standardized/product-options/rexy-wipes.png?v=20260819"
+};
+
+const fantashWipesOption: ProductSize = {
+  label: { en: "Wipes", ar: "مناديل" },
+  value: { en: "100 wipes", ar: "100 منديل" },
+  note: { en: "Baby wet wipes", ar: "محارم مبللة للأطفال" },
+  description: {
+    en: "Fantash baby wet wipes for gentle everyday cleaning, comfort, and practical baby care.",
+    ar: "محارم فنطش المبللة للأطفال لتنظيف يومي لطيف وراحة وعناية عملية بالطفل."
+  },
+  image: "/images/standardized/product-options/fantash-wipes.png?v=20260819"
+};
+
+const rexyProductOptions = [...productSizeGroups.rexyDiapers, rexyWipesOption];
+const fantashProductOptions = [...productSizeGroups.babyDiapers, fantashWipesOption];
+
 export const products: Product[] = [
   {
     slug: "baby-rexy",
@@ -639,7 +667,7 @@ export const products: Product[] = [
       ar: "الخيارات المتوفرة من حفاضات نيو بيبي ريكسي"
     },
     features: productFeatureSets.babyPremium,
-    sizes: productSizeGroups.rexyDiapers,
+    sizes: rexyProductOptions,
     faqs: [
       {
         question: {
@@ -685,7 +713,7 @@ export const products: Product[] = [
   },
   {
     slug: "hq-plus",
-    title: { en: "HQ+", ar: "آتش كيو +" },
+    title: { en: "+HQ", ar: "+آتش كيو" },
     category: { en: "Sanitary Pads", ar: "الفوط النسائية" },
     image: "/images/standardized/product-cards/hq-plus.png",
     cardImage: "/images/standardized/product-cards/hq-plus.png",
@@ -697,8 +725,8 @@ export const products: Product[] = [
       ar: "فوط نسائية سميكة بالأجنحة، تتميز بنعومة القطن، وامتصاص سريع، وحماية عالية من التسريب."
     },
     description: {
-      en: "HQ+ thick sanitary pads are available in four sizes: Goodnight, Super Plus, Super, and Normal. Each pad is designed with side wings that improve fixation on fabric, a soft cotton-like surface, an ADL layer to support fast absorption, deep distribution channels, super absorbent gel, and side barriers for leakage protection, comfort, dryness, and confidence.",
-      ar: "فوط آتش كيو السميكة متوفرة بأربعة مقاسات : ليلية، سوبر بلاس، سوبر، ونورمال. صممت كل فوطة بأجنحة جانبية تزيد من تثبيت الفوطة على القماش ، وسطح ناعم شبيه بالقطن، مع طبقة ADL للمساعدة على سرعة الامتصاص، أقنية توزيع عميقة، جل فائق الامتصاص، وحواجز جانبية للحماية من التسريب والشعور بالراحة والجفاف والثقة."
+      en: "+HQ thick sanitary pads are available in four sizes: Goodnight, Super Plus, Super, and Normal. Each pad is designed with side wings that improve fixation on fabric, a soft cotton-like surface, an ADL layer to support fast absorption, deep distribution channels, super absorbent granules, and side barriers for leakage protection, comfort, dryness, and confidence.",
+      ar: "فوط آتش كيو السميكة متوفرة بأربعة مقاسات : ليلية، سوبر بلاس، سوبر، ونورمال. صممت كل فوطة بأجنحة جانبية تزيد من تثبيت الفوطة على القماش ، وسطح ناعم شبيه بالقطن، مع طبقة ADL للمساعدة على سرعة الامتصاص، أقنية توزيع عميقة، حبيبات فائقة الامتصاص، وحواجز جانبية للحماية من التسريب والشعور بالراحة والجفاف والثقة."
     },
     features: productFeatureSets.sanitaryPads,
     detailFeatures: productFeatureSets.hqPads,
@@ -706,31 +734,31 @@ export const products: Product[] = [
     faqs: [
       {
         question: {
-          en: "Which HQ+ sanitary pad options are available?",
+          en: "Which +HQ sanitary pad options are available?",
           ar: "ما الخيارات المتوفرة من فوط آتش كيو؟"
         },
         answer: {
-          en: "HQ+ thick sanitary pads are available in Normal, Super, Super Plus, and Goodnight options for different daily and night protection needs.",
+          en: "+HQ thick sanitary pads are available in Normal, Super, Super Plus, and Goodnight options for different daily and night protection needs.",
           ar: "تتوفر فوط آتش كيو السميكة بخيارات نورمال، سوبر، سوبر بلاس، وليلي لتناسب احتياجات الحماية اليومية والليلية المختلفة."
         }
       },
       {
         question: {
-          en: "What helps HQ+ reduce leakage?",
+          en: "What helps +HQ reduce leakage?",
           ar: "ما الذي يساعد آتش كيو على تقليل التسريب؟"
         },
         answer: {
-          en: "HQ+ uses side wings, an ADL fast-absorption layer, deep distribution channels, super absorbent gel, and side leakage barriers to support better protection.",
-          ar: "تعتمد آتش كيو على أجنحة جانبية، وطبقة ADL سريعة الامتصاص، وأقنية توزيع عميقة، وجل فائق الامتصاص، وحواجز جانبية للمساعدة على حماية أفضل."
+          en: "+HQ uses side wings, an ADL fast-absorption layer, deep distribution channels, super absorbent granules, and side leakage barriers to support better protection.",
+          ar: "تعتمد آتش كيو على أجنحة جانبية، وطبقة ADL سريعة الامتصاص، وأقنية توزيع عميقة، وحبيبات فائقة الامتصاص، وحواجز جانبية للمساعدة على حماية أفضل."
         }
       },
       {
         question: {
-          en: "Are HQ+ pads fragrance-free?",
+          en: "Are +HQ pads fragrance-free?",
           ar: "هل فوط آتش كيو خالية من العطور؟"
         },
         answer: {
-          en: "Yes. HQ+ pads are presented as fragrance-free and UV sterilized to support comfort for sensitive skin.",
+          en: "Yes. +HQ pads are presented as fragrance-free and UV sterilized to support comfort for sensitive skin.",
           ar: "نعم. يتم تقديم فوط آتش كيو بأنها خالية من المواد العطرية ومعقمة بتقنية UV لدعم الراحة للبشرة الحساسة."
         }
       },
@@ -747,60 +775,61 @@ export const products: Product[] = [
     ]
   },
   {
-    slug: "tizkar",
-    title: { en: "Tizkar", ar: "تذكار" },
-    category: { en: "Facial Tissues and Wipes", ar: "محارم ومناديل" },
-    image: "/images/standardized/product-cards/tizkar.png",
-    cardImage: "/images/standardized/product-cards/tizkar.png",
-    bannerImage: "/images/standardized/banners/tizkar.png",
+    slug: "tzkar",
+    aliases: ["tizkar"],
+    title: { en: "Tzkar", ar: "تذكار" },
+    category: { en: "Facial Tissues", ar: "محارم وجه" },
+    image: "/images/standardized/product-cards/tzkar.png",
+    cardImage: "/images/standardized/product-cards/tzkar.png",
+    bannerImage: "/images/standardized/banners/tzkar.png",
     bannerSize: { width: 2400, height: 460 },
-    logo: "/images/standardized/logos/tizkar.png",
+    logo: "/images/standardized/logos/tzkar.png",
     excerpt: {
-      en: "Soft tissues and wipes suitable for every member of the family, made from 100% natural cellulose.",
-      ar: "محارم ومناديل ناعمة تناسب جميع أفراد العائلة مصنوعة من السيللوز الطبيعي 100%"
+      en: "Soft facial tissues suitable for every member of the family, made from 100% natural cellulose.",
+      ar: "محارم وجه ناعمة تناسب جميع أفراد العائلة مصنوعة من السيللوز الطبيعي 100%"
     },
     description: {
-      en: "Tizkar facial tissues are soft, high-quality products made from 100% natural cellulose for cleanliness and comfort. The range includes multiple weights and drying tissues for different everyday needs.",
-      ar: "تذكار محارم وجه ناعمة وعالية الجودة، مصنوعة من السيليلوز الطبيعي بنسبة 100% لتوفير النظافة والراحة. تتوفر بعدة أوزان، إضافةً إلى محارم تنشيف عالية الجودة تلبي مختلف الاحتياجات."
+      en: "Tzkar facial tissues are soft, high-quality products made from 100% natural cellulose for cleanliness and comfort. This product is available with two cover designs for different everyday needs.",
+      ar: "تذكار محارم وجه ناعمة وعالية الجودة، مصنوعة من السيليلوز الطبيعي بنسبة 100% لتوفير النظافة والراحة. يتوفر هذا المنتج بتصميمين للغلاف لتلبية مختلف الاحتياجات اليومية."
     },
     optionsTitle: {
-      en: "Available Tizkar options",
+      en: "Available Tzkar options",
       ar: "الخيارات المتوفرة من تذكار"
     },
     optionsSubtitle: {
-      en: "Premium facial tissues with exceptional softness in different package sizes for every member of the family.",
-      ar: "محارم وجه فاخرة ذات نعومة فائقة بعبوات مختلفة الأحجام لاستخدام جميع أفراد العائلة"
+      en: "Premium facial tissues with exceptional softness in two cover designs for every member of the family.",
+      ar: "محارم وجه فاخرة ذات نعومة فائقة بتصميمين للغلاف لاستخدام جميع أفراد العائلة"
     },
     faqTitle: {
-      en: "Quick answers about Tizkar tissues",
+      en: "Quick answers about Tzkar tissues",
       ar: "إجابات سريعة حول محارم تذكار"
     },
     features: productFeatureSets.tissues,
-    sizes: productSizeGroups.tizkarTissues,
+    sizes: productSizeGroups.tzkarTissues,
     faqs: [
       {
         question: {
-          en: "What products are available from Tizkar tissues?",
+          en: "What product is available from Tzkar tissues?",
           ar: "ماهي المنتجات المتوفرة من محارم تذكار ؟"
         },
         answer: {
-          en: "Tizkar tissues are available as soft facial tissues and practical drying tissues for everyday use at home, in offices, restaurants, and hotels.",
-          ar: "تتوفر محارم تذكار ، كمحارم وجه ناعمة ومحارم تنشيف عملية للاستخدام اليومي في المنزل والمكتب والمطاعم والفنادق."
+          en: "Tzkar is available as one soft facial tissue product with two cover designs for everyday use at home, in offices, restaurants, and hotels.",
+          ar: "تتوفر محارم تذكار كمنتج محارم وجه ناعمة واحد بتصميمين للغلاف للاستخدام اليومي في المنزل والمكتب والمطاعم والفنادق."
         }
       },
       {
         question: {
-          en: "What are Tizkar tissues made from?",
+          en: "What are Tzkar tissues made from?",
           ar: "مما تصنع محارم تذكار ؟"
         },
         answer: {
-          en: "Tizkar facial tissues are premium soft tissues made from 100% natural cellulose to provide exceptional softness and comfort for the family.",
+          en: "Tzkar facial tissues are premium soft tissues made from 100% natural cellulose to provide exceptional softness and comfort for the family.",
           ar: "إن محارم وجه تذكار هي مناديل فاخرة ناعمة مصنوعة من السليلوز الطبيعي بنسبة 100% لتوفير النعومة و الراحة الفائقة للعائلة ."
         }
       },
       {
         question: {
-          en: "Where can Tizkar tissues be used?",
+          en: "Where can Tzkar tissues be used?",
           ar: "أين يمكن استخدام محارم تذكار؟"
         },
         answer: {
@@ -810,12 +839,12 @@ export const products: Product[] = [
       },
       {
         question: {
-          en: "What is the difference between facial and drying tissues?",
+          en: "What makes the two Tzkar covers different?",
           ar: "مالفرق بين محارم الوجه ومحارم التنشيف؟"
         },
         answer: {
-          en: "Facial tissues are exceptionally soft for all types of personal use, while drying tissues are designed with strong durability to provide excellent drying for hands, tools, and surfaces with high resistance to tearing.",
-          ar: "تتميز محارم الوجه بالنعومة الفائقة لكافة أنواع الاستخدام الشخصي ، بينما صممت محارم التنشيف بكل متانة لتضمن تجفيف رائع للأيدي والأدوات والاسطح مع مقاومة عالية للتفتت"
+          en: "Both covers represent the same soft Tzkar facial tissue product, giving customers two visual packaging choices for the same everyday family use.",
+          ar: "يمثل الغلافان منتج محارم وجه تذكار الناعمة نفسه، مع خيارين بصريين للعبوة لاستخدام العائلة اليومي نفسه."
         }
       }
     ]
@@ -826,6 +855,7 @@ export const products: Product[] = [
     category: { en: "Baby Diapers", ar: "حفاضات الأطفال" },
     image: "/images/standardized/product-cards/fantash.png",
     cardImage: "/images/standardized/product-cards/fantash.png",
+    detailImage: "/images/standardized/product-detail/fantash.png",
     bannerImage: "/images/standardized/banners/fantash.png",
     bannerSize: { width: 2400, height: 460 },
     logo: "/images/standardized/logos/fantash.png",
@@ -846,7 +876,7 @@ export const products: Product[] = [
       ar: "إجابات سريعة حول فنطش"
     },
     features: productFeatureSets.babyValue,
-    sizes: productSizeGroups.babyDiapers,
+    sizes: fantashProductOptions,
     faqs: [
       {
         question: {
@@ -1024,12 +1054,12 @@ export const products: Product[] = [
     bannerSize: { width: 2400, height: 460 },
     logo: "/images/standardized/logos/avia.png",
     excerpt: {
-      en: "Adult diapers focused on fast absorption, reliable protection, and practical sizing.",
-      ar: "فوط كبار السن للامتصاص السريع والحماية الموثوقة والمقاسات العملية."
+      en: "Adult-care diapers featuring fast absorption, reliable protection, and availability in different sizes.",
+      ar: "فوط مخصصة لكبار السن، تتميز بالامتصاص السريع والحماية الموثوقة وتتوفر بمقاسات مختلفة."
     },
     description: {
-      en: "Avia adult diapers provide fast absorption, leakage protection, and reliable fluid retention. The line is available in S, L, and XL options from the new Avia collection.",
-      ar: "آفيا فوط مخصصة لكبار السن، توفر امتصاصاً سريعاً وحماية موثوقة من التسريب، مع قدرة عالية على احتجاز السوائل. يتوفر الخط بمقاسات S وL وXL من مجموعة آفيا الجديدة."
+      en: "Avia adult-care diapers provide fast absorption, reliable leakage protection, and high fluid-retention capacity. This product is available in S, L, and XL from the new Avia collection.",
+      ar: "آفيا فوط مخصصة لكبار السن، توفر امتصاصاً سريعاً وحماية موثوقة من التسريب، مع قدرة عالية على احتجاز السوائل. هذا المنتج بمقاسات S وL وXL من مجموعة آفيا الجديدة."
     },
     features: productFeatureSets.adultDiapers,
     sizes: productSizeGroups.aviaBinoAdultDiapers.filter((size) => size.label.en.startsWith("Avia")),
@@ -1070,7 +1100,7 @@ export const products: Product[] = [
 
 export const visibleProducts = products.filter((product) => !product.hidden);
 
-export const featuredProductSlugs = ["baby-rexy", "hq-plus", "tizkar"];
+export const featuredProductSlugs = ["baby-rexy", "hq-plus", "tzkar"];
 
 export const diaperSizes = [
   { size: "NB", name: { en: "Newborn", ar: "حديث الولادة" }, range: "2-5", min: 2, max: 5 },
@@ -1153,7 +1183,7 @@ export const categories = [
   },
   {
     icon: "leaf",
-    logo: "/images/standardized/logos/tizkar.png",
+    logo: "/images/standardized/logos/tzkar.png",
     art: "/images/categories/facial-tissues.svg",
     title: { en: "Facial Tissues", ar: "محارم الوجه" }
   }
@@ -1262,8 +1292,8 @@ export const faqs = [
   {
     question: { en: "What types of products does DRC offer?", ar: "ما أنواع المنتجات التي تقدمها DRC؟" },
     answer: {
-      en: "DRC offers baby diapers, sanitary pads, adult diapers, facial tissues, drying tissues, and baby wipes through a variety of product brands.",
-      ar: "تقدم DRC حفاضات الأطفال، والفوط النسائية، وحفاضات كبار السن، ومحارم الوجه، ومحارم التنشيف، والمناديل المبللة للأطفال من خلال عدة علامات تجارية."
+      en: "Trusted hygienic and personal-care products for children, women, seniors, and every member of the family.",
+      ar: "منتجات موثوقة للعناية الصحية والشخصية للأطفال والنساء وكبار السن وجميع أفراد العائلة."
     }
   },
   {
@@ -1274,39 +1304,39 @@ export const faqs = [
     }
   },
   {
-    question: { en: "Which adult-diaper sizes are available?", ar: "ما مقاسات حفاضات كبار السن المتوفرة؟" },
+    question: { en: "What adult-diaper sizes are available?", ar: "ما مقاسات حفاضات كبار السن؟" },
     answer: {
-      en: "DRC adult diapers are available in Small, Medium, Large, and X-Large. The correct size should be selected according to waist measurement and the package chart.",
-      ar: "تتوفر حفاضات كبار السن بمقاسات Small وMedium وLarge وX-Large. يجب اختيار المقاس حسب قياس الخصر وجدول المقاسات على العبوة."
+      en: "Adult diapers are available in Small, Medium, Large, and X-Large. Choose the size according to waist measurement and the size chart on the package.",
+      ar: "تتوفر حفاضات كبار السن بمقاسات صغير – وسط – كبير – وكبير جداً. يجب اختيار المقاس حسب قياس الخصر وجدول المقاسات على العبوة."
     }
   },
   {
     question: { en: "What types of adult-diaper backing are available?", ar: "ما أنواع خلفية حفاضات كبار السن المتوفرة؟" },
     answer: {
-      en: "Selected products are available with either a cloth-like backsheet or a nylon backsheet. Availability may differ by brand and product line.",
-      ar: "تتوفر بعض المنتجات بخلفية قماشية أو خلفية نايلون. قد تختلف الإتاحة حسب العلامة وخط المنتج."
+      en: "Some products are available with a cloth-like backsheet or a nylon backsheet, and availability varies depending on the product type.",
+      ar: "تتوفر بعض المنتجات بخلفية قماشية أو خلفية نايلون، وتختلف تبعاً لنوع المنتج."
     }
   },
   {
-    question: { en: "Are HQ+ sanitary pads suitable for sensitive skin?", ar: "هل فوط HQ+ مناسبة للبشرة الحساسة؟" },
+    question: { en: "Are +HQ sanitary pads suitable for sensitive skin?", ar: "هل فوط +HQ مناسبة للبشرة الحساسة؟" },
     answer: {
-      en: "Selected HQ+ products are presented as safe for sensitive skin and include soft, cotton-like materials. Customers should follow package instructions and discontinue use if irritation occurs.",
-      ar: "تُعرض بعض منتجات HQ+ على أنها آمنة للبشرة الحساسة وتضم مواد ناعمة شبيهة بالقطن. يجب اتباع تعليمات العبوة والتوقف عن الاستخدام عند حدوث تهيج."
+      en: "+HQ feminine pads are safe for sensitive skin and include soft, cotton-like materials. Follow the package instructions and discontinue use if irritation occurs.",
+      ar: "إن فوط +HQ النسائية آمنة للبشرة الحساسة وتضم مواد ناعمة شبيهة بالقطن. يجب اتباع تعليمات العبوة والتوقف عن الاستخدام عند حدوث تهيج."
     }
   },
   {
     question: { en: "What are DRC facial tissues made from?", ar: "ممّ تصنع محارم الوجه من DRC؟" },
     answer: {
-      en: "The provided product information states that DRC facial tissues are made from 100% natural cellulose and are available in different weights and package formats.",
-      ar: "تشير معلومات المنتج المتوفرة إلى أن محارم الوجه مصنوعة من السيليلوز الطبيعي بنسبة 100% ومتوفرة بأوزان وتنسيقات تعبئة مختلفة."
+      en: "Tzkar facial tissues are made from 100% natural cellulose and are available in different weights and package formats.",
+      ar: "محارم الوجه من تذكار مصنوعة من السيليلوز الطبيعي بنسبة 100% ومتوفرة بأوزان وتنسيقات تعبئة مختلفة."
     }
   }
 ];
 
 export const footer = {
   description: {
-    en: "Reliable hygiene and personal-care products for babies, women, adults, and families.",
-    ar: "منتجات موثوقة للعناية الصحية والشخصية للأطفال والنساء وكبار السن والعائلة."
+    en: "Trusted hygienic and personal-care products for children, women, seniors, and every member of the family.",
+    ar: "منتجات موثوقة للعناية الصحية والشخصية للأطفال والنساء وكبار السن وجميع أفراد العائلة."
   },
   quickLinksTitle: { en: "Quick Links", ar: "روابط سريعة" },
   productLinksTitle: { en: "Products", ar: "المنتجات" },

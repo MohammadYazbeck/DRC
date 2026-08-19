@@ -59,7 +59,7 @@ export function CareersPageContent() {
           <p className="soft-pill inline-flex">{locale === "en" ? "Careers" : "الوظائف"}</p>
           <div className="mt-5 grid gap-6 lg:grid-cols-[1fr_0.75fr] lg:items-end lg:gap-12">
             <h1 className="max-w-4xl text-4xl font-bold leading-tight text-primary sm:text-6xl">
-              {locale === "en" ? "Join the people building DRC's hygiene brands." : "انضم إلى الفريق الذي يبني علامات DRC للعناية الصحية."}
+              {locale === "en" ? "Join the DRC team." : "انضم إلى فريق عمل DRC"}
             </h1>
             <p className="max-w-2xl text-base leading-8 text-ink/70 sm:text-xl sm:leading-9">
               {locale === "en"

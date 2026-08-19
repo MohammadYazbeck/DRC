@@ -1,6 +1,7 @@
 export type ImagePresetKey =
   | "hero"
   | "productCard"
+  | "productDetail"
   | "productBanner"
   | "productOption"
   | "logo"
@@ -28,6 +29,14 @@ export const imagePresets: Record<ImagePresetKey, ImagePreset> = {
     label: "Product card",
     width: 1600,
     height: 1600,
+    mode: "contain",
+    output: "image/png",
+    background: "transparent"
+  },
+  productDetail: {
+    label: "Product page image",
+    width: 1800,
+    height: 1200,
     mode: "contain",
     output: "image/png",
     background: "transparent"

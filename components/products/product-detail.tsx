@@ -29,6 +29,23 @@ function comparableText(value: string) {
   return value.normalize("NFKC").replace(/\s+/g, " ").trim().toLocaleLowerCase();
 }
 
+function isTzkarProduct(product: Product) {
+  return product.slug === "tzkar" || product.aliases?.includes("tizkar");
+}
+
+function isFantashProduct(product: Product) {
+  return product.slug === "fantash";
+}
+
+function isWipesOption(size: NonNullable<Product["sizes"]>[number]) {
+  return comparableText(size.label.en) === "wipes";
+}
+
+function getFantashHeroImages(product: Product) {
+  const wipesImage = product.sizes?.find(isWipesOption)?.image;
+  return [product.cardImage || product.image, wipesImage].filter(Boolean) as string[];
+}
+
 const sizeStyles = [
   "border-sky bg-sky text-primary",
   "border-mint bg-mint text-leaf",
@@ -64,7 +81,7 @@ const sizeScaleThemes: Record<string, SizeScaleTheme> = {
     value: "bg-blush/10 text-blush",
     note: "text-blush/70"
   },
-  tizkar: {
+  tzkar: {
     eyebrow: "bg-sky text-primary ring-primary/10",
     dot: "bg-blush",
     card: "border-primary/10 bg-gradient-to-br from-white via-sky/60 to-petal/40 hover:border-blush/40",
@@ -117,7 +134,7 @@ const productPageCopy = {
     ar: "مصممة للراحة والجفاف والحماية الموثوقة."
   },
   featuresSubtitle: {
-    en: "A closer look at the protection layers, surface comfort, and finishing details inside HQ+.",
+    en: "A closer look at the protection layers, surface comfort, and finishing details inside +HQ.",
     ar: "نظرة أقرب على طبقات الحماية ونعومة السطح وتفاصيل العناية داخل آتش كيو."
   },
   featuresCountLabel: {
@@ -170,10 +187,10 @@ function ProductSizeScale({
   const labelSizeClass =
     sizeCount === 2
       ? "text-2xl sm:text-3xl"
-      : sizeCount === 4
+      : sizeCount === 4 || sizeCount >= 6
         ? "text-2xl sm:text-3xl"
         : "text-3xl sm:text-4xl";
-  const stackSizeValue = sizeCount <= 4;
+  const stackSizeValue = sizeCount <= 4 || sizeCount >= 6;
 
   return (
     <div dir={isRtl ? "rtl" : "ltr"} className={cn("w-full justify-self-center", widthClass, className)}>
@@ -194,6 +211,7 @@ function ProductSizeScale({
           const value = text(size.value, locale);
           const note = text(size.note ?? size.label, locale);
           const showNote = comparableText(note) !== comparableText(value);
+          const valueDir = /\d/.test(value) ? "ltr" : undefined;
 
           return (
             <article
@@ -214,7 +232,7 @@ function ProductSizeScale({
                 <span className={cn("font-bold leading-none", labelSizeClass, theme.label)}>
                   {text(size.label, locale)}
                 </span>
-                <span className={cn("inline-flex max-w-full rounded-full px-2.5 py-1.5 text-sm font-bold leading-tight sm:px-3 sm:text-base", theme.value)}>
+                <span dir={valueDir} className={cn("inline-flex max-w-full shrink-0 whitespace-nowrap rounded-full px-2.5 py-1.5 text-xs font-bold leading-tight sm:px-3 sm:text-base", theme.value)}>
                   {value}
                 </span>
               </div>
@@ -420,6 +438,15 @@ export function ProductDetail({ product }: { product: Product }) {
   const hasSizes = Boolean(product.sizes?.length);
   const sizeCount = product.sizes?.length ?? 0;
   const hasSizeImages = Boolean(product.sizes?.some((size) => size.image));
+  const scaleSizes = product.sizes?.filter((size) => !isWipesOption(size)) ?? [];
+  const isFantash = isFantashProduct(product);
+  const showSizeScale = !isTzkarProduct(product) && !isFantash && scaleSizes.length > 0;
+  const showOptionsSection = hasSizes && !isFantash;
+  const detailImage = product.detailImage;
+  const showDetailImage = Boolean(detailImage);
+  const fantashHeroImages = isFantash && !showDetailImage ? getFantashHeroImages(product) : [];
+  const showFantashHeroImages = isFantash && !showDetailImage && fantashHeroImages.length > 0;
+  const hasIntroSideMedia = showSizeScale || showFantashHeroImages || showDetailImage;
   const heroImage = product.bannerImage || product.image || product.cardImage || product.logo || "/images/brands/drc-logo-transparent-cropped.png";
   const bannerSize = product.bannerSize ?? { width: 2075, height: 328 };
   const hasDetailFeatures = Boolean(product.detailFeatures?.length);
@@ -470,29 +497,60 @@ export function ProductDetail({ product }: { product: Product }) {
             <div
               dir="ltr"
               className={cn(
-                "grid content-center items-center gap-8 py-8 sm:min-h-[36rem] sm:gap-12 sm:py-12 lg:col-span-2 lg:min-h-[32rem] lg:grid-cols-[minmax(0,1fr)_minmax(420px,560px)] lg:py-10",
-                isRtl && "lg:grid-cols-[minmax(420px,560px)_minmax(0,1fr)]"
+                "grid content-center items-center gap-8 py-8 sm:min-h-[36rem] sm:gap-12 sm:py-12 lg:col-span-2 lg:min-h-[32rem] lg:py-10",
+                hasIntroSideMedia
+                  ? "lg:grid-cols-[minmax(0,1fr)_minmax(420px,560px)]"
+                  : "lg:grid-cols-1",
+                isRtl && hasIntroSideMedia && "lg:grid-cols-[minmax(420px,560px)_minmax(0,1fr)]"
               )}
             >
-              <div className={cn(isRtl ? "lg:order-2" : "lg:order-1")}>{introContent}</div>
-              {product.sizes && (
+              <div className={cn(isRtl ? "lg:order-2" : "lg:order-1", !hasIntroSideMedia && "mx-auto w-full")}>{introContent}</div>
+              {showSizeScale && (
                 <div className={cn("grid gap-5 self-center", isRtl ? "lg:order-1" : "lg:order-2")}>
                   <ProductSizeScale
                     product={product}
-                    sizes={product.sizes}
+                    sizes={scaleSizes}
                     locale={locale}
                     isRtl={isRtl}
                   />
+                </div>
+              )}
+              {showFantashHeroImages && (
+                <div className={cn("grid grid-cols-2 items-end gap-3 self-center sm:gap-5", isRtl ? "lg:order-1" : "lg:order-2")}>
+                  {fantashHeroImages.map((src, index) => (
+                    <div key={src} className={cn("relative aspect-square overflow-hidden rounded-[28px] bg-white/55", index === 0 ? "scale-105" : "scale-95")}>
+                      <Image
+                        src={src}
+                        alt={text(product.title, locale)}
+                        fill
+                        sizes="(min-width: 1024px) 280px, 45vw"
+                        className="object-contain p-2 sm:p-3"
+                      />
+                    </div>
+                  ))}
+                </div>
+              )}
+              {showDetailImage && detailImage && (
+                <div dir="ltr" className={cn("relative mx-auto w-full max-w-[340px] self-center sm:max-w-[500px] lg:max-w-[560px]", isRtl ? "lg:order-1" : "lg:order-2")}>
+                  <div className="relative aspect-[3/2]">
+                    <Image
+                      src={detailImage}
+                      alt={text(product.title, locale)}
+                      fill
+                      sizes="(min-width: 1024px) 520px, (min-width: 640px) 70vw, 88vw"
+                      className="object-contain drop-shadow-[0_24px_36px_rgba(26,75,135,0.14)]"
+                    />
+                  </div>
                 </div>
               )}
             </div>
           ) : (
             <div className={cn(isRtl && "lg:order-2")}>
               {introContent}
-              {product.sizes && (
+              {showSizeScale && (
                 <ProductSizeScale
                   product={product}
-                  sizes={product.sizes}
+                  sizes={scaleSizes}
                   locale={locale}
                   isRtl={isRtl}
                   className="mt-8"
@@ -523,7 +581,7 @@ export function ProductDetail({ product }: { product: Product }) {
         </div>
       </section>
 
-      {hasSizes && (
+      {showOptionsSection && (
         <section className="soft-pattern py-12 sm:py-20 lg:py-24">
           <div className="section-shell">
               <div dir={isRtl ? "rtl" : "ltr"}>
@@ -541,7 +599,9 @@ export function ProductDetail({ product }: { product: Product }) {
                   <div
                     className={cn(
                       "mt-7 grid gap-x-5 gap-y-8 sm:mt-10 sm:grid-cols-2 sm:gap-y-10",
-                      sizeCount === 4
+                      sizeCount === 1
+                        ? "mx-auto max-w-md sm:grid-cols-1"
+                        : sizeCount === 4
                         ? "lg:grid-cols-4"
                         : sizeCount === 2
                           ? "mx-auto max-w-5xl lg:grid-cols-2"
@@ -553,6 +613,7 @@ export function ProductDetail({ product }: { product: Product }) {
                       const title = text(size.note ?? size.label, locale);
                       const value = text(size.value, locale);
                       const showValue = value !== title;
+                      const valueDir = /\d/.test(value) ? "ltr" : undefined;
 
                       return (
                         <article
@@ -583,7 +644,7 @@ export function ProductDetail({ product }: { product: Product }) {
                                   "object-contain transition duration-300",
                                   product.slug === "hq-plus"
                                     ? "scale-[1.2] p-0 group-hover:scale-[1.24] sm:scale-[1.24] sm:group-hover:scale-[1.28]"
-                                    : product.slug === "tizkar"
+                                    : product.slug === "tzkar" || product.slug === "tizkar"
                                       ? "scale-[1.26] p-0 group-hover:scale-[1.32] sm:scale-[1.32] sm:group-hover:scale-[1.38]"
                                     : "p-3 group-hover:scale-[1.05] sm:p-5"
                                 )}
@@ -594,7 +655,7 @@ export function ProductDetail({ product }: { product: Product }) {
                             <div className="flex items-start justify-between gap-3">
                               <h3 className={cn("text-xl font-bold leading-7 text-ink sm:text-2xl sm:leading-8", isRtl && "text-right")}>{title}</h3>
                               {showValue && (
-                                <span className="shrink-0 rounded-full bg-primary/10 px-3 py-1.5 text-sm font-bold text-primary">
+                                <span dir={valueDir} className="shrink-0 whitespace-nowrap rounded-full bg-primary/10 px-3 py-1.5 text-sm font-bold text-primary">
                                   {value}
                                 </span>
                               )}

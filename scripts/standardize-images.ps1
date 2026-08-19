@@ -80,10 +80,14 @@ function Save-StandardImage {
 $productCards = @(
   @{ Source = "public/images/products/rexy/rexy-product-card.png"; Destination = "public/images/standardized/product-cards/baby-rexy.png" },
   @{ Source = "public/images/products/HQ/rexy-product-card.png"; Destination = "public/images/standardized/product-cards/hq-plus.png" },
-  @{ Source = "public/images/products/tizkar/product-card.png"; Destination = "public/images/standardized/product-cards/tizkar.png" },
+  @{ Source = "public/images/products/tizkar/product-card.png"; Destination = "public/images/standardized/product-cards/tzkar.png" },
   @{ Source = "public/images/products/fantash-product-v2.png"; Destination = "public/images/standardized/product-cards/fantash.png" },
   @{ Source = "public/images/products/Bino & Avia/Bino-S.png"; Destination = "public/images/standardized/product-cards/bino-tex.png" },
   @{ Source = "public/images/products/Bino & Avia/Avia-S.png"; Destination = "public/images/standardized/product-cards/avia.png" }
+)
+
+$productDetails = @(
+  @{ Source = "public/images/products/tizkar/product-page.png"; Destination = "public/images/standardized/product-detail/fantash.png" }
 )
 
 $productOptions = @(
@@ -97,8 +101,10 @@ $productOptions = @(
   @{ Source = "public/images/products/HQ/SUPER.png"; Destination = "public/images/standardized/product-options/hq-super.png" },
   @{ Source = "public/images/products/HQ/SUPER-PLUS.png"; Destination = "public/images/standardized/product-options/hq-super-plus.png" },
   @{ Source = "public/images/products/HQ/GOODNIGHT.png"; Destination = "public/images/standardized/product-options/hq-goodnight.png" },
-  @{ Source = "public/images/products/tizkar/facial.png"; Destination = "public/images/standardized/product-options/tizkar-facial.png" },
-  @{ Source = "public/images/products/tizkar/drying .png"; Destination = "public/images/standardized/product-options/tizkar-drying.png" },
+  @{ Source = "public/images/products/tizkar/Product-1.png"; Destination = "public/images/standardized/product-options/tzkar-product-1.png" },
+  @{ Source = "public/images/products/tizkar/Product-2.png"; Destination = "public/images/standardized/product-options/tzkar-product-2.png" },
+  @{ Source = "public/images/products/rexy/wipes.png"; Destination = "public/images/standardized/product-options/rexy-wipes.png" },
+  @{ Source = "public/images/products/fantash/wipes.png"; Destination = "public/images/standardized/product-options/fantash-wipes.png" },
   @{ Source = "public/images/products/Bino & Avia/Bino-S.png"; Destination = "public/images/standardized/product-options/bino-s.png" },
   @{ Source = "public/images/products/Bino & Avia/Bino-L.png"; Destination = "public/images/standardized/product-options/bino-l.png" },
   @{ Source = "public/images/products/Bino & Avia/Bino-XL.png"; Destination = "public/images/standardized/product-options/bino-xl.png" },
@@ -110,7 +116,7 @@ $productOptions = @(
 $banners = @(
   @{ Source = "public/images/products/rexy/rexy-banner-2.png"; Destination = "public/images/standardized/banners/baby-rexy.png" },
   @{ Source = "public/images/products/HQ/hq-banner.png"; Destination = "public/images/standardized/banners/hq-plus.png" },
-  @{ Source = "public/images/products/tizkar/rexy-banner.png"; Destination = "public/images/standardized/banners/tizkar.png" },
+  @{ Source = "public/images/products/tizkar/tzkar-banner.png"; Destination = "public/images/standardized/banners/tzkar.png" },
   @{ Source = "public/images/products/fantash/fantash-banner.png"; Destination = "public/images/standardized/banners/fantash.png" },
   @{ Source = "public/images/products/Bino & Avia/avia-bino-banner.png"; Destination = "public/images/standardized/banners/adult-care.png" }
 )
@@ -125,7 +131,7 @@ $logos = @(
   @{ Source = "public/images/brands/drc-logo-transparent-cropped.png"; Destination = "public/images/standardized/logos/drc-group.png" },
   @{ Source = "public/images/brands/rexy-logo.png"; Destination = "public/images/standardized/logos/rexy.png" },
   @{ Source = "public/images/brands/hq-logo.png"; Destination = "public/images/standardized/logos/hq-plus.png" },
-  @{ Source = "public/images/brands/tizkar-logo-updated.png"; Destination = "public/images/standardized/logos/tizkar.png" },
+  @{ Source = "public/images/brands/tizkar-logo-updated.png"; Destination = "public/images/standardized/logos/tzkar.png" },
   @{ Source = "public/images/brands/fantash-logo.png"; Destination = "public/images/standardized/logos/fantash.png" },
   @{ Source = "public/images/brands/bino-logo.png"; Destination = "public/images/standardized/logos/bino.png" },
   @{ Source = "public/images/brands/avia-logo.png"; Destination = "public/images/standardized/logos/avia.png" }
@@ -133,6 +139,10 @@ $logos = @(
 
 foreach ($item in $productCards) {
   Save-StandardImage -Source $item.Source -Destination $item.Destination -Width 1600 -Height 1600 -Mode contain -Background transparent
+}
+
+foreach ($item in $productDetails) {
+  Save-StandardImage -Source $item.Source -Destination $item.Destination -Width 1800 -Height 1200 -Mode contain -Background transparent
 }
 
 foreach ($item in $productOptions) {

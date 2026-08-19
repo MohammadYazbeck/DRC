@@ -10,5 +10,7 @@ docker-compose*.yml
 dist
 out
 *.log
+*.CR3
+*.cr3
 tsconfig.tsbuildinfo
 .superdesign/tmp

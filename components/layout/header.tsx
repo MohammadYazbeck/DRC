@@ -120,7 +120,7 @@ function ProductMenu({
           onClick={onNavigate}
           className={cn(
             "focus-ring flex items-center gap-3 rounded-[22px] p-3 transition hover:bg-mist",
-            isRtl && "flex-row-reverse text-right"
+            isRtl && " text-right"
           )}
         >
           <ProductBrandLogos

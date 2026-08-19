@@ -3,6 +3,8 @@ node_modules
 out
 dist
 *.log
+*.CR3
+*.cr3
 .env*
 !.env.example
 !.env.production.example

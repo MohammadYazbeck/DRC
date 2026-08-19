@@ -441,9 +441,10 @@ function ProductsEditor({
             <LocalizedField label="Available Options Subtitle" value={cloneLocalized(product.optionsSubtitle)} multiline onChange={(value) => updateSelectedProduct((item) => ({ ...item, optionsSubtitle: value }))} />
           </div>
 
-          <div className="grid gap-4 lg:grid-cols-3">
+          <div className="grid gap-4 lg:grid-cols-4">
             <UploadField label="Logo" preset="logo" value={product.logo} password={password} onChange={(value) => updateSelectedProduct((item) => ({ ...item, logo: value }))} />
             <UploadField label="Card Image" preset="productCard" value={product.cardImage ?? product.image} password={password} onChange={(value) => updateSelectedProduct((item) => ({ ...item, cardImage: value, image: item.image || value }))} />
+            <UploadField label="Product Page Image" preset="productDetail" value={product.detailImage ?? ""} password={password} onChange={(value) => updateSelectedProduct((item) => ({ ...item, detailImage: value }))} />
             <UploadField label="Banner" preset="productBanner" value={product.bannerImage ?? ""} password={password} onChange={(value) => updateSelectedProduct((item) => ({ ...item, bannerImage: value }))} />
           </div>
 
