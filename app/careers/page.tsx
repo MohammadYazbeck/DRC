@@ -1,15 +1,5 @@
-import { CareersPageContent } from "@/components/careers/careers-page-content";
-import { Footer } from "@/components/layout/footer";
-import { Header } from "@/components/layout/header";
-
-export const dynamic = "force-dynamic";
+import { notFound } from "next/navigation";
 
 export default function CareersPage() {
-  return (
-    <>
-      <Header />
-      <CareersPageContent />
-      <Footer />
-    </>
-  );
+  notFound();
 }

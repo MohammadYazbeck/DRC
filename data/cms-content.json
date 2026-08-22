@@ -1012,8 +1012,8 @@
         "ar": "فوط مخصصة لكبار السن بعدة مقاسات."
       },
       "description": {
-        "en": "Pinotex adult diapers provide fast absorption and reliable fluid retention for comfort and protection. This product is available in S, L, and XL sizes from the new Pinotex collection.",
-        "ar": "بينوتكس فوط مخصصة لكبار السن، توفر امتصاصاً سريعاً وقدرة عالية على احتجاز السوائل لضمان الراحة والحماية. يتوفر هذا المنتج بمقاسات S وL وXL من مجموعة بينوتكس الجديدة."
+        "en": "Pinotex adult diapers provide fast absorption and reliable fluid retention for comfort and protection. This product is available in S, M, L, and XL sizes from the new Pinotex collection.",
+        "ar": "بينوتكس فوط مخصصة لكبار السن، توفر امتصاصاً سريعاً وقدرة عالية على احتجاز السوائل لضمان الراحة والحماية. يتوفر هذا المنتج بمقاسات S وM وL وXL من مجموعة بينوتكس الجديدة."
       },
       "features": [
         {
@@ -1072,6 +1072,24 @@
         },
         {
           "label": {
+            "en": "Pinotex M",
+            "ar": "بينوتكس M"
+          },
+          "value": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "note": {
+            "en": "Pinotex Medium",
+            "ar": "بينوتكس وسط"
+          },
+          "description": {
+            "en": "A medium Pinotex adult diaper option for balanced coverage, comfort, and daily protection.",
+            "ar": "مقاس وسط من بينوتكس لكبار السن لتغطية متوازنة وراحة وحماية يومية."
+          }
+        },
+        {
+          "label": {
             "en": "Pinotex L",
             "ar": "بينوتكس L"
           },
@@ -1116,8 +1134,8 @@
             "ar": "ما خيارات بينوتكس المتوفرة؟"
           },
           "answer": {
-            "en": "Pinotex is shown in Small, Large, and X-Large options using the updated product images.",
-            "ar": "يتم عرض بينوتكس بخيارات صغير وكبير وكبير جداً باستخدام صور المنتج المحدثة."
+            "en": "Pinotex is shown in Small, Medium, Large, and X-Large options.",
+            "ar": "يتم عرض بينوتكس بخيارات صغير ووسط وكبير وكبير جداً."
           }
         },
         {
@@ -1165,8 +1183,8 @@
         "ar": "فوط مخصصة لكبار السن، تتميز بالامتصاص السريع والحماية الموثوقة وتتوفر بمقاسات مختلفة."
       },
       "description": {
-        "en": "Avia adult-care diapers provide fast absorption, reliable leakage protection, and high fluid-retention capacity. This product is available in S, L, and XL from the new Avia collection.",
-        "ar": "آفيا فوط مخصصة لكبار السن، توفر امتصاصاً سريعاً وحماية موثوقة من التسريب، مع قدرة عالية على احتجاز السوائل. هذا المنتج بمقاسات S وL وXL من مجموعة آفيا الجديدة."
+        "en": "Avia adult-care diapers provide fast absorption, reliable leakage protection, and high fluid-retention capacity. This product is available in S, M, L, and XL from the new Avia collection.",
+        "ar": "آفيا فوط مخصصة لكبار السن، توفر امتصاصاً سريعاً وحماية موثوقة من التسريب، مع قدرة عالية على احتجاز السوائل. هذا المنتج بمقاسات S وM وL وXL من مجموعة آفيا الجديدة."
       },
       "features": [
         {
@@ -1225,6 +1243,24 @@
         },
         {
           "label": {
+            "en": "Avia M",
+            "ar": "آفيا M"
+          },
+          "value": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "note": {
+            "en": "Avia Medium",
+            "ar": "آفيا وسط"
+          },
+          "description": {
+            "en": "A medium Avia adult diaper option for balanced comfort, absorption, and everyday confidence.",
+            "ar": "مقاس وسط من آفيا لكبار السن لتوازن الراحة والامتصاص والثقة اليومية."
+          }
+        },
+        {
+          "label": {
             "en": "Avia L",
             "ar": "آفيا L"
           },
@@ -1269,8 +1305,8 @@
             "ar": "ما خيارات آفيا المتوفرة؟"
           },
           "answer": {
-            "en": "Avia is shown in Small, Large, and X-Large options using the updated product images.",
-            "ar": "يتم عرض آفيا بخيارات صغير وكبير وكبير جداً باستخدام صور المنتج المحدثة."
+            "en": "Avia is shown in Small, Medium, Large, and X-Large options.",
+            "ar": "يتم عرض آفيا بخيارات صغير ووسط وكبير وكبير جداً."
           }
         },
         {

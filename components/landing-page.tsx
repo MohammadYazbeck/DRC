@@ -2,7 +2,6 @@
 
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
-import { CareersCtaSection } from "@/components/sections/careers-cta-section";
 import { CategorySection } from "@/components/sections/category-section";
 import { DiaperSizesSection } from "@/components/sections/diaper-sizes-section";
 import { FaqSection } from "@/components/sections/faq-section";
@@ -23,7 +22,6 @@ export function LandingPage() {
         <CategorySection />
         <NewsBlogSection />
         <FaqSection />
-        <CareersCtaSection />
       </main>
       <Footer />
     </>

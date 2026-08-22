@@ -614,6 +614,7 @@ export function ProductDetail({ product }: { product: Product }) {
                       const value = text(size.value, locale);
                       const showValue = value !== title;
                       const valueDir = /\d/.test(value) ? "ltr" : undefined;
+                      const shortLabel = text(size.label, locale).split(/\s+/).pop() ?? text(size.label, locale);
 
                       return (
                         <article
@@ -649,6 +650,16 @@ export function ProductDetail({ product }: { product: Product }) {
                                     : "p-3 group-hover:scale-[1.05] sm:p-5"
                                 )}
                               />
+                            )}
+                            {!size.image && (
+                              <div className="absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-br from-white via-sky/70 to-petal/50 px-5 text-center">
+                                <span className="text-6xl font-bold leading-none text-primary sm:text-7xl">
+                                  {shortLabel}
+                                </span>
+                                <span className="mt-3 text-lg font-bold text-ink sm:text-2xl">
+                                  {value}
+                                </span>
+                              </div>
                             )}
                           </div>
                           <div className="px-1 pt-4 sm:pt-5">

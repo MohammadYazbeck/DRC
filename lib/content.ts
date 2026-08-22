@@ -123,9 +123,6 @@ export const socialLinks = [
 export const navLinks = [
   { label: { en: "Home", ar: "الرئيسية" }, href: "/" },
   { label: { en: "About Us", ar: "من نحن" }, href: "/about" },
-  /*
-  { label: { en: "Careers", ar: "الوظائف" }, href: "/careers" },
-  */
   { label: { en: "Blogs & News", ar: "المدونة والأخبار" }, href: "/blog" },
   { label: { en: "Contact Us", ar: "تواصل معنا" }, href: "/#contact" }
 ] satisfies Array<{ label: LocalizedString; href: string }>;
@@ -457,6 +454,15 @@ const productSizeGroups = {
       image: "/images/standardized/product-options/bino-s.png"
     },
     {
+      label: { en: "Pinotex M", ar: "بينوتكس M" },
+      value: { en: "Medium", ar: "وسط" },
+      note: { en: "Pinotex Medium", ar: "بينوتكس وسط" },
+      description: {
+        en: "A medium Pinotex adult diaper option for balanced coverage, comfort, and daily protection.",
+        ar: "مقاس وسط من بينوتكس لكبار السن لتغطية متوازنة وراحة وحماية يومية."
+      }
+    },
+    {
       label: { en: "Pinotex L", ar: "بينوتكس L" },
       value: { en: "Large", ar: "كبير" },
       note: { en: "Pinotex Large", ar: "بينوتكس كبير" },
@@ -485,6 +491,15 @@ const productSizeGroups = {
         ar: "خيار صغير من آفيا لكبار السن مصمم للراحة والامتصاص والثقة اليومية."
       },
       image: "/images/standardized/product-options/avia-s.png"
+    },
+    {
+      label: { en: "Avia M", ar: "آفيا M" },
+      value: { en: "Medium", ar: "وسط" },
+      note: { en: "Avia Medium", ar: "آفيا وسط" },
+      description: {
+        en: "A medium Avia adult diaper option for balanced comfort, absorption, and everyday confidence.",
+        ar: "مقاس وسط من آفيا لكبار السن لتوازن الراحة والامتصاص والثقة اليومية."
+      }
     },
     {
       label: { en: "Avia L", ar: "آفيا L" },
@@ -943,8 +958,8 @@ export const products: Product[] = [
       ar: "حفاضات عناية لكبار السن من بينوتكس وآفيا بمقاسات عملية لحماية يومية موثوقة."
     },
     description: {
-      en: "Pinotex and Avia adult diapers support comfortable daily care with fast absorption, reliable fluid retention, and leakage protection. The line includes separate Pinotex and Avia options in S, L, and XL formats.",
-      ar: "تدعم حفاضات بينوتكس وآفيا العناية اليومية المريحة لكبار السن من خلال الامتصاص السريع واحتجاز السوائل والحماية من التسريب. يتضمن الخط خيارات منفصلة من بينوتكس وآفيا بمقاسات S وL وXL."
+      en: "Pinotex and Avia adult diapers support comfortable daily care with fast absorption, reliable fluid retention, and leakage protection. The line includes separate Pinotex and Avia options in S, M, L, and XL formats.",
+      ar: "تدعم حفاضات بينوتكس وآفيا العناية اليومية المريحة لكبار السن من خلال الامتصاص السريع واحتجاز السوائل والحماية من التسريب. يتضمن الخط خيارات منفصلة من بينوتكس وآفيا بمقاسات S وM وL وXL."
     },
     features: productFeatureSets.adultDiapers,
     sizes: productSizeGroups.aviaBinoAdultDiapers,
@@ -965,8 +980,8 @@ export const products: Product[] = [
           ar: "ما المقاسات المتوفرة؟"
         },
         answer: {
-          en: "The current product line shows Pinotex S, L, XL and Avia S, L, XL.",
-          ar: "يعرض خط المنتج الحالي مقاسات بينوتكس S وL وXL، ومقاسات آفيا S وL وXL."
+          en: "The current product line shows Pinotex S, M, L, XL and Avia S, M, L, XL.",
+          ar: "يعرض خط المنتج الحالي مقاسات بينوتكس S وM وL وXL، ومقاسات آفيا S وM وL وXL."
         }
       },
       {
@@ -1006,8 +1021,8 @@ export const products: Product[] = [
       ar: "فوط مخصصة لكبار السن بعدة مقاسات."
     },
     description: {
-      en: "Pinotex adult diapers provide fast absorption and reliable fluid retention for comfort and protection. This product is available in S, L, and XL sizes from the new Pinotex collection.",
-      ar: "بينوتكس فوط مخصصة لكبار السن، توفر امتصاصاً سريعاً وقدرة عالية على احتجاز السوائل لضمان الراحة والحماية. يتوفر هذا المنتج بمقاسات S وL وXL من مجموعة بينوتكس الجديدة."
+      en: "Pinotex adult diapers provide fast absorption and reliable fluid retention for comfort and protection. This product is available in S, M, L, and XL sizes from the new Pinotex collection.",
+      ar: "بينوتكس فوط مخصصة لكبار السن، توفر امتصاصاً سريعاً وقدرة عالية على احتجاز السوائل لضمان الراحة والحماية. يتوفر هذا المنتج بمقاسات S وM وL وXL من مجموعة بينوتكس الجديدة."
     },
     features: productFeatureSets.adultDiapers,
     sizes: productSizeGroups.aviaBinoAdultDiapers.filter((size) => size.label.en.startsWith("Pinotex")),
@@ -1018,8 +1033,8 @@ export const products: Product[] = [
           ar: "ما خيارات بينوتكس المتوفرة؟"
         },
         answer: {
-          en: "Pinotex is shown in Small, Large, and X-Large options using the updated product images.",
-          ar: "يتم عرض بينوتكس بخيارات صغير وكبير وكبير جداً باستخدام صور المنتج المحدثة."
+          en: "Pinotex is shown in Small, Medium, Large, and X-Large options.",
+          ar: "يتم عرض بينوتكس بخيارات صغير ووسط وكبير وكبير جداً."
         }
       },
       {
@@ -1058,8 +1073,8 @@ export const products: Product[] = [
       ar: "فوط مخصصة لكبار السن، تتميز بالامتصاص السريع والحماية الموثوقة وتتوفر بمقاسات مختلفة."
     },
     description: {
-      en: "Avia adult-care diapers provide fast absorption, reliable leakage protection, and high fluid-retention capacity. This product is available in S, L, and XL from the new Avia collection.",
-      ar: "آفيا فوط مخصصة لكبار السن، توفر امتصاصاً سريعاً وحماية موثوقة من التسريب، مع قدرة عالية على احتجاز السوائل. هذا المنتج بمقاسات S وL وXL من مجموعة آفيا الجديدة."
+      en: "Avia adult-care diapers provide fast absorption, reliable leakage protection, and high fluid-retention capacity. This product is available in S, M, L, and XL from the new Avia collection.",
+      ar: "آفيا فوط مخصصة لكبار السن، توفر امتصاصاً سريعاً وحماية موثوقة من التسريب، مع قدرة عالية على احتجاز السوائل. هذا المنتج بمقاسات S وM وL وXL من مجموعة آفيا الجديدة."
     },
     features: productFeatureSets.adultDiapers,
     sizes: productSizeGroups.aviaBinoAdultDiapers.filter((size) => size.label.en.startsWith("Avia")),
@@ -1070,8 +1085,8 @@ export const products: Product[] = [
           ar: "ما خيارات آفيا المتوفرة؟"
         },
         answer: {
-          en: "Avia is shown in Small, Large, and X-Large options using the updated product images.",
-          ar: "يتم عرض آفيا بخيارات صغير وكبير وكبير جداً باستخدام صور المنتج المحدثة."
+          en: "Avia is shown in Small, Medium, Large, and X-Large options.",
+          ar: "يتم عرض آفيا بخيارات صغير ووسط وكبير وكبير جداً."
         }
       },
       {

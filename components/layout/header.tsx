@@ -107,9 +107,11 @@ function ProductMenu({
 
   return (
     <div
+      dir={isRtl ? "rtl" : "ltr"}
       className={cn(
         "grid gap-2",
         isMobile ? "pt-2" : "absolute top-full z-30 mt-3 w-[min(620px,calc(100vw-2rem))] grid-cols-2 rounded-[22px] border border-border bg-white p-3 shadow-pop",
+        isRtl && "text-right",
         !isMobile && (isRtl ? "right-0" : "left-0")
       )}
     >
@@ -120,7 +122,7 @@ function ProductMenu({
           onClick={onNavigate}
           className={cn(
             "focus-ring flex items-center gap-3 rounded-[22px] p-3 transition hover:bg-mist",
-            isRtl && " text-right"
+            isRtl && "text-right"
           )}
         >
           <ProductBrandLogos
@@ -128,7 +130,7 @@ function ProductMenu({
             className="h-14 w-14 shrink-0 overflow-hidden rounded-[22px] bg-gradient-to-br from-white to-sky p-1"
             sizes="48px"
           />
-          <span className="min-w-0">
+          <span className={cn("min-w-0", isRtl && "text-right")}>
             <span className="block text-base font-bold text-ink">{label(product.title, locale)}</span>
             <span className="block text-sm text-ink/60">{label(product.category, locale)}</span>
           </span>
